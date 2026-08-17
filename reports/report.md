@@ -1,5 +1,5 @@
 # Parallax daily report
-_Generated 2026-07-30 12:41 UTC. Text-observable signals only — no intent or
+_Generated 2026-08-17 05:27 UTC. Text-observable signals only — no intent or
 coordination claims can be drawn from headline statistics._
 
 ## Border enforcement policy takes effect as legal challenges mount
@@ -12,7 +12,7 @@ Covered by 3 outlets · framing divergence 0.0
 - `corroborated` 2026-07-30T09:00 — policy takes effect _(AP, Fox News)_
 
 **Consequences (as reported — what started, not who arranged it):**
-- protest — first seen 2026-07-29T10:30, reported by The Guardian
+- protest — first seen 2026-07-29T10:30, reported by The Guardian, Fox News
 - backlash — first seen 2026-07-29T11:00, reported by CNN
 - rally — first seen 2026-07-29T11:00, reported by CNN
 - boycott — first seen 2026-07-30T09:00, reported by AP · NEW this run

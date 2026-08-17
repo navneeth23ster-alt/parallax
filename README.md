@@ -19,6 +19,14 @@ It deliberately does **not** infer intent, funding, or coordination behind any s
 
 Outlet "placement" tags in `parallax/feeds.py` are coarse metadata drawn from public media-bias trackers (AllSides, Ad Fontes) for reader context. The tool never scores outlets — it only compares their text.
 
+## Velocity — observable timing of reactions
+
+```bash
+python -m parallax velocity "border"
+```
+
+For each tracked story: reaction latency (hours between first coverage and the first sighting of each consequence), simultaneity (outlets carrying the reaction within 24h of first sighting, plus first-to-last spread), and burst days (headline count ≥ 2× the story's median daily volume, minimum 3). These are timing facts about coverage, not findings about actors: fast, wide reactions are consistent with organic virality, wire propagation, and organization alike. Velocity flags are leads for human investigation — never conclusions about coordination, and never evidence about any person or organization. Also exposed as `velocity` on `/api/stories/{id}` and rendered on the story page.
+
 ## Web app
 
 ```bash

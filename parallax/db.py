@@ -75,6 +75,7 @@ class ConsequenceRow(Base):
     kind = Column(String(32))
     description = Column(Text)
     outlets = Column(Text, default="[]")            # JSON
+    outlet_times = Column(Text, default="{}")       # JSON: outlet -> ISO time
     first_seen = Column(String(32), default="")
 
 
@@ -98,9 +99,10 @@ def sync(timeline_entries: list[dict], payload: list[dict] | None = None,
     """Rebuild the DB view from timeline entries (coverage, divergence and
     label groups accumulate on the entries themselves)."""
     engine = engine or get_engine()
+    # DB is a rebuildable view: recreate tables so schema changes apply
+    Base.metadata.drop_all(engine)
+    Base.metadata.create_all(engine)
     with Session(engine) as s:
-        for table in (ConsequenceRow, NumericRow, FactRow, CoverageRow, StoryRow):
-            s.query(table).delete()
         for e in timeline_entries:
             row = StoryRow(
                 id=e["id"],
@@ -139,6 +141,7 @@ def sync(timeline_entries: list[dict], payload: list[dict] | None = None,
                     story_id=e["id"], kind=c["type"],
                     description=c["description"],
                     outlets=json.dumps(c["outlets"]),
+                    outlet_times=json.dumps(c.get("outlet_times", {})),
                     first_seen=c.get("first_seen") or c.get("logged_at", ""),
                 ))
         s.commit()

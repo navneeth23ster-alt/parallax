@@ -80,7 +80,8 @@ def story_detail(story_id: str):
         r = s.get(StoryRow, story_id)
         if r is None:
             raise HTTPException(404, "story not found")
-        return {
+        from .velocity import compute_velocity
+        out = {
             "id": r.id,
             "label": r.label,
             "divergence": r.divergence,
@@ -125,6 +126,7 @@ def story_detail(story_id: str):
                 {
                     "type": c.kind, "description": c.description,
                     "outlets": json.loads(c.outlets),
+                    "outlet_times": json.loads(c.outlet_times or "{}"),
                     "first_seen": c.first_seen,
                 }
                 for c in s.query(ConsequenceRow)
@@ -132,6 +134,8 @@ def story_detail(story_id: str):
                 .order_by(ConsequenceRow.first_seen)
             ],
         }
+        out["velocity"] = compute_velocity(out["coverage"], out["consequences"])
+        return out
 
 
 @app.get("/api/query")

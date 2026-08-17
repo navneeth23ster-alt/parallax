@@ -129,8 +129,31 @@ async function showStory(id) {
       ${consequencesHtml(s.consequences)}
       <p class="note">An entry means outlets reported it happened —
         nothing here claims who arranged it or why.</p>
-    </section>`;
+    </section>
+    ${velocityHtml(s.velocity)}`;
   renderFeed();
+}
+
+function velocityHtml(v) {
+  if (!v || (!v.reactions.length && !v.bursts.length)) return "";
+  const rows = v.reactions.map((r) => `
+    <div class="fact">
+      <span class="tier conseqchip">${esc(r.type)}</span>
+      <span class="when">${r.latency_hours === null ? "?" : "+" + r.latency_hours + "h"}</span>
+      <span>${r.outlets.length} outlet${r.outlets.length === 1 ? "" : "s"} —
+        ${r.outlets_within_24h} within 24h of first sighting, spread ${r.spread_hours}h
+        <span class="src">(${esc(r.outlets.join(", "))})</span></span>
+    </div>`);
+  const bursts = v.bursts.map((b) => `
+    <div class="fact">
+      <span class="tier discrepancy">burst</span>
+      <span class="when">${esc(b.date)}</span>
+      <span>${b.headlines} headlines vs median ${b.median_other_days} on other days</span>
+    </div>`);
+  return `<section><h2>Velocity — observable timing</h2>
+    <p class="note">First coverage ${when(v.first_coverage)}; latency = hours after first coverage.</p>
+    ${rows.join("")}${bursts.join("")}
+    <p class="note">${esc(v.note)}</p></section>`;
 }
 
 /* ---------- query view ---------- */

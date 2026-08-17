@@ -115,6 +115,32 @@ def cmd_query(args) -> None:
     print(f'\nNote: {r["note"]}')
 
 
+def cmd_velocity(args) -> None:
+    from .timeline import TimelineStore
+    from .velocity import compute_velocity
+    store = TimelineStore(DATA / "timeline.jsonl")
+    entries = store.show(args.query)
+    if not entries:
+        print("No tracked story matches that query.")
+        return
+    for e in entries:
+        v = compute_velocity(e.get("coverage", []), e.get("consequences", []))
+        print(f"== {e['label']}")
+        print(f"   first coverage: {v['first_coverage'][:16] or '?'}")
+        for r in v["reactions"]:
+            lat = f"+{r['latency_hours']}h" if r["latency_hours"] is not None else "?"
+            print(f"   [{r['type']:<10}] {lat:>8} after first coverage · "
+                  f"{len(r['outlets'])} outlets "
+                  f"({r['outlets_within_24h']} within 24h, "
+                  f"spread {r['spread_hours']}h)")
+        for b in v["bursts"]:
+            print(f"   [burst     ] {b['date']}: {b['headlines']} headlines "
+                  f"vs median {b['median_other_days']} on other days")
+        if not v["reactions"] and not v["bursts"]:
+            print("   no reactions or bursts observed")
+        print(f"   note: {v['note']}\n")
+
+
 def cmd_serve(args) -> None:
     import uvicorn
     uvicorn.run("parallax.api:app", host=args.host, port=args.port)
@@ -183,6 +209,10 @@ def main() -> None:
     qy = sub.add_parser("query", help="aggregate past+present analysis for a topic")
     qy.add_argument("query")
     qy.set_defaults(fn=cmd_query)
+
+    vel = sub.add_parser("velocity", help="reaction latency + burst timing for a story")
+    vel.add_argument("query")
+    vel.set_defaults(fn=cmd_velocity)
 
     srv = sub.add_parser("serve", help="start the web app")
     srv.add_argument("--host", default="127.0.0.1")

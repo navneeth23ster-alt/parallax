@@ -82,7 +82,7 @@
       ],
       "numeric_claims": []
     },
-    "story_id": "4af356cd6397",
+    "story_id": "ab6b27be5af8",
     "consequences_started": [
       {
         "type": "boycott",
@@ -90,8 +90,11 @@
         "outlets": [
           "AP"
         ],
+        "outlet_times": {
+          "AP": "2026-07-30T09:00:00Z"
+        },
         "first_seen": "2026-07-30T09:00:00Z",
-        "logged_at": "2026-07-30T12:41:02+00:00"
+        "logged_at": "2026-08-17T05:27:03+00:00"
       },
       {
         "type": "march",
@@ -99,8 +102,11 @@
         "outlets": [
           "CNN"
         ],
+        "outlet_times": {
+          "CNN": "2026-07-30T10:00:00Z"
+        },
         "first_seen": "2026-07-30T10:00:00Z",
-        "logged_at": "2026-07-30T12:41:02+00:00"
+        "logged_at": "2026-08-17T05:27:03+00:00"
       }
     ],
     "consequences_all": [
@@ -108,10 +114,15 @@
         "type": "protest",
         "description": "rights groups called the enforcement policy a \u2026 for migrants and announced a protest march.",
         "outlets": [
-          "The Guardian"
+          "The Guardian",
+          "Fox News"
         ],
+        "outlet_times": {
+          "The Guardian": "2026-07-29T10:30:00Z",
+          "Fox News": "2026-07-30T10:30:00Z"
+        },
         "first_seen": "2026-07-29T10:30:00Z",
-        "logged_at": "2026-07-30T12:41:00+00:00"
+        "logged_at": "2026-08-17T05:27:01+00:00"
       },
       {
         "type": "backlash",
@@ -119,8 +130,11 @@
         "outlets": [
           "CNN"
         ],
+        "outlet_times": {
+          "CNN": "2026-07-29T11:00:00Z"
+        },
         "first_seen": "2026-07-29T11:00:00Z",
-        "logged_at": "2026-07-30T12:41:00+00:00"
+        "logged_at": "2026-08-17T05:27:01+00:00"
       },
       {
         "type": "rally",
@@ -128,8 +142,11 @@
         "outlets": [
           "CNN"
         ],
+        "outlet_times": {
+          "CNN": "2026-07-29T11:00:00Z"
+        },
         "first_seen": "2026-07-29T11:00:00Z",
-        "logged_at": "2026-07-30T12:41:00+00:00"
+        "logged_at": "2026-08-17T05:27:01+00:00"
       },
       {
         "type": "boycott",
@@ -137,8 +154,11 @@
         "outlets": [
           "AP"
         ],
+        "outlet_times": {
+          "AP": "2026-07-30T09:00:00Z"
+        },
         "first_seen": "2026-07-30T09:00:00Z",
-        "logged_at": "2026-07-30T12:41:02+00:00"
+        "logged_at": "2026-08-17T05:27:03+00:00"
       },
       {
         "type": "march",
@@ -146,8 +166,11 @@
         "outlets": [
           "CNN"
         ],
+        "outlet_times": {
+          "CNN": "2026-07-30T10:00:00Z"
+        },
         "first_seen": "2026-07-30T10:00:00Z",
-        "logged_at": "2026-07-30T12:41:02+00:00"
+        "logged_at": "2026-08-17T05:27:03+00:00"
       }
     ]
   },
@@ -215,7 +238,7 @@
         }
       ]
     },
-    "story_id": "ea437d55e046",
+    "story_id": "16104de9c457",
     "consequences_started": [
       {
         "type": "strike",
@@ -224,8 +247,12 @@
           "BBC",
           "Al Jazeera"
         ],
+        "outlet_times": {
+          "BBC": "2026-07-30T11:00:00Z",
+          "Al Jazeera": "2026-07-30T11:30:00Z"
+        },
         "first_seen": "2026-07-30T11:00:00Z",
-        "logged_at": "2026-07-30T12:41:02+00:00"
+        "logged_at": "2026-08-17T05:27:03+00:00"
       }
     ],
     "consequences_all": [
@@ -235,8 +262,11 @@
         "outlets": [
           "Al Jazeera"
         ],
+        "outlet_times": {
+          "Al Jazeera": "2026-07-29T12:30:00Z"
+        },
         "first_seen": "2026-07-29T12:30:00Z",
-        "logged_at": "2026-07-30T12:41:00+00:00"
+        "logged_at": "2026-08-17T05:27:01+00:00"
       },
       {
         "type": "strike",
@@ -245,8 +275,12 @@
           "BBC",
           "Al Jazeera"
         ],
+        "outlet_times": {
+          "BBC": "2026-07-30T11:00:00Z",
+          "Al Jazeera": "2026-07-30T11:30:00Z"
+        },
         "first_seen": "2026-07-30T11:00:00Z",
-        "logged_at": "2026-07-30T12:41:02+00:00"
+        "logged_at": "2026-08-17T05:27:03+00:00"
       }
     ]
   }

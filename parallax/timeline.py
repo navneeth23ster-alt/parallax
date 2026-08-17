@@ -73,10 +73,14 @@ def extract_consequences(story: Story) -> list[dict]:
             ev = events.setdefault(
                 kind,
                 {"type": kind, "description": desc, "outlets": [],
-                 "first_seen": h.published or ""},
+                 "outlet_times": {}, "first_seen": h.published or ""},
             )
             if h.outlet not in ev["outlets"]:
                 ev["outlets"].append(h.outlet)
+            if h.published:
+                ot = ev["outlet_times"]
+                if h.outlet not in ot or h.published < ot[h.outlet]:
+                    ot[h.outlet] = h.published
             if h.published and (not ev["first_seen"] or h.published < ev["first_seen"]):
                 ev["first_seen"] = h.published
                 ev["description"] = desc
@@ -162,14 +166,28 @@ class TimelineStore:
             if len(n.values) >= 2
         ]
 
-        known_kinds = {c["type"] for c in entry["consequences"]}
+        existing = {c["type"]: c for c in entry["consequences"]}
         started = []
         for ev in extract_consequences(story):
-            if ev["type"] in known_kinds:
+            cur = existing.get(ev["type"])
+            if cur is None:
+                ev["logged_at"] = now
+                entry["consequences"].append(ev)
+                started.append(ev)
                 continue
-            ev["logged_at"] = now
-            entry["consequences"].append(ev)
-            started.append(ev)
+            # merge: outlets accumulate, per-outlet times keep the earliest
+            for o in ev["outlets"]:
+                if o not in cur["outlets"]:
+                    cur["outlets"].append(o)
+            ot = cur.setdefault("outlet_times", {})
+            for o, t in ev.get("outlet_times", {}).items():
+                if t and (o not in ot or t < ot[o]):
+                    ot[o] = t
+            if ev["first_seen"] and (
+                not cur["first_seen"] or ev["first_seen"] < cur["first_seen"]
+            ):
+                cur["first_seen"] = ev["first_seen"]
+                cur["description"] = ev["description"]
         entry["_newly_started"] = started  # transient, for this run's report
         return entry
 

@@ -94,9 +94,9 @@ def test_consequences_report_what_started_only():
     border = next(s for s in stories if "border" in s.label.lower())
     kinds = {e["type"] for e in extract_consequences(border)}
     assert "march" in kinds or "protest" in kinds
-    # every event carries only observables: what, when, who reported
+    # every event carries only observables: what, when, who reported, and when each outlet first carried it
     for e in extract_consequences(border):
-        assert set(e) == {"type", "description", "outlets", "first_seen"}
+        assert set(e) == {"type", "description", "outlets", "first_seen", "outlet_times"}
 
 
 def test_protesters_noun_does_not_log_protest_event():
