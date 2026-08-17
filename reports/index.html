@@ -1,0 +1,55 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Parallax</title><style>
+:root{--ink:#1b1f2a;--paper:#fbfaf7;--rule:#d8d4ca;--flag:#8a2d3b;--dim:#6b7080}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);
+font:16px/1.55 Georgia,'Times New Roman',serif}
+header{border-bottom:3px double var(--rule);padding:28px 5vw 18px}
+h1{font:700 30px/1.1 Georgia,serif;margin:0;letter-spacing:.3px}
+header p{color:var(--dim);font:13px/1.5 system-ui,sans-serif;max-width:64ch;margin:8px 0 0}
+main{padding:8px 5vw 60px}
+.story{border-bottom:1px solid var(--rule);padding:26px 0}
+.story h2{font-size:21px;margin:0 0 4px}
+.meta{font:12px/1.4 system-ui,sans-serif;color:var(--dim);text-transform:uppercase;
+letter-spacing:.08em;margin-bottom:14px}
+.score{color:var(--flag);font-weight:600}
+.diverge{font:14px/1.5 system-ui,sans-serif;background:#f2eee4;border-left:3px solid var(--flag);
+padding:8px 12px;margin:0 0 14px}
+table{width:100%;border-collapse:collapse;font:14px/1.45 system-ui,sans-serif}
+th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.08em;
+color:var(--dim);border-bottom:1px solid var(--rule);padding:6px 8px}
+td{border-bottom:1px solid #eceadf;padding:8px;vertical-align:top}
+.loaded{color:var(--flag)}
+.record{font:14px/1.6 system-ui,sans-serif;margin:0 0 14px;padding:12px 14px;
+background:#fff;border:1px solid var(--rule)}
+.record h3{font:600 12px/1 system-ui,sans-serif;text-transform:uppercase;
+letter-spacing:.08em;color:var(--dim);margin:0 0 8px}
+.record ul{margin:0;padding-left:18px}
+.tier{display:inline-block;font-size:10px;text-transform:uppercase;
+letter-spacing:.06em;padding:1px 6px;border-radius:2px;margin-right:6px}
+.tier.corroborated{background:#e3ecdf;color:#33502a}
+.tier.reported{background:#efe8d6;color:#6b5417}
+.tier.discrepancy,.tier.single-source{background:#f3e2e2;color:var(--flag)}
+.conseq{font:14px/1.6 system-ui,sans-serif;margin:0 0 14px}
+.conseq strong{color:var(--ink)}
+@media(max-width:640px){td:nth-child(2),th:nth-child(2){display:none}}
+</style></head><body>
+<header><h1>Parallax</h1>
+<p>One event, every headline, side by side. Generated 2026-07-30 12:41 UTC.
+Signals shown are text-observable only — word choice, entity labels,
+voice. Divergence is a comparison, not a verdict on who is right.</p>
+</header><main><section class="story">
+  <h2>Border enforcement policy takes effect as legal challenges mount</h2>
+  <p class="meta">3 outlets ·
+    <span class="score">divergence 0.0</span></p>
+  <div class="record"><h3>Factual record — corroboration-tiered; agreement is a weight, not verified truth</h3><ul><li><span class="tier corroborated">corroborated</span>2026-07-30T09:00 — enforcement policy took effect monday <em>(AP, Fox News)</em></li><li><span class="tier corroborated">corroborated</span>2026-07-30T09:00 — border enforcement policy <em>(AP, CNN)</em></li><li><span class="tier corroborated">corroborated</span>2026-07-30T09:00 — policy takes effect <em>(AP, Fox News)</em></li></ul></div><p class="conseq">Consequences (as reported — what started, not who arranged it): <strong>protest</strong> — first seen 2026-07-29T10:30, reported by The Guardian · <strong>backlash</strong> — first seen 2026-07-29T11:00, reported by CNN · <strong>rally</strong> — first seen 2026-07-29T11:00, reported by CNN · <strong>boycott</strong> — first seen 2026-07-30T09:00, reported by AP · <strong>march</strong> — first seen 2026-07-30T10:00, reported by CNN</p>
+  <table><thead><tr><th>Outlet</th><th>Placement</th><th>Headline</th>
+  <th>Loaded terms</th></tr></thead><tbody><tr><td>AP</td><td>center</td><td>Border enforcement policy takes effect as legal challenges mount</td><td class='loaded'>—</td></tr><tr><td>CNN</td><td>lean-left</td><td>Thousands march against border enforcement policy in three cities</td><td class='loaded'>—</td></tr><tr><td>Fox News</td><td>right</td><td>Border policy takes effect amid protests, officials defend enforcement</td><td class='loaded'>—</td></tr></tbody></table>
+</section><section class="story">
+  <h2>Death toll rises to 5 in capital demonstration clashes</h2>
+  <p class="meta">2 outlets ·
+    <span class="score">divergence 0.0</span></p>
+  <div class="record"><h3>Factual record — corroboration-tiered; agreement is a weight, not verified truth</h3><ul><li><span class="tier discrepancy">discrepancy</span>“…people died” — BBC: 5, Al Jazeera: 6</li></ul></div><p class="conseq">Consequences (as reported — what started, not who arranged it): <strong>rally</strong> — first seen 2026-07-29T12:30, reported by Al Jazeera · <strong>strike</strong> — first seen 2026-07-30T11:00, reported by BBC, Al Jazeera</p>
+  <table><thead><tr><th>Outlet</th><th>Placement</th><th>Headline</th>
+  <th>Loaded terms</th></tr></thead><tbody><tr><td>BBC</td><td>center</td><td>Death toll rises to 5 in capital demonstration clashes</td><td class='loaded'>—</td></tr><tr><td>Al Jazeera</td><td>international</td><td>Toll from demonstration clashes rises to 6, general strike called</td><td class='loaded'>—</td></tr></tbody></table>
+</section></main></body></html>

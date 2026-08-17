@@ -1,0 +1,253 @@
+[
+  {
+    "label": "Border enforcement policy takes effect as legal challenges mount",
+    "outlets": [
+      "AP",
+      "CNN",
+      "Fox News"
+    ],
+    "divergence_score": 0.0,
+    "divergent_labels": [],
+    "reaction": {
+      "reaction_terms": [
+        "boycott",
+        "march",
+        "petition",
+        "protests"
+      ],
+      "mentions": 6
+    },
+    "coverage": [
+      {
+        "outlet": "AP",
+        "placement": "center",
+        "title": "Border enforcement policy takes effect as legal challenges mount",
+        "link": "",
+        "published": "2026-07-30T09:00:00Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "CNN",
+        "placement": "lean-left",
+        "title": "Thousands march against border enforcement policy in three cities",
+        "link": "",
+        "published": "2026-07-30T10:00:00Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Fox News",
+        "placement": "right",
+        "title": "Border policy takes effect amid protests, officials defend enforcement",
+        "link": "",
+        "published": "2026-07-30T10:30:00Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      }
+    ],
+    "consensus": {
+      "caveat": "Corroboration is a weight, not truth: outlets may share one wire source. Every atom links back to who published it and when.",
+      "facts": [
+        {
+          "text": "enforcement policy took effect monday",
+          "tier": "corroborated",
+          "outlets": [
+            "AP",
+            "Fox News"
+          ],
+          "first_seen": "2026-07-30T09:00:00Z"
+        },
+        {
+          "text": "border enforcement policy",
+          "tier": "corroborated",
+          "outlets": [
+            "AP",
+            "CNN"
+          ],
+          "first_seen": "2026-07-30T09:00:00Z"
+        },
+        {
+          "text": "policy takes effect",
+          "tier": "corroborated",
+          "outlets": [
+            "AP",
+            "Fox News"
+          ],
+          "first_seen": "2026-07-30T09:00:00Z"
+        }
+      ],
+      "numeric_claims": []
+    },
+    "story_id": "4af356cd6397",
+    "consequences_started": [
+      {
+        "type": "boycott",
+        "description": "civil rights groups filed lawsuits and a boycott of contractor firms was announced.",
+        "outlets": [
+          "AP"
+        ],
+        "first_seen": "2026-07-30T09:00:00Z",
+        "logged_at": "2026-07-30T12:41:02+00:00"
+      },
+      {
+        "type": "march",
+        "description": "thousands march against border enforcement policy in three cities.",
+        "outlets": [
+          "CNN"
+        ],
+        "first_seen": "2026-07-30T10:00:00Z",
+        "logged_at": "2026-07-30T12:41:02+00:00"
+      }
+    ],
+    "consequences_all": [
+      {
+        "type": "protest",
+        "description": "rights groups called the enforcement policy a \u2026 for migrants and announced a protest march.",
+        "outlets": [
+          "The Guardian"
+        ],
+        "first_seen": "2026-07-29T10:30:00Z",
+        "logged_at": "2026-07-30T12:41:00+00:00"
+      },
+      {
+        "type": "backlash",
+        "description": "new border policy sparks backlash and calls for resignation.",
+        "outlets": [
+          "CNN"
+        ],
+        "first_seen": "2026-07-29T11:00:00Z",
+        "logged_at": "2026-07-30T12:41:00+00:00"
+      },
+      {
+        "type": "rally",
+        "description": "demonstrators plan a rally against the border enforcement policy affecting migrants.",
+        "outlets": [
+          "CNN"
+        ],
+        "first_seen": "2026-07-29T11:00:00Z",
+        "logged_at": "2026-07-30T12:41:00+00:00"
+      },
+      {
+        "type": "boycott",
+        "description": "civil rights groups filed lawsuits and a boycott of contractor firms was announced.",
+        "outlets": [
+          "AP"
+        ],
+        "first_seen": "2026-07-30T09:00:00Z",
+        "logged_at": "2026-07-30T12:41:02+00:00"
+      },
+      {
+        "type": "march",
+        "description": "thousands march against border enforcement policy in three cities.",
+        "outlets": [
+          "CNN"
+        ],
+        "first_seen": "2026-07-30T10:00:00Z",
+        "logged_at": "2026-07-30T12:41:02+00:00"
+      }
+    ]
+  },
+  {
+    "label": "Death toll rises to 5 in capital demonstration clashes",
+    "outlets": [
+      "Al Jazeera",
+      "BBC"
+    ],
+    "divergence_score": 0.0,
+    "divergent_labels": [],
+    "reaction": {
+      "reaction_terms": [
+        "strike"
+      ],
+      "mentions": 3
+    },
+    "coverage": [
+      {
+        "outlet": "BBC",
+        "placement": "center",
+        "title": "Death toll rises to 5 in capital demonstration clashes",
+        "link": "",
+        "published": "2026-07-30T11:00:00Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Al Jazeera",
+        "placement": "international",
+        "title": "Toll from demonstration clashes rises to 6, general strike called",
+        "link": "",
+        "published": "2026-07-30T11:30:00Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      }
+    ],
+    "consensus": {
+      "caveat": "Corroboration is a weight, not truth: outlets may share one wire source. Every atom links back to who published it and when.",
+      "facts": [],
+      "numeric_claims": [
+        {
+          "context": "capital demonstration",
+          "values": {
+            "BBC": "5"
+          },
+          "agreement": true
+        },
+        {
+          "context": "people died",
+          "values": {
+            "BBC": "5",
+            "Al Jazeera": "6"
+          },
+          "agreement": false
+        },
+        {
+          "context": "general strike called",
+          "values": {
+            "Al Jazeera": "6"
+          },
+          "agreement": true
+        }
+      ]
+    },
+    "story_id": "ea437d55e046",
+    "consequences_started": [
+      {
+        "type": "strike",
+        "description": "officials said 5 people died in clashes at the demonstration; a general strike was called.",
+        "outlets": [
+          "BBC",
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-07-30T11:00:00Z",
+        "logged_at": "2026-07-30T12:41:02+00:00"
+      }
+    ],
+    "consequences_all": [
+      {
+        "type": "rally",
+        "description": "security forces kill three demonstrators as government cracks down on rally.",
+        "outlets": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-07-29T12:30:00Z",
+        "logged_at": "2026-07-30T12:41:00+00:00"
+      },
+      {
+        "type": "strike",
+        "description": "officials said 5 people died in clashes at the demonstration; a general strike was called.",
+        "outlets": [
+          "BBC",
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-07-30T11:00:00Z",
+        "logged_at": "2026-07-30T12:41:02+00:00"
+      }
+    ]
+  }
+]
