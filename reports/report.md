@@ -1,29 +1,22 @@
 # Parallax daily report
-_Generated 2026-08-18 13:13 UTC. Text-observable signals only — no intent or
+_Generated 2026-08-18 19:36 UTC. Text-observable signals only — no intent or
 coordination claims can be drawn from headline statistics._
 
 ## Morning news brief
-Covered by 9 outlets · framing divergence 0.54
-- Same actors, different labels: administration, regime
-- Reaction vocabulary present: campaign, protests, strike
+Covered by 9 outlets · framing divergence 0.14
+- Reaction vocabulary present: campaign, strike
 
 **Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
 - `corroborated` 2025-01-27T06:05 — kim jong un _(BBC, Wall Street Journal)_
-- `reported` 2026-08-16T21:21 — israeli prime minister benjamin netanyahu _(The Guardian, Washington Post)_
-- `corroborated` 2026-08-17T09:10 — military drills with south korea _(BBC, The Guardian)_
 - `reported` 2026-08-17T15:08 — trump threatens to bomb oman if it gets in the way _(The Guardian, Washington Post)_
 - `reported` 2026-08-17T16:42 — donald trump s son-in-law and envoy _(The Guardian, Washington Post)_
-- `corroborated` 2026-08-17T18:39 — good relationship with north _(BBC, Washington Post)_
-- `corroborated` 2026-08-17T19:11 — exercises with south korea _(BBC, The Guardian)_
-- `reported` 2026-08-17T19:11 — north korea s _(New York Times, The Guardian)_
 - `reported` 2026-08-17T19:46 — south korea s _(The Guardian, Washington Post)_
-- `corroborated` 2026-08-17T23:42 — why has trump _(Al Jazeera, BBC)_
-- `corroborated` 2026-08-18T11:32 — trump threatened to bomb oman _(Al Jazeera, Fox News)_
+- `corroborated` 2026-08-17T23:42 — military exercises with south korea _(BBC, NPR)_
 
 **Consequences (as reported — what started, not who arranged it):**
-- strike — first seen 2026-08-18T11:04, reported by The Guardian, Fox News · NEW this run
-- campaign — first seen 2025-01-25T10:05, reported by Wall Street Journal · NEW this run
-- protest — first seen 2026-08-18T11:39, reported by Al Jazeera · NEW this run
+- strike — first seen 2026-08-18T11:04, reported by The Guardian, Fox News, Al Jazeera
+- campaign — first seen 2025-01-25T10:05, reported by Wall Street Journal
+- protest — first seen 2026-08-18T11:39, reported by Al Jazeera
 
 | Outlet | Placement | Headline | Loaded terms |
 |---|---|---|---|
@@ -32,94 +25,69 @@ Covered by 9 outlets · framing divergence 0.54
 | The Guardian | lean-left | Bondi library removes book How to Sell a Genocide from shelves after complaint | — |
 | The Guardian | lean-left | Trump threatens to bomb Oman if it ‘gets in the way’ of Iran deal as Kushner meets Netanyahu – as it happened | militarized: war |
 | The Guardian | lean-left | Netanyahu and Kushner talks make no breakthrough on stalled Gaza deal | — |
-| The Guardian | lean-left | Can Trump’s peace plan for Gaza be saved? – The Latest | — |
-| The Guardian | lean-left | Burnham confirms West Midlands to take public control of local bus network – UK politics live | delegitimizing: so-called; minimizing: so-called |
-| The Guardian | lean-left | UK retailers too slow to pass on fuel price falls, watchdog says | — |
-| Fox News | right | Iran fails to strike deal with US as deadline passes and Trump calls for ‘white flag of surrender' | — |
+| The Guardian | lean-left | Burnham confirms West Midlands to take public control of local bus network – as it happened | delegitimizing: so-called; minimizing: so-called |
+| The Guardian | lean-left | UK risks running out of gas by 2030s, ministers told | — |
 | Wall Street Journal | lean-right | Who Are the Israeli Hostages Released by Hamas? | — |
 | Wall Street Journal | lean-right | The Latest Gaza Hostages Freed: Women Whose Hamas Warnings Were Ignored | — |
 | Washington Post | lean-left | Kushner, Netanyahu make little progress on advancing Gaza deal after meeting | — |
 | Washington Post | lean-left | Trump threatens to bomb Oman if it ‘gets in the way’ | — |
 | Washington Post | lean-left | Jared Kushner meets Hamas on Mideast trip to push Gaza deal | — |
-| Al Jazeera | international | Why has Trump threatened to bomb Oman – for a second time? | — |
-| Al Jazeera | international | Putin’s ‘illusion of victory:’ Russia ramps up missile attacks on Ukraine | — |
-| Al Jazeera | international | Trump lashes out at CNN reporter over South Korea question | — |
-| New York Post | right | Ukraine fires almost 800 drones at Moscow while Russian missiles kill 10 in Kharkiv | alarmist: invasion |
-| BBC | center | Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran deal | — |
-| BBC | center | Trump says US to reduce military drills with South Korea after it stayed out of Iran war | militarized: war |
-| BBC | center | Watch: Why has Trump shifted on North Korea? | — |
+| Al Jazeera | international | Why is Russia threatening UK with ‘consequences’ over Ukraine drones? | — |
+| New York Post | right | Iran threatens military attacks while US rules out extending temporary cease-fire | — |
 | NPR | lean-left | U.S. and Iran miss peace talks deadline. And, Alaska, Florida and Wyoming primaries | militarized: war |
 | NPR | lean-left | Morning news brief | — |
-| New York Times | lean-left | Facing Quagmire in Iran, Trump Turns to a Familiar Face: North Korea’s Kim Jong-un | — |
+| New York Times | lean-left | Two Ships Transiting Strait of Hormuz Are Attacked as Oil Prices Rise | — |
 | The Guardian | lean-left | South Korea president calls for military independence in wake of Trump call to cut joint drills | militarized: war |
 | The Guardian | lean-left | Trump’s move to gut South Korea alliance is ‘inane, haphazard decision’, lawmakers say | minimizing: just |
-| The Guardian | lean-left | Trump orders cuts to South Korea joint drills despite warnings about Kim regime | delegitimizing: regime; militarized: war |
+| The Guardian | lean-left | PBS should fund drug to treat breast cancer, endometriosis and gender dysphoria, experts recommend | — |
 | The Guardian | lean-left | Controversial NDIS bill passes Senate with ‘substantial’ amendments as Labor and Coalition strike deal | — |
 | The Guardian | lean-left | WA police appeal for help to find 10-year-old girl missing from Perth suburbs | — |
 | The Guardian | lean-left | Family of missing 18-year-old hiker ‘absolutely devastated’ as search continues in rugged NSW terrain | — |
-| The Guardian | lean-left | Severe weather warning for northern Victoria – as it happened | — |
-| The Guardian | lean-left | Zelenskyy says Ukraine will respond after 10 killed in overnight Russian attack – Europe live | — |
+| The Guardian | lean-left | Belgian firefighters push to encircle ‘largest wildfire in a century’ – as it happened | — |
 | The Guardian | lean-left | As conflict in the Middle East intensifies, India’s relationship with Israel deepens | — |
-| Fox News | right | Democrat Party's civil war heads to Florida, Alaska and Wyoming and more top headlines | militarized: war |
+| CNN | lean-left | US warns Russia not to touch American nuclear technology at Ukrainian nuclear plant | — |
 | Wall Street Journal | lean-right | Freed Israeli Hostages Still Had Shrapnel in Their Bodies From Oct. 7 Attack | — |
-| Wall Street Journal | lean-right | Kim Jong Un Is Doing Everything He Can to Keep North Korea's Youth in Line | alarmist: flood |
 | Wall Street Journal | lean-right | Hamas Releases Four Female Israeli Soldiers Under Gaza Cease-Fire Deal | militarized: war |
 | Wall Street Journal | lean-right | Hamas Took More Than 200 Hostages From Israel. Here's What We Know. | — |
 | Washington Post | lean-left | Trump defends his move to cut back U.S.-South Korea military exercises | — |
-| Al Jazeera | international | Russia protests Japan PM’s comments after Putin’s Kuril visit | — |
-| Al Jazeera | international | What to watch in Tuesday’s Florida primary elections | militarized: war |
+| Al Jazeera | international | What to watch in the Alaska and Wyoming primary elections | — |
+| BBC | center | Watch: Why has Trump shifted on North Korea? | — |
+| NPR | lean-left | S. Korea stresses US alliance amid confusion over Trump drill cut | — |
+| New York Times | lean-left | Searching for Answers From the Man Accused of Sabotaging Alaska’s Senate Race | — |
+| Wall Street Journal | lean-right | Kim Jong Un Is Doing Everything He Can to Keep North Korea's Youth in Line | alarmist: flood |
 
-## Tupac Shakur murder trial begins thirty years after his death
-Covered by 4 outlets · framing divergence 0.1
-
-**Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
-- `corroborated` 2026-08-18T04:05 — tupac murder trial _(BBC, New York Times)_
-- `corroborated` 2026-08-18T05:56 — duane keffe d davis _(Al Jazeera, NPR)_
+## Watch: What we learned from opening statements in Tupac murder trial
+Covered by 5 outlets · framing divergence 0.26
 
 | Outlet | Placement | Headline | Loaded terms |
 |---|---|---|---|
 | BBC | center | Tupac murder trial: 'All hell broke loose' night of rapper's shooting, witness says | — |
-| BBC | center | 'I want my brother back' - Tupac’s brother tells BBC murder trial won’t bring justice | — |
-| NPR | lean-left | A dispute about fact vs. fiction at the trial over Tupac Shakur's 1996 killing | — |
-| Al Jazeera | international | Tupac Shakur murder trial begins thirty years after his death | — |
 | BBC | center | Watch: What we learned from opening statements in Tupac murder trial | sympathetic: long-awaited |
-| New York Times | lean-left | Trump’s $47 Billion-Dollar Border Wall Plan, and Why a Tupac Murder Trial Is Starting After 30 Years | — |
+| BBC | center | 'I want my brother back' - Tupac’s brother tells BBC murder trial won’t bring justice | — |
+| NPR | lean-left | 'Profits won.' The child safety trial against Meta kicks off in federal court | — |
+| New York Times | lean-left | Meta to Stand Trial Over Claims It Addicted Children to Social Media | minimizing: claims |
+| Al Jazeera | international | Landmark trial on Meta’s impact on children’s mental health begins in US | sympathetic: landmark; minimizing: claims |
+| New York Post | right | Tupac Shakur’s chilling words to Las Vegas cop who escorted wounded rapper to hospital before his death | — |
 
 ## Hayden Panettiere Grew Up in Front of the Camera. It Took a Toll.
-Covered by 4 outlets · framing divergence 0.16
-
-**Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
-- `corroborated` 2026-08-18T08:44 — actress who died on sunday _(BBC, New York Post)_
+Covered by 3 outlets · framing divergence 0.12
 
 | Outlet | Placement | Headline | Loaded terms |
 |---|---|---|---|
 | BBC | center | Hayden Panettiere's ex Wladimir Klitschko says family in 'profound shock and grief' | — |
 | New York Times | lean-left | Hayden Panettiere Grew Up in Front of the Camera. It Took a Toll. | — |
-| Fox News | right | Hayden Panettiere and the child stars whose relationships with their momagers turned complicated | — |
-| Fox News | right | Wladimir Klitschko mourns former fiancée Hayden Panettiere, vows to keep her memory alive for daughter Kaya | — |
-| New York Post | right | Hayden Panettiere reflected on Michelle Trachtenberg friendship months before death | — |
-| New York Post | right | ‘Lonely’ Hayden Panettiere was ‘struggling’ on final movie set before death, co-star claims | minimizing: claims |
-| New York Post | right | ‘Lonely’ Hayden Panettiere was ‘struggling’ on final movie set before death, co-star claims | minimizing: claims |
-| New York Post | right | Hayden Panettiere’s ‘Nashville’ mom says late actress’s ‘inner demons’ were ‘too much to bear’ | — |
-| New York Post | right | Hayden Panettiere’s ‘Nashville’ mom says late actress’s ‘inner demons’ were ‘too much to bear’ | — |
-| New York Post | right | Hayden Panettiere’s ‘second mother’ says actress ‘never stood a chance’ after being raised in Hollywood | minimizing: claims |
-| New York Post | right | Hayden Panettiere reflected on friendship with late ‘Ice Princess’ co-star Michelle Trachtenberg months before death | — |
+| New York Post | right | Hilary Duff shares fond memories of Hayden Panettiere in heartfelt tribute: ‘I so wish this wasn’t the end for you’ | — |
+| New York Post | right | Hilary Duff shares fond memories of Hayden Panettiere in heartfelt tribute: ‘I so wish this wasn’t the end for you’ | — |
+| New York Post | right | Hayden Panettiere’s estranged mom blasts tragic actress’ boyfriend in first words since her death | alarmist: blasts |
 
-## China censors public mourning as it holds former premier's funeral
-Covered by 2 outlets · framing divergence 0.0
-
-| Outlet | Placement | Headline | Loaded terms |
-|---|---|---|---|
-| BBC | center | China censors public mourning as it holds former premier's funeral | — |
-| New York Times | lean-left | At Ex-Premier Zhu Rongji’s Funeral, China’s Past Shadows Its Present | — |
-
-## Videos show deadly school shooting in Philippines
-Covered by 2 outlets · framing divergence 0.3
+## Student killed in Philippines Catholic school shooting
+Covered by 3 outlets · framing divergence 0.2
 
 | Outlet | Placement | Headline | Loaded terms |
 |---|---|---|---|
 | BBC | center | Student killed in Philippines Catholic school shooting | minimizing: alleged |
-| Al Jazeera | international | Videos show deadly school shooting in Philippines | — |
+| The Guardian | lean-left | Philippine school shooter kills fellow student and himself in livestreamed attack | — |
+| Al Jazeera | international | Police attack Indonesian student protesters, arresting at least 21 | — |
 
 ## Zimbabwe boat accident death toll hits 68 as 22 more bodies recovered
 Covered by 2 outlets · framing divergence 0.0
@@ -129,7 +97,26 @@ Covered by 2 outlets · framing divergence 0.0
 | BBC | center | Kariba ferry death toll rises to 93, making it Zimbabwe's deadliest transport disaster | — |
 | The Guardian | lean-left | Zimbabwe boat accident death toll hits 68 as 22 more bodies recovered | — |
 
-## What it's like to be on a warship like the USS Abraham Lincoln
+## Disney and ABC sue Trump's media regulator to stop early licence renewal
+Covered by 2 outlets · framing divergence 0.3
+
+**Consequences (as reported — what started, not who arranged it):**
+- campaign — first seen 2026-08-18T13:03, reported by Fox News
+
+| Outlet | Placement | Headline | Loaded terms |
+|---|---|---|---|
+| BBC | center | Disney and ABC sue Trump's media regulator to stop early licence renewal | — |
+| Al Jazeera | international | Disney sues US regulator, claiming political retaliation over ABC stations | minimizing: claims |
+
+## Hichilema re-elected as Zambia president amid opposition concerns over vote
+Covered by 2 outlets · framing divergence 0.3
+
+| Outlet | Placement | Headline | Loaded terms |
+|---|---|---|---|
+| BBC | center | Zambia's Hichilema re-elected president as main rival in hiding over alleged threats | minimizing: alleged |
+| Al Jazeera | international | Hichilema re-elected as Zambia president amid opposition concerns over vote | — |
+
+## U.S. commander calls mental health a priority after he visits USS Lincoln
 Covered by 2 outlets · framing divergence 0.0
 
 **Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
@@ -137,75 +124,44 @@ Covered by 2 outlets · framing divergence 0.0
 
 | Outlet | Placement | Headline | Loaded terms |
 |---|---|---|---|
-| BBC | center | What it's like to be on a warship like the USS Abraham Lincoln | — |
+| BBC | center | 'A floating prison' - sailors describe life on warships like USS Abraham Lincoln | — |
 | Washington Post | lean-left | U.S. commander calls mental health a priority after he visits USS Lincoln | — |
 
-## The grueling fight over who profits from AI music
-Covered by 2 outlets · framing divergence 0.15
-
-| Outlet | Placement | Headline | Loaded terms |
-|---|---|---|---|
-| NPR | lean-left | The grueling fight over who profits from AI music | — |
-| NPR | lean-left | Many recent grads say AI is making it harder to get a job. Economists aren't so sure | — |
-| NPR | lean-left | She told no one about her agony except ChatGPT. What her death reveals about AI risks | — |
-| Fox News | right | AI isn’t just a problem, it’s a solution. Some people are already making the most of it | minimizing: just |
-
-## Florida Primary Underscores State’s New Identity as a Republican Juggernaut
+## The ‘witch-hunt’ of Jason Arday
 Covered by 2 outlets · framing divergence 0.0
 
 | Outlet | Placement | Headline | Loaded terms |
 |---|---|---|---|
-| NPR | lean-left | This crowded Republican primary in Florida has drawn a unique cast of candidates | — |
-| New York Times | lean-left | Florida Primary Underscores State’s New Identity as a Republican Juggernaut | — |
+| NPR | lean-left | Jason Arday's rise and fall tells a larger story about academia, a critic says | — |
+| Al Jazeera | international | The ‘witch-hunt’ of Jason Arday | — |
 
-## How Israel’s Financial Chokehold Is Stifling the West Bank Economy
-Covered by 2 outlets · framing divergence 0.3
-
-| Outlet | Placement | Headline | Loaded terms |
-|---|---|---|---|
-| NPR | lean-left | Palestinian American returns to his West Bank home, under siege by Israeli settlers | militarized: siege |
-| New York Times | lean-left | How Israel’s Financial Chokehold Is Stifling the West Bank Economy | — |
-
-## ABC Sues Trump Administration Over F.C.C. Threat to Its TV Licenses
+## Israel Strikes Air Base in Syria, Drawing Ire From the U.S.
 Covered by 2 outlets · framing divergence 0.0
-- Reaction vocabulary present: campaign
+- Reaction vocabulary present: strikes
 
 **Consequences (as reported — what started, not who arranged it):**
-- campaign — first seen 2026-08-18T13:03, reported by Fox News · NEW this run
+- strike — first seen 2026-08-18T17:41, reported by New York Times · NEW this run
 
 | Outlet | Placement | Headline | Loaded terms |
 |---|---|---|---|
-| New York Times | lean-left | ABC Sues Trump Administration Over F.C.C. Threat to Its TV Licenses | — |
-| Fox News | right | Disney sues FCC over ‘retaliatory campaign against ABC,’ seeks to block early renewal proceedings | — |
+| New York Times | lean-left | Israel Strikes Air Base in Syria, Drawing Ire From the U.S. | — |
+| Al Jazeera | international | Analysis: Syrian airbase attack is an Israeli message to Damascus, Ankara | — |
 
-## Meta lawsuits: Is social media facing a global legal reckoning?
-Covered by 2 outlets · framing divergence 0.3
-
-| Outlet | Placement | Headline | Loaded terms |
-|---|---|---|---|
-| New York Times | lean-left | States Seek $200 Billion From Meta Over Child Social Media Addiction Claims | minimizing: claims |
-| Al Jazeera | international | Meta lawsuits: Is social media facing a global legal reckoning? | — |
-
-## Drone video shows drought-hit fields in England after driest July on record
+## Spain builds tent cities for the thousands stuck in Ceuta
 Covered by 2 outlets · framing divergence 0.0
 
 | Outlet | Placement | Headline | Loaded terms |
 |---|---|---|---|
-| The Guardian | lean-left | ‘Migration has been weaponised’: Italy’s security law criticised after death of Moroccan man in police restraint | — |
-| Al Jazeera | international | Drone video shows drought-hit fields in England after driest July on record | — |
+| The Guardian | lean-left | Moroccan police arrest more than 100 people attempting to enter Ceuta | — |
+| Al Jazeera | international | Spain builds tent cities for the thousands stuck in Ceuta | — |
 
-## Toddler crawls through White House fence, prompts Secret Service response
+## U.S. Navy destroyer lost power for 4 days in South China Sea
 Covered by 2 outlets · framing divergence 0.0
+
+**Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
+- `corroborated` 2026-08-17T22:17 — in south china sea _(Fox News, Washington Post)_
 
 | Outlet | Placement | Headline | Loaded terms |
 |---|---|---|---|
-| CNN | lean-left | Toddler crawls through White House fence, prompts Secret Service response | — |
-| Fox News | right | MORNING GLORY: SCOTUS should urgently allow construction at the White House to proceed | — |
-
-## Amazon job scam texts are spreading again with a new twist
-Covered by 2 outlets · framing divergence 0.0
-
-| Outlet | Placement | Headline | Loaded terms |
-|---|---|---|---|
-| Fox News | right | Amazon job scam texts are spreading again with a new twist | — |
-| Al Jazeera | international | Brazil’s president says Amazon oil is ‘passport to the future’ | — |
+| Fox News | right | Massive risk in South China Sea exposed after four-day power loss on US Navy destroyer | — |
+| Washington Post | lean-left | U.S. Navy destroyer lost power for 4 days in South China Sea | — |
