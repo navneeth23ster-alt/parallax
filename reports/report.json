@@ -1,50 +1,201 @@
 [
   {
-    "label": "Border enforcement policy takes effect as legal challenges mount",
+    "label": "Morning news brief",
     "outlets": [
-      "AP",
-      "CNN",
-      "Fox News"
+      "Al Jazeera",
+      "BBC",
+      "NPR",
+      "New York Times",
+      "The Guardian",
+      "Washington Post"
     ],
-    "divergence_score": 0.0,
-    "divergent_labels": [],
+    "divergence_score": 0.61,
+    "divergent_labels": [
+      [
+        "government",
+        "regime"
+      ]
+    ],
     "reaction": {
       "reaction_terms": [
-        "boycott",
-        "march",
-        "petition",
-        "protests"
+        "campaign",
+        "strikes"
       ],
-      "mentions": 6
+      "mentions": 4
     },
     "coverage": [
       {
-        "outlet": "AP",
-        "owner": "Associated Press (nonprofit cooperative)",
-        "title": "Border enforcement policy takes effect as legal challenges mount",
-        "link": "",
-        "published": "2026-07-30T09:00:00Z",
+        "outlet": "BBC",
+        "placement": "center",
+        "title": "How much could Trump's 'economic D-Day' hurt Iran?",
+        "link": "https://www.bbc.co.uk/news/articles/cre4gdvlj9ro?at_medium=RSS&at_campaign=rss",
+        "published": "2026-08-20T23:16:45Z",
         "loaded_terms": {},
         "labels_used": [],
         "passive_voice": false
       },
       {
-        "outlet": "CNN",
-        "owner": "Warner Bros. Discovery",
-        "title": "Thousands march against border enforcement policy in three cities",
-        "link": "",
-        "published": "2026-07-30T10:00:00Z",
+        "outlet": "NPR",
+        "placement": "lean-left",
+        "title": "Top Iran official says US focus on economic warfare shows it has failed militarily",
+        "link": "https://www.npr.org/2026/08/21/nx-s1-5940610/iran-us-threat-economic-warfare",
+        "published": "2026-08-21T11:42:10Z",
+        "loaded_terms": {
+          "delegitimizing": [
+            "regime"
+          ]
+        },
+        "labels_used": [
+          "regime"
+        ],
+        "passive_voice": false
+      },
+      {
+        "outlet": "NPR",
+        "placement": "lean-left",
+        "title": "Trump declares economic warfare on Iran. And, SCOTUS to rule on White House ballroom",
+        "link": "https://www.npr.org/2026/08/21/g-s1-139542/up-first-newsletter-trump-iran-economy-white-house-ballroom-bond-market",
+        "published": "2026-08-21T11:25:10Z",
         "loaded_terms": {},
         "labels_used": [],
         "passive_voice": false
       },
       {
-        "outlet": "Fox News",
-        "owner": "Fox Corporation (Murdoch family)",
-        "title": "Border policy takes effect amid protests, officials defend enforcement",
-        "link": "",
-        "published": "2026-07-30T10:30:00Z",
+        "outlet": "NPR",
+        "placement": "lean-left",
+        "title": "Morning news brief",
+        "link": "https://www.npr.org/2026/08/21/nx-s1-5931262/morning-news-brief",
+        "published": "2026-08-21T08:46:00Z",
         "loaded_terms": {},
+        "labels_used": [
+          "government"
+        ],
+        "passive_voice": false
+      },
+      {
+        "outlet": "New York Times",
+        "placement": "lean-left",
+        "title": "The Message Behind Trump\u2019s Threats of \u2018Economic Warfare\u2019 Against Iran",
+        "link": "https://www.nytimes.com/2026/08/20/world/europe/trump-iran-economy-sanctions-threats.html",
+        "published": "2026-08-21T02:58:51Z",
+        "loaded_terms": {
+          "militarized": [
+            "war"
+          ]
+        },
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "New York Times",
+        "placement": "lean-left",
+        "title": "Iran Must Plan to Overcome U.S. Sanctions After Trump\u2019s \u2018Economic D-Day\u2019 Threats, Tehran Official Says",
+        "link": "https://www.nytimes.com/2026/08/21/world/middleeast/iran-sanctions-united-states-ghalibaf.html",
+        "published": "2026-08-21T11:38:31Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "New York Times",
+        "placement": "lean-left",
+        "title": "Should You Invest in Bonds Right Now?",
+        "link": "https://www.nytimes.com/2026/08/21/business/investing-bond-market-stocks-funds.html",
+        "published": "2026-08-21T09:03:46Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "New York Times",
+        "placement": "lean-left",
+        "title": "Can Bessent\u2019s \u2018Big Tool Kit\u2019 Calm Bond Investors?",
+        "link": "https://www.nytimes.com/2026/08/21/business/dealbook/bessent-bonds-tool-kit.html",
+        "published": "2026-08-21T11:42:48Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "New York Times",
+        "placement": "lean-left",
+        "title": "Stocks and Bonds Steady at the End of a Tumultuous Week",
+        "link": "https://www.nytimes.com/2026/08/21/business/stocks-bonds-oil-prices.html",
+        "published": "2026-08-21T13:56:03Z",
+        "loaded_terms": {
+          "militarized": [
+            "war"
+          ]
+        },
+        "labels_used": [
+          "government"
+        ],
+        "passive_voice": false
+      },
+      {
+        "outlet": "The Guardian",
+        "placement": "lean-left",
+        "title": "Trump threatens Iran\u2019s trade partners, as military strikes make way for economic pressure",
+        "link": "https://www.theguardian.com/world/2026/aug/20/trump-threatens-crush-iran-economy-war-hormuz",
+        "published": "2026-08-20T04:53:44Z",
+        "loaded_terms": {},
+        "labels_used": [
+          "operation"
+        ],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Washington Post",
+        "placement": "lean-left",
+        "title": "Trump increasingly lashing out at allies as victory in Iran war proves elusive",
+        "link": "https://www.washingtonpost.com/world/2026/08/20/frustrated-by-stalled-iran-war-trump-threatens-oman-other-gulf-allies/",
+        "published": "2026-08-20T20:24:33Z",
+        "loaded_terms": {
+          "militarized": [
+            "war"
+          ]
+        },
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Washington Post",
+        "placement": "lean-left",
+        "title": "UAE says it is suspending trade with Iran after missile launch",
+        "link": "https://www.washingtonpost.com/world/2026/08/19/uae-says-it-is-suspending-trade-with-iran-after-missile-attack/",
+        "published": "2026-08-19T19:45:58Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Al Jazeera",
+        "placement": "international",
+        "title": "Trump\u2019s \u2018economic D-Day\u2019 claims first victim: Not Iran, but US markets",
+        "link": "https://www.aljazeera.com/news/2026/8/21/trumps-economic-d-day-claims-first-victim-not-iran-but-us-markets?traffic_source=rss",
+        "published": "2026-08-21T13:47:26Z",
+        "loaded_terms": {
+          "minimizing": [
+            "claims"
+          ],
+          "militarized": [
+            "war"
+          ]
+        },
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Al Jazeera",
+        "placement": "international",
+        "title": "US allies in Asia wary as Trump moves military assets for Iran war",
+        "link": "https://www.aljazeera.com/news/2026/8/21/us-allies-in-asia-wary-as-trump-moves-military-assets-for-iran-war?traffic_source=rss",
+        "published": "2026-08-21T12:32:03Z",
+        "loaded_terms": {
+          "militarized": [
+            "war"
+          ]
+        },
         "labels_used": [],
         "passive_voice": false
       }
@@ -53,158 +204,244 @@
       "caveat": "Corroboration is a weight, not truth: outlets may share one wire source. Every atom links back to who published it and when.",
       "facts": [
         {
-          "text": "enforcement policy took effect monday",
+          "text": "trump s economic d-day",
           "tier": "corroborated",
           "outlets": [
-            "AP",
-            "Fox News"
+            "Al Jazeera",
+            "New York Times"
           ],
-          "first_seen": "2026-07-30T09:00:00Z"
+          "first_seen": "2026-08-21T11:38:31Z"
         },
         {
-          "text": "border enforcement policy",
-          "tier": "corroborated",
+          "text": "u s sanctions",
+          "tier": "reported",
           "outlets": [
-            "AP",
-            "CNN"
+            "NPR",
+            "New York Times"
           ],
-          "first_seen": "2026-07-30T09:00:00Z"
-        },
-        {
-          "text": "policy takes effect",
-          "tier": "corroborated",
-          "outlets": [
-            "AP",
-            "Fox News"
-          ],
-          "first_seen": "2026-07-30T09:00:00Z"
+          "first_seen": "2026-08-21T11:38:31Z"
         }
       ],
-      "numeric_claims": []
+      "numeric_claims": [
+        {
+          "context": "s iran",
+          "values": {
+            "Al Jazeera": "039"
+          },
+          "agreement": true
+        }
+      ]
     },
-    "story_id": "f14f79dbd2f5",
-    "consequences_started": [
-      {
-        "type": "boycott",
-        "description": "civil rights groups filed lawsuits and a boycott of contractor firms was announced.",
-        "outlets": [
-          "AP"
-        ],
-        "outlet_times": {
-          "AP": "2026-07-30T09:00:00Z"
-        },
-        "first_seen": "2026-07-30T09:00:00Z",
-        "logged_at": "2026-08-21T15:48:06+00:00"
-      },
-      {
-        "type": "march",
-        "description": "thousands march against border enforcement policy in three cities.",
-        "outlets": [
-          "CNN"
-        ],
-        "outlet_times": {
-          "CNN": "2026-07-30T10:00:00Z"
-        },
-        "first_seen": "2026-07-30T10:00:00Z",
-        "logged_at": "2026-08-21T15:48:06+00:00"
-      }
-    ],
+    "story_id": "95a3d63b349a",
+    "consequences_started": [],
     "consequences_all": [
       {
-        "type": "protest",
-        "description": "rights groups called the enforcement policy a \u2026 for migrants and announced a protest march.",
+        "type": "strike",
+        "description": "controversial ndis bill passes senate with \u2018substantial\u2019 amendments as labor and coalition strike deal.",
         "outlets": [
           "The Guardian",
-          "Fox News"
+          "Fox News",
+          "Al Jazeera",
+          "New York Times",
+          "BBC"
         ],
         "outlet_times": {
-          "The Guardian": "2026-07-29T10:30:00Z",
-          "Fox News": "2026-07-30T10:30:00Z"
+          "The Guardian": "2026-08-18T11:04:25Z",
+          "Fox News": "2026-08-18T11:32:41Z",
+          "Al Jazeera": "2026-08-18T14:49:56Z",
+          "New York Times": "2026-08-18T21:13:16Z",
+          "BBC": "2026-08-19T17:46:01Z"
         },
-        "first_seen": "2026-07-29T10:30:00Z",
-        "logged_at": "2026-08-21T15:48:05+00:00"
+        "first_seen": "2026-08-18T11:04:25Z",
+        "logged_at": "2026-08-18T13:13:31+00:00"
+      },
+      {
+        "type": "campaign",
+        "description": "the swap for four soldiers stationed on the border of the gaza strip at nahal oz follows 15 months of captivity and a campaign by their families.",
+        "outlets": [
+          "Wall Street Journal",
+          "Al Jazeera",
+          "NPR"
+        ],
+        "outlet_times": {
+          "Wall Street Journal": "2025-01-25T10:05:00Z",
+          "Al Jazeera": "2026-08-20T13:14:14Z",
+          "NPR": "2026-08-21T08:46:00Z"
+        },
+        "first_seen": "2025-01-25T10:05:00Z",
+        "logged_at": "2026-08-18T13:13:31+00:00"
+      },
+      {
+        "type": "protest",
+        "description": "russia protests japan pm\u2019s comments after putin\u2019s kuril visit.",
+        "outlets": [
+          "Al Jazeera",
+          "BBC"
+        ],
+        "outlet_times": {
+          "Al Jazeera": "2026-08-18T11:39:34Z",
+          "BBC": "2026-08-21T05:00:57Z"
+        },
+        "first_seen": "2026-08-18T11:39:34Z",
+        "logged_at": "2026-08-18T13:13:31+00:00"
+      },
+      {
+        "type": "demand",
+        "description": "defense minister dismissed by zelensky demands elections in ukraine.",
+        "outlets": [
+          "Washington Post",
+          "The Guardian"
+        ],
+        "outlet_times": {
+          "Washington Post": "2026-08-19T17:20:00Z",
+          "The Guardian": "2026-08-21T04:12:08Z"
+        },
+        "first_seen": "2026-08-19T17:20:00Z",
+        "logged_at": "2026-08-19T19:13:25+00:00"
       },
       {
         "type": "backlash",
-        "description": "new border policy sparks backlash and calls for resignation.",
+        "description": "<p>joanna boydell steps down after widespread criticism over company\u2019s handling of guest safety issues</p><ul><li><p><a href=\"https://www.theguardian.com/busine",
         "outlets": [
-          "CNN"
+          "The Guardian",
+          "New York Times"
         ],
         "outlet_times": {
-          "CNN": "2026-07-29T11:00:00Z"
+          "The Guardian": "2026-08-20T12:47:18Z",
+          "New York Times": "2026-08-20T22:18:55Z"
         },
-        "first_seen": "2026-07-29T11:00:00Z",
-        "logged_at": "2026-08-21T15:48:05+00:00"
-      },
-      {
-        "type": "rally",
-        "description": "demonstrators plan a rally against the border enforcement policy affecting migrants.",
-        "outlets": [
-          "CNN"
-        ],
-        "outlet_times": {
-          "CNN": "2026-07-29T11:00:00Z"
-        },
-        "first_seen": "2026-07-29T11:00:00Z",
-        "logged_at": "2026-08-21T15:48:05+00:00"
-      },
-      {
-        "type": "boycott",
-        "description": "civil rights groups filed lawsuits and a boycott of contractor firms was announced.",
-        "outlets": [
-          "AP"
-        ],
-        "outlet_times": {
-          "AP": "2026-07-30T09:00:00Z"
-        },
-        "first_seen": "2026-07-30T09:00:00Z",
-        "logged_at": "2026-08-21T15:48:06+00:00"
-      },
-      {
-        "type": "march",
-        "description": "thousands march against border enforcement policy in three cities.",
-        "outlets": [
-          "CNN"
-        ],
-        "outlet_times": {
-          "CNN": "2026-07-30T10:00:00Z"
-        },
-        "first_seen": "2026-07-30T10:00:00Z",
-        "logged_at": "2026-08-21T15:48:06+00:00"
+        "first_seen": "2026-08-20T12:47:18Z",
+        "logged_at": "2026-08-20T14:10:56+00:00"
       }
     ]
   },
   {
-    "label": "Death toll rises to 5 in capital demonstration clashes",
+    "label": "What happened to Harry and Meghan's American dream?",
     "outlets": [
-      "Al Jazeera",
-      "BBC"
+      "BBC",
+      "New York Post",
+      "New York Times",
+      "The Guardian",
+      "Washington Post"
     ],
-    "divergence_score": 0.0,
+    "divergence_score": 0.05,
     "divergent_labels": [],
     "reaction": {
-      "reaction_terms": [
-        "strike"
-      ],
-      "mentions": 3
+      "reaction_terms": [],
+      "mentions": 0
     },
     "coverage": [
       {
         "outlet": "BBC",
-        "owner": "BBC (UK public corporation)",
-        "title": "Death toll rises to 5 in capital demonstration clashes",
-        "link": "",
-        "published": "2026-07-30T11:00:00Z",
+        "placement": "center",
+        "title": "What happened to Harry and Meghan's American dream?",
+        "link": "https://www.bbc.co.uk/news/articles/c935rk91vg5o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-08-21T02:57:34Z",
         "loaded_terms": {},
         "labels_used": [],
         "passive_voice": false
       },
       {
-        "outlet": "Al Jazeera",
-        "owner": "Al Jazeera Media Network (Qatar state-funded)",
-        "title": "Toll from demonstration clashes rises to 6, general strike called",
-        "link": "",
-        "published": "2026-07-30T11:30:00Z",
+        "outlet": "Washington Post",
+        "placement": "lean-left",
+        "title": "\u2018The great Meghan-aissance\u2019: Harry and Meghan\u2019s return sparks frenzied U.K. reaction",
+        "link": "https://www.washingtonpost.com/world/2026/08/20/great-meghan-aissance-harry-meghans-return-sparks-frenzied-uk-reaction/",
+        "published": "2026-08-20T12:45:00Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Washington Post",
+        "placement": "lean-left",
+        "title": "Prince Harry and Meghan Markle will return to Britain after six years in U.S.",
+        "link": "https://www.washingtonpost.com/world/2026/08/19/prince-harry-meghan-markle-will-reportedly-return-uk-after-six-years-us/",
+        "published": "2026-08-20T10:30:52Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "New York Post",
+        "placement": "right",
+        "title": "Meghan and Harry are latest interlopers to fail in Hollywood: \u2018They weren\u2019t bringing anything to the table\u2019",
+        "link": "https://pagesix.com/2026/08/21/hollywood/meghan-and-harry-are-latest-interlopers-to-fail-in-hollywood/",
+        "published": "2026-08-21T13:45:00Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "New York Post",
+        "placement": "right",
+        "title": "Prince Harry ordered to pay staggering amount of money in court case ahead of his and Meghan Markle\u2019s UK move",
+        "link": "https://pagesix.com/2026/08/21/royal-family/prince-harry-dealt-financial-blow-ahead-of-his-and-meghan-markles-uk-move/",
+        "published": "2026-08-21T13:30:44Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "New York Post",
+        "placement": "right",
+        "title": "Prince Harry dealt financial blow ahead of his and Meghan Markle\u2019s UK move",
+        "link": "https://pagesix.com/2026/08/21/royal-family/prince-harry-dealt-financial-blow-ahead-of-his-and-meghan-markles-uk-move/",
+        "published": "2026-08-21T13:30:44Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "New York Times",
+        "placement": "lean-left",
+        "title": "Return of Harry and Meghan to U.K. Renews Questions About Their Security Fears",
+        "link": "https://www.nytimes.com/2026/08/21/world/europe/harry-meghan-uk-security.html",
+        "published": "2026-08-21T11:10:47Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "The Guardian",
+        "placement": "lean-left",
+        "title": "Prince Harry and others ordered to pay interim \u00a39.5m to Daily Mail publisher",
+        "link": "https://www.theguardian.com/uk-news/2026/aug/21/prince-harry-and-others-ordered-to-pay-interim-legal-costs-daily-mail-publisher",
+        "published": "2026-08-21T13:06:27Z",
+        "loaded_terms": {
+          "minimizing": [
+            "alleged",
+            "claims"
+          ]
+        },
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Washington Post",
+        "placement": "lean-left",
+        "title": "Five reasons no one saw Prince Harry\u2019s return coming",
+        "link": "https://www.washingtonpost.com/world/2026/08/21/5-reasons-prince-harry-return-uk-is-surprise/",
+        "published": "2026-08-21T10:04:49Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Washington Post",
+        "placement": "lean-left",
+        "title": "Prince Harry and Meghan\u2019s return from California exile sets U.K. aflutter",
+        "link": "https://www.washingtonpost.com/world/2026/08/20/prince-harry-meghans-return-california-exile-sets-uk-aflutter/",
+        "published": "2026-08-20T15:30:30Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Washington Post",
+        "placement": "lean-left",
+        "title": "A royal rift and a surprise return: How the Harry and Meghan saga has unfolded",
+        "link": "https://www.washingtonpost.com/world/2026/08/20/timeline-harry-meghans-royal-rift-return-uk/",
+        "published": "2026-08-20T14:11:08Z",
         "loaded_terms": {},
         "labels_used": [],
         "passive_voice": false
@@ -215,73 +452,1671 @@
       "facts": [],
       "numeric_claims": [
         {
-          "context": "capital demonstration",
+          "context": "princess lilibet",
           "values": {
-            "BBC": "5"
+            "Washington Post": "7"
           },
           "agreement": true
         },
         {
-          "context": "people died",
+          "context": "deepening split",
           "values": {
-            "BBC": "5",
-            "Al Jazeera": "6"
+            "New York Times": "2020"
           },
-          "agreement": false
+          "agreement": true
         },
         {
-          "context": "general strike called",
+          "context": "5m daily",
           "values": {
-            "Al Jazeera": "6"
+            "The Guardian": "9"
+          },
+          "agreement": true
+        },
+        {
+          "context": "54m interim payment",
+          "values": {
+            "The Guardian": "9"
+          },
+          "agreement": true
+        },
+        {
+          "context": "august towards",
+          "values": {
+            "The Guardian": "28"
           },
           "agreement": true
         }
       ]
     },
-    "story_id": "fdfc1d5a6a35",
-    "consequences_started": [
+    "story_id": "7f6af57867a1",
+    "consequences_started": [],
+    "consequences_all": []
+  },
+  {
+    "label": "Charter plane crash near Alaskan military site kills 8",
+    "outlets": [
+      "Al Jazeera",
+      "BBC",
+      "CNN",
+      "NPR"
+    ],
+    "divergence_score": 0.0,
+    "divergent_labels": [],
+    "reaction": {
+      "reaction_terms": [],
+      "mentions": 0
+    },
+    "coverage": [
+      {
+        "outlet": "BBC",
+        "placement": "center",
+        "title": "Eight killed in plane crash at remote Alaskan military site, air force says",
+        "link": "https://www.bbc.co.uk/news/articles/cj9dmw8183wo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-08-21T09:53:47Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": true
+      },
+      {
+        "outlet": "NPR",
+        "placement": "lean-left",
+        "title": "Charter plane crash kills 8 near remote radar site in western Alaska, military says",
+        "link": "https://www.npr.org/2026/08/21/nx-s1-5940552/charter-plane-crash-kills-8-alaska-military",
+        "published": "2026-08-21T06:41:33Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "CNN",
+        "placement": "lean-left",
+        "title": "Southwest says flights resumed after delays caused by 'tech issues'",
+        "link": "https://www.cnn.com/travel/article/southwest-airlines-flight-delays/index.html",
+        "published": "2023-04-18T17:15:29Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Al Jazeera",
+        "placement": "international",
+        "title": "Charter plane crash near Alaskan military site kills 8",
+        "link": "https://www.aljazeera.com/news/2026/8/21/charter-plane-crash-near-alaskan-military-site-kills-8?traffic_source=rss",
+        "published": "2026-08-21T10:59:50Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      }
+    ],
+    "consensus": {
+      "caveat": "Corroboration is a weight, not truth: outlets may share one wire source. Every atom links back to who published it and when.",
+      "facts": [
+        {
+          "text": "charter plane crash",
+          "tier": "corroborated",
+          "outlets": [
+            "Al Jazeera",
+            "NPR"
+          ],
+          "first_seen": "2026-08-21T06:41:33Z"
+        },
+        {
+          "text": "alaskan military site",
+          "tier": "corroborated",
+          "outlets": [
+            "Al Jazeera",
+            "BBC"
+          ],
+          "first_seen": "2026-08-21T09:53:47Z"
+        }
+      ],
+      "numeric_claims": [
+        {
+          "context": "near remote radar",
+          "values": {
+            "NPR": "8"
+          },
+          "agreement": true
+        },
+        {
+          "context": "plane crash",
+          "values": {
+            "CNN": "2009"
+          },
+          "agreement": true
+        },
+        {
+          "context": "rescuers who landed",
+          "values": {
+            "Al Jazeera": "8"
+          },
+          "agreement": true
+        },
+        {
+          "context": "confirmed there",
+          "values": {
+            "Al Jazeera": "039"
+          },
+          "agreement": true
+        }
+      ]
+    },
+    "story_id": "138620de6405",
+    "consequences_started": [],
+    "consequences_all": []
+  },
+  {
+    "label": "Weather tracker: Extreme rain deluges Japan and South Korea",
+    "outlets": [
+      "Al Jazeera",
+      "BBC",
+      "The Guardian",
+      "Wall Street Journal"
+    ],
+    "divergence_score": 0.24,
+    "divergent_labels": [],
+    "reaction": {
+      "reaction_terms": [],
+      "mentions": 0
+    },
+    "coverage": [
+      {
+        "outlet": "BBC",
+        "placement": "center",
+        "title": "Trump wants to be friends with Kim - but South Korea could pay the price",
+        "link": "https://www.bbc.co.uk/news/articles/c4gj1vje8dxo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-08-20T22:01:26Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "The Guardian",
+        "placement": "lean-left",
+        "title": "North Korea fires 10 missiles day after Trump curtails South Korea joint drills",
+        "link": "https://www.theguardian.com/world/2026/aug/20/north-korea-fires-10-missiles-day-after-trump-curtails-south-korea-joint-drills",
+        "published": "2026-08-20T10:25:29Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Wall Street Journal",
+        "placement": "lean-right",
+        "title": "Kim Jong Un Is Doing Everything He Can to Keep North Korea's Youth in Line",
+        "link": "https://www.wsj.com/articles/kim-jong-un-is-doing-everything-he-can-to-keep-north-koreas-youth-in-line-0866a1de",
+        "published": "2025-01-27T06:05:00Z",
+        "loaded_terms": {
+          "alarmist": [
+            "flood"
+          ]
+        },
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Al Jazeera",
+        "placement": "international",
+        "title": "South Korea footballers urge safety after extreme heat statistics",
+        "link": "https://www.aljazeera.com/sports/2026/8/21/south-korea-footballers-urge-safety-after-worrying-extreme-heat-health-stat?traffic_source=rss",
+        "published": "2026-08-21T13:04:32Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "The Guardian",
+        "placement": "lean-left",
+        "title": "Weather tracker: Extreme rain deluges Japan and South Korea",
+        "link": "https://www.theguardian.com/environment/2026/aug/21/weather-tracker-extreme-rainfall-japan-south-korea",
+        "published": "2026-08-21T08:19:21Z",
+        "loaded_terms": {
+          "alarmist": [
+            "chaos"
+          ],
+          "minimizing": [
+            "just"
+          ]
+        },
+        "labels_used": [],
+        "passive_voice": false
+      }
+    ],
+    "consensus": {
+      "caveat": "Corroboration is a weight, not truth: outlets may share one wire source. Every atom links back to who published it and when.",
+      "facts": [
+        {
+          "text": "exercises with south korea",
+          "tier": "corroborated",
+          "outlets": [
+            "BBC",
+            "The Guardian"
+          ],
+          "first_seen": "2026-08-20T10:25:29Z"
+        }
+      ],
+      "numeric_claims": [
+        {
+          "context": "missiles day",
+          "values": {
+            "The Guardian": "10"
+          },
+          "agreement": true
+        },
+        {
+          "context": "short-range ballistic missiles",
+          "values": {
+            "The Guardian": "10"
+          },
+          "agreement": true
+        },
+        {
+          "context": "aug 17 trump-cuts-south-korea-joint-dril",
+          "values": {
+            "The Guardian": "2026"
+          },
+          "agreement": true
+        },
+        {
+          "context": "trump-cuts-south-korea-joint-drills-us-m",
+          "values": {
+            "The Guardian": "17"
+          },
+          "agreement": true
+        },
+        {
+          "context": "000 teens",
+          "values": {
+            "Wall Street Journal": "300"
+          },
+          "agreement": true
+        },
+        {
+          "context": "teens 20-somethings",
+          "values": {
+            "Wall Street Journal": "000"
+          },
+          "agreement": true
+        },
+        {
+          "context": "aug 14 japan-deadly-rain-evacuation-thou",
+          "values": {
+            "The Guardian": "2026"
+          },
+          "agreement": true
+        },
+        {
+          "context": "japan-deadly-rain-evacuation-thousands-s",
+          "values": {
+            "The Guardian": "14"
+          },
+          "agreement": true
+        },
+        {
+          "context": "august",
+          "values": {
+            "The Guardian": "13"
+          },
+          "agreement": true
+        }
+      ]
+    },
+    "story_id": "95a3d63b349a",
+    "consequences_started": [],
+    "consequences_all": [
       {
         "type": "strike",
-        "description": "officials said 5 people died in clashes at the demonstration; a general strike was called.",
+        "description": "controversial ndis bill passes senate with \u2018substantial\u2019 amendments as labor and coalition strike deal.",
         "outlets": [
-          "BBC",
+          "The Guardian",
+          "Fox News",
+          "Al Jazeera",
+          "New York Times",
+          "BBC"
+        ],
+        "outlet_times": {
+          "The Guardian": "2026-08-18T11:04:25Z",
+          "Fox News": "2026-08-18T11:32:41Z",
+          "Al Jazeera": "2026-08-18T14:49:56Z",
+          "New York Times": "2026-08-18T21:13:16Z",
+          "BBC": "2026-08-19T17:46:01Z"
+        },
+        "first_seen": "2026-08-18T11:04:25Z",
+        "logged_at": "2026-08-18T13:13:31+00:00"
+      },
+      {
+        "type": "campaign",
+        "description": "the swap for four soldiers stationed on the border of the gaza strip at nahal oz follows 15 months of captivity and a campaign by their families.",
+        "outlets": [
+          "Wall Street Journal",
+          "Al Jazeera",
+          "NPR"
+        ],
+        "outlet_times": {
+          "Wall Street Journal": "2025-01-25T10:05:00Z",
+          "Al Jazeera": "2026-08-20T13:14:14Z",
+          "NPR": "2026-08-21T08:46:00Z"
+        },
+        "first_seen": "2025-01-25T10:05:00Z",
+        "logged_at": "2026-08-18T13:13:31+00:00"
+      },
+      {
+        "type": "protest",
+        "description": "russia protests japan pm\u2019s comments after putin\u2019s kuril visit.",
+        "outlets": [
+          "Al Jazeera",
+          "BBC"
+        ],
+        "outlet_times": {
+          "Al Jazeera": "2026-08-18T11:39:34Z",
+          "BBC": "2026-08-21T05:00:57Z"
+        },
+        "first_seen": "2026-08-18T11:39:34Z",
+        "logged_at": "2026-08-18T13:13:31+00:00"
+      },
+      {
+        "type": "demand",
+        "description": "defense minister dismissed by zelensky demands elections in ukraine.",
+        "outlets": [
+          "Washington Post",
+          "The Guardian"
+        ],
+        "outlet_times": {
+          "Washington Post": "2026-08-19T17:20:00Z",
+          "The Guardian": "2026-08-21T04:12:08Z"
+        },
+        "first_seen": "2026-08-19T17:20:00Z",
+        "logged_at": "2026-08-19T19:13:25+00:00"
+      },
+      {
+        "type": "backlash",
+        "description": "<p>joanna boydell steps down after widespread criticism over company\u2019s handling of guest safety issues</p><ul><li><p><a href=\"https://www.theguardian.com/busine",
+        "outlets": [
+          "The Guardian",
+          "New York Times"
+        ],
+        "outlet_times": {
+          "The Guardian": "2026-08-20T12:47:18Z",
+          "New York Times": "2026-08-20T22:18:55Z"
+        },
+        "first_seen": "2026-08-20T12:47:18Z",
+        "logged_at": "2026-08-20T14:10:56+00:00"
+      }
+    ]
+  },
+  {
+    "label": "Who does the law serve in the occupied West Bank?",
+    "outlets": [
+      "Al Jazeera",
+      "BBC",
+      "The Guardian"
+    ],
+    "divergence_score": 0.09,
+    "divergent_labels": [],
+    "reaction": {
+      "reaction_terms": [
+        "demands",
+        "protests"
+      ],
+      "mentions": 2
+    },
+    "coverage": [
+      {
+        "outlet": "BBC",
+        "placement": "center",
+        "title": "Israel re-establishes closed West Bank settlement, defying growing international protests",
+        "link": "https://www.bbc.co.uk/news/articles/cn7n0l4p0kzo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-08-21T05:00:57Z",
+        "loaded_terms": {},
+        "labels_used": [
+          "government"
+        ],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Al Jazeera",
+        "placement": "international",
+        "title": "Why Israeli tenders for illegal E1 West Bank settlement prompted outrage",
+        "link": "https://www.aljazeera.com/news/2026/8/21/why-israeli-tenders-for-illegal-e1-west-bank-settlement-prompted-outrage?traffic_source=rss",
+        "published": "2026-08-21T11:57:21Z",
+        "loaded_terms": {},
+        "labels_used": [
+          "occupied"
+        ],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Al Jazeera",
+        "placement": "international",
+        "title": "Who does the law serve in the occupied West Bank?",
+        "link": "https://www.aljazeera.com/video/by-the-numbers-3/2026/8/21/who-does-the-law-serve-in-the-occupied-west-bank?traffic_source=rss",
+        "published": "2026-08-21T11:12:32Z",
+        "loaded_terms": {},
+        "labels_used": [
+          "attack",
+          "occupied"
+        ],
+        "passive_voice": false
+      },
+      {
+        "outlet": "The Guardian",
+        "placement": "lean-left",
+        "title": "Israeli settler attacks shift focus to West Bank areas under direct Palestinian rule",
+        "link": "https://www.theguardian.com/world/2026/aug/21/israeli-settler-attacks-shift-to-heart-of-territory-earmarked-for-palestinian-state",
+        "published": "2026-08-21T06:00:26Z",
+        "loaded_terms": {},
+        "labels_used": [
+          "occupied"
+        ],
+        "passive_voice": false
+      },
+      {
+        "outlet": "The Guardian",
+        "placement": "lean-left",
+        "title": "Ban on goods from occupied West Bank would help protect two-state solution, says Emily Thornberry \u2013 UK politics live",
+        "link": "https://www.theguardian.com/politics/live/2026/aug/21/andy-burnham-growth-labour-john-healey-uk-politics-latest-news-updates",
+        "published": "2026-08-21T13:52:42Z",
+        "loaded_terms": {},
+        "labels_used": [
+          "government",
+          "occupied"
+        ],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Al Jazeera",
+        "placement": "international",
+        "title": "Israeli soldiers throw belongings from besieged Palestinian home",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/21/israeli-soldiers-throw-belongings-from-besieged-palestinian-home?traffic_source=rss",
+        "published": "2026-08-21T13:01:54Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "The Guardian",
+        "placement": "lean-left",
+        "title": "Founder of China\u2019s Evergrande jailed for life after pleading guilty to fraud",
+        "link": "https://www.theguardian.com/business/2026/aug/20/evergrande-founder-jailed-life-fraud-hui-ka-yan",
+        "published": "2026-08-20T12:03:39Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "The Guardian",
+        "placement": "lean-left",
+        "title": "Former NSW Liberal minister tells Icac \u2018cult took over the party\u2019",
+        "link": "https://www.theguardian.com/australia-news/2026/aug/21/catholic-schools-nsw-ceo-dallas-mcinerney-sacked-after-icac-ntwnfb",
+        "published": "2026-08-21T06:06:54Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "The Guardian",
+        "placement": "lean-left",
+        "title": "Brethren church denies paying far-right activists to stage election stunts targeting Albanese and others",
+        "link": "https://www.theguardian.com/australia-news/2026/aug/21/brethren-church-denies-paying-far-right-activists-to-stage-election-stunts-targeting-albanese-and-others-ntwnfb",
+        "published": "2026-08-21T05:02:52Z",
+        "loaded_terms": {},
+        "labels_used": [
+          "activists"
+        ],
+        "passive_voice": false
+      },
+      {
+        "outlet": "The Guardian",
+        "placement": "lean-left",
+        "title": "Former Liberal MP condemns Coalition for backing gambling reforms that \u2018let down\u2019 vulnerable Australians",
+        "link": "https://www.theguardian.com/australia-news/2026/aug/21/liberal-mp-condemns-coalition-backing-labor-gambling-reforms",
+        "published": "2026-08-21T04:12:08Z",
+        "loaded_terms": {
+          "alarmist": [
+            "crisis"
+          ]
+        },
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "The Guardian",
+        "placement": "lean-left",
+        "title": "Home Office could be blocked from deporting trafficking victims to Albania",
+        "link": "https://www.theguardian.com/uk-news/2026/aug/21/home-office-albanian-trafficking-victims-deport",
+        "published": "2026-08-21T12:25:07Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "The Guardian",
+        "placement": "lean-left",
+        "title": "Spain to allow 500 children in Ceuta to go to mainland in immigration U-turn",
+        "link": "https://www.theguardian.com/world/2026/aug/19/spain-allows-500-migrant-minors-in-ceuta-to-relocate-to-the-mainland-in-u-turn",
+        "published": "2026-08-19T14:33:24Z",
+        "loaded_terms": {},
+        "labels_used": [
+          "government"
+        ],
+        "passive_voice": false
+      },
+      {
+        "outlet": "The Guardian",
+        "placement": "lean-left",
+        "title": "Hiker Lily Hooper remembered as someone \u2018everyone liked\u2019 \u2013 as it happened",
+        "link": "https://www.theguardian.com/australia-news/live/2026/aug/21/australia-news-live-anthony-albanese-melon-podcast-sydney-swans-melbourne-hotel-police-investigation-alan-jones-antisemitism-inquiry-icac-nsw-liberals-ntwnfb",
+        "published": "2026-08-21T07:34:43Z",
+        "loaded_terms": {
+          "militarized": [
+            "assault"
+          ]
+        },
+        "labels_used": [],
+        "passive_voice": false
+      }
+    ],
+    "consensus": {
+      "caveat": "Corroboration is a weight, not truth: outlets may share one wire source. Every atom links back to who published it and when.",
+      "facts": [
+        {
+          "text": "west bank settlement",
+          "tier": "corroborated",
+          "outlets": [
+            "Al Jazeera",
+            "BBC"
+          ],
+          "first_seen": "2026-08-21T05:00:57Z"
+        },
+        {
+          "text": "the territory west bank",
+          "tier": "corroborated",
+          "outlets": [
+            "Al Jazeera",
+            "The Guardian"
+          ],
+          "first_seen": "2026-08-21T06:00:26Z"
+        }
+      ],
+      "numeric_claims": [
+        {
+          "context": "settlers pursue",
+          "values": {
+            "The Guardian": "2025"
+          },
+          "agreement": true
+        },
+        {
+          "context": "aug 21 andy-burnham-growth-labour-john-h",
+          "values": {
+            "The Guardian": "2026"
+          },
+          "agreement": true
+        },
+        {
+          "context": "andy-burnham-growth-labour-john-healey-u",
+          "values": {
+            "The Guardian": "21"
+          },
+          "agreement": true
+        },
+        {
+          "context": "05 s",
+          "values": {
+            "The Guardian": "11"
+          },
+          "agreement": true
+        },
+        {
+          "context": "s",
+          "values": {
+            "The Guardian": "05"
+          },
+          "agreement": true
+        },
+        {
+          "context": "aug 20 rising-uk-consumer-confidence-eco",
+          "values": {
+            "The Guardian": "2026"
+          },
+          "agreement": true
+        },
+        {
+          "context": "rising-uk-consumer-confidence-economy-an",
+          "values": {
+            "The Guardian": "20"
+          },
+          "agreement": true
+        },
+        {
+          "context": "once named",
+          "values": {
+            "The Guardian": "67"
+          },
+          "agreement": true
+        },
+        {
+          "context": "aug 21 australia-news-live-anthony-alban",
+          "values": {
+            "The Guardian": "2026"
+          },
+          "agreement": true
+        },
+        {
+          "context": "australia-news-live-anthony-albanese-mel",
+          "values": {
+            "The Guardian": "21"
+          },
+          "agreement": true
+        },
+        {
+          "context": "children ceuta",
+          "values": {
+            "The Guardian": "500"
+          },
+          "agreement": true
+        },
+        {
+          "context": "aug 19 europe-ukraine-zelenskyy-mykhailo",
+          "values": {
+            "The Guardian": "2026"
+          },
+          "agreement": true
+        },
+        {
+          "context": "europe-ukraine-zelenskyy-mykhailo-fedoro",
+          "values": {
+            "The Guardian": "19"
+          },
+          "agreement": true
+        },
+        {
+          "context": "migrant children",
+          "values": {
+            "The Guardian": "500"
+          },
+          "agreement": true
+        }
+      ]
+    },
+    "story_id": "95a3d63b349a",
+    "consequences_started": [],
+    "consequences_all": [
+      {
+        "type": "strike",
+        "description": "controversial ndis bill passes senate with \u2018substantial\u2019 amendments as labor and coalition strike deal.",
+        "outlets": [
+          "The Guardian",
+          "Fox News",
+          "Al Jazeera",
+          "New York Times",
+          "BBC"
+        ],
+        "outlet_times": {
+          "The Guardian": "2026-08-18T11:04:25Z",
+          "Fox News": "2026-08-18T11:32:41Z",
+          "Al Jazeera": "2026-08-18T14:49:56Z",
+          "New York Times": "2026-08-18T21:13:16Z",
+          "BBC": "2026-08-19T17:46:01Z"
+        },
+        "first_seen": "2026-08-18T11:04:25Z",
+        "logged_at": "2026-08-18T13:13:31+00:00"
+      },
+      {
+        "type": "campaign",
+        "description": "the swap for four soldiers stationed on the border of the gaza strip at nahal oz follows 15 months of captivity and a campaign by their families.",
+        "outlets": [
+          "Wall Street Journal",
+          "Al Jazeera",
+          "NPR"
+        ],
+        "outlet_times": {
+          "Wall Street Journal": "2025-01-25T10:05:00Z",
+          "Al Jazeera": "2026-08-20T13:14:14Z",
+          "NPR": "2026-08-21T08:46:00Z"
+        },
+        "first_seen": "2025-01-25T10:05:00Z",
+        "logged_at": "2026-08-18T13:13:31+00:00"
+      },
+      {
+        "type": "protest",
+        "description": "russia protests japan pm\u2019s comments after putin\u2019s kuril visit.",
+        "outlets": [
+          "Al Jazeera",
+          "BBC"
+        ],
+        "outlet_times": {
+          "Al Jazeera": "2026-08-18T11:39:34Z",
+          "BBC": "2026-08-21T05:00:57Z"
+        },
+        "first_seen": "2026-08-18T11:39:34Z",
+        "logged_at": "2026-08-18T13:13:31+00:00"
+      },
+      {
+        "type": "demand",
+        "description": "defense minister dismissed by zelensky demands elections in ukraine.",
+        "outlets": [
+          "Washington Post",
+          "The Guardian"
+        ],
+        "outlet_times": {
+          "Washington Post": "2026-08-19T17:20:00Z",
+          "The Guardian": "2026-08-21T04:12:08Z"
+        },
+        "first_seen": "2026-08-19T17:20:00Z",
+        "logged_at": "2026-08-19T19:13:25+00:00"
+      },
+      {
+        "type": "backlash",
+        "description": "<p>joanna boydell steps down after widespread criticism over company\u2019s handling of guest safety issues</p><ul><li><p><a href=\"https://www.theguardian.com/busine",
+        "outlets": [
+          "The Guardian",
+          "New York Times"
+        ],
+        "outlet_times": {
+          "The Guardian": "2026-08-20T12:47:18Z",
+          "New York Times": "2026-08-20T22:18:55Z"
+        },
+        "first_seen": "2026-08-20T12:47:18Z",
+        "logged_at": "2026-08-20T14:10:56+00:00"
+      }
+    ]
+  },
+  {
+    "label": "Why are Hong Kong\u2019s Tiananmen vigil organisers facing prison?",
+    "outlets": [
+      "Al Jazeera",
+      "BBC",
+      "The Guardian"
+    ],
+    "divergence_score": 0.0,
+    "divergent_labels": [],
+    "reaction": {
+      "reaction_terms": [],
+      "mentions": 0
+    },
+    "coverage": [
+      {
+        "outlet": "BBC",
+        "placement": "center",
+        "title": "Hong Kong's Tiananmen activists guilty in national security trial",
+        "link": "https://www.bbc.co.uk/news/articles/c1l10mdrld5o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-08-21T05:47:32Z",
+        "loaded_terms": {},
+        "labels_used": [
+          "activists"
+        ],
+        "passive_voice": false
+      },
+      {
+        "outlet": "The Guardian",
+        "placement": "lean-left",
+        "title": "Tiananmen Square vigil organisers in Hong Kong found guilty of \u2018inciting subversion\u2019",
+        "link": "https://www.theguardian.com/world/2026/aug/21/tiananmen-square-vigil-hong-kong-alliance-activists-guilty-verdict-lee-cheuk-yan-chow-hang-tung",
+        "published": "2026-08-21T10:43:59Z",
+        "loaded_terms": {},
+        "labels_used": [
+          "activists"
+        ],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Al Jazeera",
+        "placement": "international",
+        "title": "Why are Hong Kong\u2019s Tiananmen vigil organisers facing prison?",
+        "link": "https://www.aljazeera.com/news/2026/8/21/why-are-hong-kongs-tiananmen-vigil-organisers-facing-prison?traffic_source=rss",
+        "published": "2026-08-21T12:54:44Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      }
+    ],
+    "consensus": {
+      "caveat": "Corroboration is a weight, not truth: outlets may share one wire source. Every atom links back to who published it and when.",
+      "facts": [],
+      "numeric_claims": [
+        {
+          "context": "have found",
+          "values": {
+            "The Guardian": "1989"
+          },
+          "agreement": true
+        },
+        {
+          "context": "p p lee",
+          "values": {
+            "The Guardian": "2020"
+          },
+          "agreement": true
+        },
+        {
+          "context": "chow hang-tung",
+          "values": {
+            "The Guardian": "69"
+          },
+          "agreement": true
+        },
+        {
+          "context": "incited other persons",
+          "values": {
+            "The Guardian": "41"
+          },
+          "agreement": true
+        }
+      ]
+    },
+    "story_id": "da1752b8f049",
+    "consequences_started": [],
+    "consequences_all": [
+      {
+        "type": "campaign",
+        "description": "the trump government has led a campaign to &#039;dismantle&#039; the court, calling it a threat to national sovereignty.",
+        "outlets": [
           "Al Jazeera"
         ],
         "outlet_times": {
-          "BBC": "2026-07-30T11:00:00Z",
-          "Al Jazeera": "2026-07-30T11:30:00Z"
+          "Al Jazeera": "2026-08-18T20:09:07Z"
         },
-        "first_seen": "2026-07-30T11:00:00Z",
-        "logged_at": "2026-08-21T15:48:06+00:00"
+        "first_seen": "2026-08-18T20:09:07Z",
+        "logged_at": "2026-08-19T03:15:23+00:00"
+      },
+      {
+        "type": "protest",
+        "description": "israel re-establishes closed west bank settlement, defying growing international protests.",
+        "outlets": [
+          "BBC"
+        ],
+        "outlet_times": {
+          "BBC": "2026-08-21T05:00:57Z"
+        },
+        "first_seen": "2026-08-21T05:00:57Z",
+        "logged_at": "2026-08-21T08:06:09+00:00"
+      },
+      {
+        "type": "strike",
+        "description": "trump threatens iran\u2019s trade partners, as military strikes make way for economic pressure.",
+        "outlets": [
+          "The Guardian"
+        ],
+        "outlet_times": {
+          "The Guardian": "2026-08-20T04:53:44Z"
+        },
+        "first_seen": "2026-08-20T04:53:44Z",
+        "logged_at": "2026-08-21T08:06:09+00:00"
+      }
+    ]
+  },
+  {
+    "label": "Sister of ex-Pakistan PM Khan says he is being tortured in jail",
+    "outlets": [
+      "Al Jazeera",
+      "BBC",
+      "The Guardian"
+    ],
+    "divergence_score": 0.0,
+    "divergent_labels": [],
+    "reaction": {
+      "reaction_terms": [],
+      "mentions": 0
+    },
+    "coverage": [
+      {
+        "outlet": "BBC",
+        "placement": "center",
+        "title": "Pakistan ex-PM Imran Khan back in jail after hospital examination",
+        "link": "https://www.bbc.co.uk/news/articles/ckgdr9vr50po?at_medium=RSS&at_campaign=rss",
+        "published": "2026-08-21T10:46:09Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "The Guardian",
+        "placement": "lean-left",
+        "title": "Jailed ex-Pakistan PM Imran Khan allowed brief hospital visit after uproar over health",
+        "link": "https://www.theguardian.com/world/2026/aug/20/imran-khan-hospital-pakistan",
+        "published": "2026-08-20T23:07:10Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Al Jazeera",
+        "placement": "international",
+        "title": "Pakistan ex-PM Imran Khan\u2019s family accuses gov\u2019t of defying hospital order",
+        "link": "https://www.aljazeera.com/news/2026/8/21/pti-accuses-pakistan-government-of-defying-ex-pm-imran-khan-hospital-order?traffic_source=rss",
+        "published": "2026-08-21T12:05:51Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Al Jazeera",
+        "placement": "international",
+        "title": "Sister of ex-Pakistan PM Khan says he is being tortured in jail",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/21/21-08-clip-imran-khan-sister-pk?traffic_source=rss",
+        "published": "2026-08-21T12:00:32Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": true
+      }
+    ],
+    "consensus": {
+      "caveat": "Corroboration is a weight, not truth: outlets may share one wire source. Every atom links back to who published it and when.",
+      "facts": [
+        {
+          "text": "former prime minister",
+          "tier": "corroborated",
+          "outlets": [
+            "Al Jazeera",
+            "The Guardian"
+          ],
+          "first_seen": "2026-08-20T23:07:10Z"
+        },
+        {
+          "text": "pakistan ex-pm imran khan",
+          "tier": "corroborated",
+          "outlets": [
+            "Al Jazeera",
+            "BBC"
+          ],
+          "first_seen": "2026-08-21T10:46:09Z"
+        }
+      ],
+      "numeric_claims": [
+        {
+          "context": "transferred",
+          "values": {
+            "The Guardian": "73"
+          },
+          "agreement": true
+        }
+      ]
+    },
+    "story_id": "c725332d22b3",
+    "consequences_started": [],
+    "consequences_all": [
+      {
+        "type": "protest",
+        "description": "<p>supreme court ordered transfer of ex-leader whose health is reportedly deteriorating and following public protests</p><p>pakistan\u2019s jailed former prime minis",
+        "outlets": [
+          "The Guardian"
+        ],
+        "outlet_times": {
+          "The Guardian": "2026-08-20T23:07:10Z"
+        },
+        "first_seen": "2026-08-20T23:07:10Z",
+        "logged_at": "2026-08-21T03:32:45+00:00"
+      }
+    ]
+  },
+  {
+    "label": "Several people injured in sword attack at Swedish school",
+    "outlets": [
+      "Al Jazeera",
+      "CNN",
+      "Fox News"
+    ],
+    "divergence_score": 0.2,
+    "divergent_labels": [],
+    "reaction": {
+      "reaction_terms": [],
+      "mentions": 0
+    },
+    "coverage": [
+      {
+        "outlet": "CNN",
+        "placement": "lean-left",
+        "title": "Maine authorities detained a person of interest after 4 people were found dead in a home and 3 others shot while driving",
+        "link": "https://www.cnn.com/2023/04/18/us/maine-shooting-bowdoin-yarmouth/index.html",
+        "published": "2023-04-19T01:49:51Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Al Jazeera",
+        "placement": "international",
+        "title": "Several people injured in sword attack at Swedish school",
+        "link": "https://www.aljazeera.com/news/2026/8/21/several-people-injured-in-sword-attack-at-swedish-school?traffic_source=rss",
+        "published": "2026-08-21T13:48:09Z",
+        "loaded_terms": {},
+        "labels_used": [
+          "attack"
+        ],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Fox News",
+        "placement": "right",
+        "title": "TPUSA school clash spirals into threats and outrage as mother denies touching, screaming at Indiana teen",
+        "link": "https://www.foxnews.com/media/tpusa-school-clash-spirals-threats-outrage-mother-denies-touching-screaming-indiana-teen",
+        "published": "2026-08-21T10:30:24Z",
+        "loaded_terms": {
+          "alarmist": [
+            "spirals"
+          ],
+          "militarized": [
+            "clash"
+          ]
+        },
+        "labels_used": [],
+        "passive_voice": false
+      }
+    ],
+    "consensus": {
+      "caveat": "Corroboration is a weight, not truth: outlets may share one wire source. Every atom links back to who published it and when.",
+      "facts": [],
+      "numeric_claims": [
+        {
+          "context": "people found",
+          "values": {
+            "CNN": "4"
+          },
+          "agreement": true
+        },
+        {
+          "context": "others shot while",
+          "values": {
+            "CNN": "3"
+          },
+          "agreement": true
+        }
+      ]
+    },
+    "story_id": "dd7ce1e9b87e",
+    "consequences_started": [],
+    "consequences_all": []
+  },
+  {
+    "label": "Why is Ukraine's ex-defence minister calling for wartime elections?",
+    "outlets": [
+      "BBC",
+      "Washington Post"
+    ],
+    "divergence_score": 0.2,
+    "divergent_labels": [],
+    "reaction": {
+      "reaction_terms": [
+        "demands"
+      ],
+      "mentions": 1
+    },
+    "coverage": [
+      {
+        "outlet": "BBC",
+        "placement": "center",
+        "title": "Why is Ukraine's ex-defence minister calling for wartime elections?",
+        "link": "https://www.bbc.co.uk/news/videos/c62eyn5ggnzo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-08-19T15:38:38Z",
+        "loaded_terms": {
+          "militarized": [
+            "war"
+          ]
+        },
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Washington Post",
+        "placement": "lean-left",
+        "title": "Russia bombards Kyiv as fight over elections shatters political unity in Ukraine",
+        "link": "https://www.washingtonpost.com/world/2026/08/20/election-fight-cracks-political-unity-ukraine-russia-bombards-kyiv/",
+        "published": "2026-08-20T13:04:15Z",
+        "loaded_terms": {},
+        "labels_used": [
+          "government"
+        ],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Washington Post",
+        "placement": "lean-left",
+        "title": "Defense minister dismissed by Zelensky demands elections in Ukraine",
+        "link": "https://www.washingtonpost.com/world/2026/08/19/mykhailo-fedorov-dismissed-by-zelensky-demands-elections-ukraine/",
+        "published": "2026-08-19T17:20:00Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      }
+    ],
+    "consensus": {
+      "caveat": "Corroboration is a weight, not truth: outlets may share one wire source. Every atom links back to who published it and when.",
+      "facts": [],
+      "numeric_claims": []
+    },
+    "story_id": "8fe7200c7277",
+    "consequences_started": [],
+    "consequences_all": [
+      {
+        "type": "demand",
+        "description": "defense minister dismissed by zelensky demands elections in ukraine.",
+        "outlets": [
+          "Washington Post"
+        ],
+        "outlet_times": {
+          "Washington Post": "2026-08-19T11:35:08Z"
+        },
+        "first_seen": "2026-08-19T11:35:08Z",
+        "logged_at": "2026-08-19T14:07:57+00:00"
+      }
+    ]
+  },
+  {
+    "label": "What to know about this weekend's IndyCar race on the National Mall",
+    "outlets": [
+      "Fox News",
+      "NPR"
+    ],
+    "divergence_score": 0.3,
+    "divergent_labels": [],
+    "reaction": {
+      "reaction_terms": [],
+      "mentions": 0
+    },
+    "coverage": [
+      {
+        "outlet": "NPR",
+        "placement": "lean-left",
+        "title": "What to know about this weekend's IndyCar race on the National Mall",
+        "link": "https://www.npr.org/2026/08/21/nx-s1-5939443/dc-indycar-race-overview-watch-politics",
+        "published": "2026-08-21T09:01:00Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Fox News",
+        "placement": "right",
+        "title": "IndyCar star Alex Palou reflects on White House, Oval Office visit with Trump: 'incredible experience'",
+        "link": "https://www.foxnews.com/outkick-sports/indycar-star-alex-palou-reflects-white-house-oval-office-visit-trump-incredible-experience",
+        "published": "2026-08-21T10:26:22Z",
+        "loaded_terms": {
+          "sympathetic": [
+            "historic"
+          ]
+        },
+        "labels_used": [],
+        "passive_voice": false
+      }
+    ],
+    "consensus": {
+      "caveat": "Corroboration is a weight, not truth: outlets may share one wire source. Every atom links back to who published it and when.",
+      "facts": [],
+      "numeric_claims": [
+        {
+          "context": "grand prix hits",
+          "values": {
+            "NPR": "250"
+          },
+          "agreement": true
+        },
+        {
+          "context": "grand prix",
+          "values": {
+            "Fox News": "250"
+          },
+          "agreement": true
+        }
+      ]
+    },
+    "story_id": "1a339e4545dd",
+    "consequences_started": [],
+    "consequences_all": []
+  },
+  {
+    "label": "Amid intense backlash, people are vandalizing Flock surveillance cameras",
+    "outlets": [
+      "NPR",
+      "New York Times"
+    ],
+    "divergence_score": 0.3,
+    "divergent_labels": [],
+    "reaction": {
+      "reaction_terms": [
+        "backlash"
+      ],
+      "mentions": 1
+    },
+    "coverage": [
+      {
+        "outlet": "NPR",
+        "placement": "lean-left",
+        "title": "Amid intense backlash, people are vandalizing Flock surveillance cameras",
+        "link": "https://www.npr.org/2026/08/21/nx-s1-5939851/flock-cameras-police-block-surveillance-vandalize",
+        "published": "2026-08-21T09:00:00Z",
+        "loaded_terms": {
+          "alarmist": [
+            "surge"
+          ]
+        },
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "New York Times",
+        "placement": "lean-left",
+        "title": "Flock Cameras. Canoodling Lawyers. How Much Surveillance Are We Comfortable With?",
+        "link": "https://www.nytimes.com/2026/08/21/magazine/flock-cameras-surveillance-state.html",
+        "published": "2026-08-21T09:02:32Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      }
+    ],
+    "consensus": {
+      "caveat": "Corroboration is a weight, not truth: outlets may share one wire source. Every atom links back to who published it and when.",
+      "facts": [],
+      "numeric_claims": []
+    },
+    "story_id": "f0794b7bec0d",
+    "consequences_started": [
+      {
+        "type": "backlash",
+        "description": "amid intense backlash, people are vandalizing flock surveillance cameras.",
+        "outlets": [
+          "NPR"
+        ],
+        "outlet_times": {
+          "NPR": "2026-08-21T09:00:00Z"
+        },
+        "first_seen": "2026-08-21T09:00:00Z",
+        "logged_at": "2026-08-21T14:07:51+00:00"
       }
     ],
     "consequences_all": [
       {
-        "type": "rally",
-        "description": "security forces kill three demonstrators as government cracks down on rally.",
+        "type": "backlash",
+        "description": "amid intense backlash, people are vandalizing flock surveillance cameras.",
         "outlets": [
-          "Al Jazeera"
+          "NPR"
         ],
         "outlet_times": {
-          "Al Jazeera": "2026-07-29T12:30:00Z"
+          "NPR": "2026-08-21T09:00:00Z"
         },
-        "first_seen": "2026-07-29T12:30:00Z",
-        "logged_at": "2026-08-21T15:48:05+00:00"
-      },
-      {
-        "type": "strike",
-        "description": "officials said 5 people died in clashes at the demonstration; a general strike was called.",
-        "outlets": [
-          "BBC",
-          "Al Jazeera"
-        ],
-        "outlet_times": {
-          "BBC": "2026-07-30T11:00:00Z",
-          "Al Jazeera": "2026-07-30T11:30:00Z"
-        },
-        "first_seen": "2026-07-30T11:00:00Z",
-        "logged_at": "2026-08-21T15:48:06+00:00"
+        "first_seen": "2026-08-21T09:00:00Z",
+        "logged_at": "2026-08-21T14:07:51+00:00"
       }
     ]
+  },
+  {
+    "label": "FBI Arrests Woman in Plot to Bomb New York State Capitol Building",
+    "outlets": [
+      "New York Post",
+      "New York Times"
+    ],
+    "divergence_score": 0.0,
+    "divergent_labels": [],
+    "reaction": {
+      "reaction_terms": [],
+      "mentions": 0
+    },
+    "coverage": [
+      {
+        "outlet": "New York Times",
+        "placement": "lean-left",
+        "title": "FBI Arrests Woman in Plot to Bomb New York State Capitol Building",
+        "link": "https://www.nytimes.com/2026/08/20/nyregion/albany-isis-plot-bomb-capitol.html",
+        "published": "2026-08-20T21:20:14Z",
+        "loaded_terms": {},
+        "labels_used": [
+          "attack"
+        ],
+        "passive_voice": false
+      },
+      {
+        "outlet": "New York Post",
+        "placement": "right",
+        "title": "US Assistant Attorney found dead in federal building after going missing",
+        "link": "https://nypost.com/2026/08/21/us-news/us-assistant-attorney-andrew-haden-found-dead-in-federal-building-after-going-missing/",
+        "published": "2026-08-21T13:46:57Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "New York Post",
+        "placement": "right",
+        "title": "Colorado man found dead after going missing on work trip to Nashville\u2014 as footage shows his final moments",
+        "link": "https://nypost.com/2026/08/21/us-news/colorado-man-conor-anderson-31-found-dead-after-going-missing-on-work-trip-to-nashville-as-footage-shows-his-final-moments/",
+        "published": "2026-08-21T13:56:40Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      }
+    ],
+    "consensus": {
+      "caveat": "Corroboration is a weight, not truth: outlets may share one wire source. Every atom links back to who published it and when.",
+      "facts": [],
+      "numeric_claims": [
+        {
+          "context": "found dead",
+          "values": {
+            "New York Post": "31"
+          },
+          "agreement": true
+        }
+      ]
+    },
+    "story_id": "767f7b222973",
+    "consequences_started": [],
+    "consequences_all": []
+  },
+  {
+    "label": "Five Americans among seven killed in safari helicopter crash in Kenya",
+    "outlets": [
+      "The Guardian",
+      "Washington Post"
+    ],
+    "divergence_score": 0.0,
+    "divergent_labels": [],
+    "reaction": {
+      "reaction_terms": [],
+      "mentions": 0
+    },
+    "coverage": [
+      {
+        "outlet": "The Guardian",
+        "placement": "lean-left",
+        "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
+        "link": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash",
+        "published": "2026-08-19T20:17:39Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": true
+      },
+      {
+        "outlet": "Washington Post",
+        "placement": "lean-left",
+        "title": "7 dead in Kenya helicopter crash in area popular with luxury safari tours",
+        "link": "https://www.washingtonpost.com/world/2026/08/20/7-dead-kenya-helicopter-crash-area-popular-with-luxury-safari-tours/",
+        "published": "2026-08-20T18:00:00Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      }
+    ],
+    "consensus": {
+      "caveat": "Corroboration is a weight, not truth: outlets may share one wire source. Every atom links back to who published it and when.",
+      "facts": [],
+      "numeric_claims": [
+        {
+          "context": "dead kenya",
+          "values": {
+            "Washington Post": "7"
+          },
+          "agreement": true
+        }
+      ]
+    },
+    "story_id": "6ce482aeeec7",
+    "consequences_started": [],
+    "consequences_all": []
+  },
+  {
+    "label": "Ebola outbreak \u2018growing faster, \u2060\u2060wider\u2019 as DRC death toll passes 2,500: UN",
+    "outlets": [
+      "Al Jazeera",
+      "The Guardian"
+    ],
+    "divergence_score": 0.0,
+    "divergent_labels": [],
+    "reaction": {
+      "reaction_terms": [],
+      "mentions": 0
+    },
+    "coverage": [
+      {
+        "outlet": "The Guardian",
+        "placement": "lean-left",
+        "title": "Ebola outbreak in Democratic Republic of the Congo now deadliest in country\u2019s history",
+        "link": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history",
+        "published": "2026-08-17T14:07:31Z",
+        "loaded_terms": {},
+        "labels_used": [
+          "government"
+        ],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Al Jazeera",
+        "placement": "international",
+        "title": "Ebola outbreak \u2018growing faster, \u2060\u2060wider\u2019 as DRC death toll passes 2,500: UN",
+        "link": "https://www.aljazeera.com/news/2026/8/21/ebola-outbreak-growing-faster-%e2%81%a0%e2%81%a0wider-as-drc-death-toll-passes-2500-un?traffic_source=rss",
+        "published": "2026-08-21T13:30:36Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      }
+    ],
+    "consensus": {
+      "caveat": "Corroboration is a weight, not truth: outlets may share one wire source. Every atom links back to who published it and when.",
+      "facts": [],
+      "numeric_claims": [
+        {
+          "context": "325 people have",
+          "values": {
+            "The Guardian": "2"
+          },
+          "agreement": true
+        },
+        {
+          "context": "people have died",
+          "values": {
+            "The Guardian": "325"
+          },
+          "agreement": true
+        },
+        {
+          "context": "325 people dead",
+          "values": {
+            "The Guardian": "2"
+          },
+          "agreement": true
+        },
+        {
+          "context": "people dead according",
+          "values": {
+            "The Guardian": "325"
+          },
+          "agreement": true
+        },
+        {
+          "context": "945 including 101",
+          "values": {
+            "The Guardian": "4"
+          },
+          "agreement": true
+        },
+        {
+          "context": "including 101 detected",
+          "values": {
+            "The Guardian": "945"
+          },
+          "agreement": true
+        },
+        {
+          "context": "detected",
+          "values": {
+            "The Guardian": "101"
+          },
+          "agreement": true
+        },
+        {
+          "context": "hours p",
+          "values": {
+            "The Guardian": "24"
+          },
+          "agreement": true
+        },
+        {
+          "context": "500 un epidemic",
+          "values": {
+            "Al Jazeera": "2"
+          },
+          "agreement": true
+        },
+        {
+          "context": "un epidemic remains",
+          "values": {
+            "Al Jazeera": "500"
+          },
+          "agreement": true
+        }
+      ]
+    },
+    "story_id": "51d6743e6115",
+    "consequences_started": [],
+    "consequences_all": []
+  },
+  {
+    "label": "Six-year-old child dies after being slapped by teacher in India",
+    "outlets": [
+      "Al Jazeera",
+      "CNN"
+    ],
+    "divergence_score": 0.0,
+    "divergent_labels": [],
+    "reaction": {
+      "reaction_terms": [],
+      "mentions": 0
+    },
+    "coverage": [
+      {
+        "outlet": "CNN",
+        "placement": "lean-left",
+        "title": "A 13-year-old dies after participating in a Benadryl TikTok 'challenge'",
+        "link": "https://www.cnn.com/2023/04/18/us/benadryl-tiktok-challenge-teen-death-wellness/index.html",
+        "published": "2023-04-19T15:01:06Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Al Jazeera",
+        "placement": "international",
+        "title": "Six-year-old child dies after being slapped by teacher in India",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/21/six-year-old-child-dies-after-being-slapped-by-teacher-in-india?traffic_source=rss",
+        "published": "2026-08-21T12:17:21Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": true
+      }
+    ],
+    "consensus": {
+      "caveat": "Corroboration is a weight, not truth: outlets may share one wire source. Every atom links back to who published it and when.",
+      "facts": [],
+      "numeric_claims": []
+    },
+    "story_id": "13496bf09655",
+    "consequences_started": [],
+    "consequences_all": []
+  },
+  {
+    "label": "GOP prepared to block vote to replace Feinstein on Senate Judiciary",
+    "outlets": [
+      "CNN",
+      "Fox News"
+    ],
+    "divergence_score": 0.0,
+    "divergent_labels": [],
+    "reaction": {
+      "reaction_terms": [],
+      "mentions": 0
+    },
+    "coverage": [
+      {
+        "outlet": "CNN",
+        "placement": "lean-left",
+        "title": "GOP prepared to block vote to replace Feinstein on Senate Judiciary",
+        "link": "https://www.cnn.com/2023/04/18/politics/schumer-senate-feinstein-vote-cardin/index.html",
+        "published": "2023-04-18T22:03:13Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Fox News",
+        "placement": "right",
+        "title": "AOC endorses Sen Ed Markey as incumbent faces Dem US Senate primary challenge from Rep Seth Moulton",
+        "link": "https://www.foxnews.com/politics/aoc-endorses-sen-ed-markey-incumbent-faces-dem-us-senate-primary-challenge-rep-seth-moulton",
+        "published": "2026-08-21T13:50:16Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      }
+    ],
+    "consensus": {
+      "caveat": "Corroboration is a weight, not truth: outlets may share one wire source. Every atom links back to who published it and when.",
+      "facts": [],
+      "numeric_claims": []
+    },
+    "story_id": "eb51a982296c",
+    "consequences_started": [],
+    "consequences_all": [
+      {
+        "type": "campaign",
+        "description": "democratic socialists of america member angie nixon defeated alexander vindman in florida despite his massive $16.3 million campaign \u2026 chest.",
+        "outlets": [
+          "Fox News"
+        ],
+        "outlet_times": {
+          "Fox News": "2026-08-19T16:33:44Z"
+        },
+        "first_seen": "2026-08-19T16:33:44Z",
+        "logged_at": "2026-08-19T19:13:25+00:00"
+      }
+    ]
+  },
+  {
+    "label": "High speed trains are racing across the world. But not in America",
+    "outlets": [
+      "Al Jazeera",
+      "CNN"
+    ],
+    "divergence_score": 0.0,
+    "divergent_labels": [],
+    "reaction": {
+      "reaction_terms": [],
+      "mentions": 0
+    },
+    "coverage": [
+      {
+        "outlet": "CNN",
+        "placement": "lean-left",
+        "title": "High speed trains are racing across the world. But not in America",
+        "link": "https://www.cnn.com/travel/article/high-speed-rail-us/index.html",
+        "published": "2023-04-19T02:39:40Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      },
+      {
+        "outlet": "Al Jazeera",
+        "placement": "international",
+        "title": "Humanoid crashes during speed test as China\u2019s robotics industry grows",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/8/21/humanoid-crashes-during-speed-test-as-chinas-robotics-industry-grows?traffic_source=rss",
+        "published": "2026-08-21T12:25:04Z",
+        "loaded_terms": {},
+        "labels_used": [],
+        "passive_voice": false
+      }
+    ],
+    "consensus": {
+      "caveat": "Corroboration is a weight, not truth: outlets may share one wire source. Every atom links back to who published it and when.",
+      "facts": [],
+      "numeric_claims": [
+        {
+          "context": "years",
+          "values": {
+            "CNN": "50"
+          },
+          "agreement": true
+        }
+      ]
+    },
+    "story_id": "61f008726ff8",
+    "consequences_started": [],
+    "consequences_all": []
   }
 ]
