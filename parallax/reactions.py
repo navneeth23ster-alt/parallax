@@ -19,6 +19,13 @@ from pathlib import Path
 REACTION_TERMS = [
     "protest", "boycott", "petition", "backlash", "walkout", "strike",
     "rally", "march", "campaign", "calls for resignation", "demands",
+    # South Asian subcontinent usage — distinct terms, not synonyms to
+    # fold into the above, since outlets use them as specific named
+    # tactics (a "bandh" is a general strike/shutdown call; "hartal" is
+    # a coordinated closure protest; "dharna" is a sit-in protest;
+    # "gherao" is a surround-and-blockade protest; "rasta roko" is a
+    # road-blockade protest).
+    "bandh", "hartal", "dharna", "gherao", "rasta roko",
 ]
 
 # suffixes limited to plural/verb forms: "protests" yes, "protesters" no

@@ -19,6 +19,14 @@ It deliberately does **not** infer intent, funding, or coordination behind any s
 
 Outlet "placement" tags in `parallax/feeds.py` are coarse metadata drawn from public media-bias trackers (AllSides, Ad Fontes) for reader context. The tool never scores outlets — it only compares their text.
 
+## v1 region: Indian subcontinent
+
+Default feeds (`parallax/feeds.py`) now target India, Pakistan, and Bangladesh — 22 outlets spanning establishment broadsheets, business press, independent/investigative digital-native outlets (Scroll.in, The Wire, The News Minute), regional English press, and international coverage of the region (BBC India desk, Al Jazeera). The original global feed list is preserved in `parallax/feeds_global.py` if you want to switch back or run both.
+
+**Placement tags carry an honest caveat.** No AllSides/Ad Fontes-equivalent exists for Indian media with comparable methodology and public audit trail, so every Indian outlet's placement is marked `(provisional)` and, where politically relevant, grounded in a checkable fact — ownership structure — rather than a content judgment. For example, NDTV and News18 are tagged `ownership-linked-to-govt (provisional)` reflecting their 2022/2014 acquisitions by Adani Group and Reliance Industries respectively (both reported as closely tied to the ruling government), not an assessment of their reporting. The tool itself never scores outlets — it only compares their text — so a wrong placement tag affects reader context, not any finding Parallax reports.
+
+**Reaction vocabulary extended** (`parallax/reactions.py`) with subcontinent-specific protest terms not captured by the original English set: *bandh* (general strike/shutdown call), *hartal* (coordinated closure protest), *dharna* (sit-in protest), *gherao* (surround-and-blockade protest), *rasta roko* (road-blockade protest).
+
 ## Production hardening (v0.6)
 
 - **Rate limiting** — per-IP limits on every endpoint (query 30/min, story/feed reads 60/min, feedback 10/min) via `slowapi`. Exceeding it returns `429`.
