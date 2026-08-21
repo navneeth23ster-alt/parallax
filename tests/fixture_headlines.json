@@ -1,10 +1,66 @@
 [
- {"outlet":"AP","placement":"center","title":"Government announces new border enforcement policy","summary":"Officials said the policy takes effect next month and affects asylum seekers at the southern border.","link":"","published":"2026-07-29T09:00:00Z"},
- {"outlet":"Fox News","placement":"right","title":"Border chaos: administration slams critics as illegal aliens surge","summary":"The new policy comes amid a surge of illegal aliens, officials blasts opponents.","link":"","published":"2026-07-29T10:00:00Z"},
- {"outlet":"The Guardian","placement":"lean-left","title":"Migrants face crisis as historic border crackdown begins","summary":"Rights groups called the enforcement policy a crisis for asylum seekers and announced a protest march.","link":"","published":"2026-07-29T10:30:00Z"},
- {"outlet":"CNN","placement":"lean-left","title":"New border policy sparks backlash and calls for resignation","summary":"Demonstrators plan a rally against the border enforcement policy affecting immigrants.","link":"","published":"2026-07-29T11:00:00Z"},
- {"outlet":"BBC","placement":"center","title":"Protesters killed in clashes at capital demonstration","summary":"At least three people died in clashes between demonstrators and security forces.","link":"","published":"2026-07-29T12:00:00Z"},
- {"outlet":"Al Jazeera","placement":"international","title":"Security forces kill three protesters as regime cracks down on rally","summary":"Witnesses said security forces opened fire on demonstrators during a rally against the government.","link":"","published":"2026-07-29T12:30:00Z"},
- {"outlet":"New York Post","placement":"right","title":"Rioters clash with police, mob torches vehicles in capital","summary":"A mob of rioters clashed with police during violent scenes at the demonstration.","link":"","published":"2026-07-29T13:00:00Z"},
- {"outlet":"Reuters","placement":"center","title":"Central bank holds interest rates steady","summary":"The central bank kept rates unchanged citing stable inflation.","link":"","published":"2026-07-29T14:00:00Z"}
+ {
+  "outlet": "AP",
+  "title": "Government announces new border enforcement policy",
+  "summary": "Officials said the policy takes effect next month and affects asylum seekers at the southern border.",
+  "link": "",
+  "published": "2026-07-29T09:00:00Z",
+  "owner": "Associated Press (nonprofit cooperative)"
+ },
+ {
+  "outlet": "Fox News",
+  "title": "Border chaos: administration slams critics as illegal aliens surge",
+  "summary": "The new policy comes amid a surge of illegal aliens, officials blasts opponents.",
+  "link": "",
+  "published": "2026-07-29T10:00:00Z",
+  "owner": "Fox Corporation (Murdoch family)"
+ },
+ {
+  "outlet": "The Guardian",
+  "title": "Migrants face crisis as historic border crackdown begins",
+  "summary": "Rights groups called the enforcement policy a crisis for asylum seekers and announced a protest march.",
+  "link": "",
+  "published": "2026-07-29T10:30:00Z",
+  "owner": "Scott Trust"
+ },
+ {
+  "outlet": "CNN",
+  "title": "New border policy sparks backlash and calls for resignation",
+  "summary": "Demonstrators plan a rally against the border enforcement policy affecting immigrants.",
+  "link": "",
+  "published": "2026-07-29T11:00:00Z",
+  "owner": "Warner Bros. Discovery"
+ },
+ {
+  "outlet": "BBC",
+  "title": "Protesters killed in clashes at capital demonstration",
+  "summary": "At least three people died in clashes between demonstrators and security forces.",
+  "link": "",
+  "published": "2026-07-29T12:00:00Z",
+  "owner": "BBC (UK public corporation)"
+ },
+ {
+  "outlet": "Al Jazeera",
+  "title": "Security forces kill three protesters as regime cracks down on rally",
+  "summary": "Witnesses said security forces opened fire on demonstrators during a rally against the government.",
+  "link": "",
+  "published": "2026-07-29T12:30:00Z",
+  "owner": "Al Jazeera Media Network (Qatar state-funded)"
+ },
+ {
+  "outlet": "New York Post",
+  "title": "Rioters clash with police, mob torches vehicles in capital",
+  "summary": "A mob of rioters clashed with police during violent scenes at the demonstration.",
+  "link": "",
+  "published": "2026-07-29T13:00:00Z",
+  "owner": "News Corp (Murdoch family)"
+ },
+ {
+  "outlet": "Reuters",
+  "title": "Central bank holds interest rates steady",
+  "summary": "The central bank kept rates unchanged citing stable inflation.",
+  "link": "",
+  "published": "2026-07-29T14:00:00Z",
+  "owner": "Thomson Reuters"
+ }
 ]

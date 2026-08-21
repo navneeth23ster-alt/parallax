@@ -46,7 +46,7 @@ def test_two_day_simulation_end_to_end(tmp_path):
     for fx in ("fixture_headlines.json", "fixture_day2.json"):
         hs = from_records(json.loads((FIX / fx).read_text()))
         for story in cluster_headlines(hs):
-            cov = [{"outlet": h.outlet, "placement": h.placement,
+            cov = [{"outlet": h.outlet, "owner": h.owner,
                     "title": h.title, "link": "", "published": h.published,
                     "loaded_terms": {}, "labels_used": [],
                     "passive_voice": False} for h in story.headlines]

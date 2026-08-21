@@ -12,7 +12,7 @@ from .feeds import FEEDS
 @dataclass
 class Headline:
     outlet: str
-    placement: str
+    owner: str
     title: str
     summary: str
     link: str
@@ -44,7 +44,7 @@ def fetch_all(feeds: dict | None = None, per_outlet_limit: int = 40) -> list[Hea
                 headlines.append(
                     Headline(
                         outlet=outlet,
-                        placement=cfg.get("placement", "unknown"),
+                        owner=cfg.get("owner", "unknown"),
                         title=title,
                         summary=(entry.get("summary") or "")[:500],
                         link=entry.get("link", ""),

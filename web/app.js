@@ -61,7 +61,7 @@ function legendHtml() {
 function coverageHtml(cov) {
   return cov.map((c) => `
     <article class="cov">
-      <div class="who"><b>${esc(c.outlet)}</b><span>${esc(c.placement)}</span>
+      <div class="who"><b>${esc(c.outlet)}</b><span>${esc(c.owner)}</span>
         <span>${when(c.published)}</span></div>
       <p class="headline">${
         c.link
@@ -249,7 +249,7 @@ async function showQuery(q) {
       <table class="profile"><thead><tr><th>Outlet</th><th>Headlines</th>
         <th>Loaded terms by category</th><th>Passive voice</th></tr></thead>
       <tbody>${r.outlets.map((o) => `
-        <tr><td><b>${esc(o.outlet)}</b> <span class="src">${esc(o.placement)}</span></td>
+        <tr><td><b>${esc(o.outlet)}</b> <span class="src">${esc(o.owner)}</span></td>
           <td>${o.headlines}</td>
           <td>${Object.entries(o.loaded).sort()
             .map(([c, n]) => `<mark class="${c}">${esc(c)} ×${n}</mark>`)

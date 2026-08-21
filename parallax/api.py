@@ -165,7 +165,7 @@ def story_detail(request: Request, story_id: str):
             "caveat": r.caveat,
             "coverage": [
                 {
-                    "outlet": c.outlet, "placement": c.placement,
+                    "outlet": c.outlet, "owner": c.owner,
                     "title": c.title, "link": c.link,
                     "published": c.published,
                     "loaded_terms": json.loads(c.loaded_terms),

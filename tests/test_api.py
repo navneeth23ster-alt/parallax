@@ -23,7 +23,7 @@ def client(tmp_path, monkeypatch):
         for story in cluster_headlines(hs):
             rec = build_consensus(story)
             cov = [
-                {"outlet": h.outlet, "placement": h.placement,
+                {"outlet": h.outlet, "owner": h.owner,
                  "title": h.title, "link": h.link, "published": h.published,
                  "loaded_terms": {}, "labels_used": [], "passive_voice": False}
                 for h in story.headlines

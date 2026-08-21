@@ -40,7 +40,7 @@ class CoverageRow(Base):
     id = Column(Integer, primary_key=True)
     story_id = Column(String(16), ForeignKey("stories.id"))
     outlet = Column(String(64))
-    placement = Column(String(32))
+    owner = Column(String(32))
     title = Column(Text)
     link = Column(Text, default="")
     published = Column(String(32), default="")
@@ -118,7 +118,7 @@ def sync(timeline_entries: list[dict], payload: list[dict] | None = None,
             for c in e.get("coverage", []):
                 s.add(CoverageRow(
                     story_id=e["id"], outlet=c["outlet"],
-                    placement=c["placement"], title=c["title"],
+                    owner=c["owner"], title=c["title"],
                     link=c.get("link", ""), published=c.get("published", ""),
                     loaded_terms=json.dumps(c["loaded_terms"]),
                     labels_used=json.dumps(c["labels_used"]),

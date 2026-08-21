@@ -8,9 +8,9 @@ Method:
        between outlet pairs, grouped and counted;
      - numeric claims: numbers with their local context, cross-checked
        across outlets so disagreements are surfaced, never averaged.
-  3. Tier every atom by corroboration breadth AND outlet diversity:
-       corroborated   2+ outlets spanning 2+ placement groups
-       reported       2+ outlets, single placement group
+  3. Tier every atom by corroboration breadth AND ownership diversity:
+       corroborated   2+ outlets from 2+ distinct ownership clusters
+       reported       2+ outlets, single owner group
        single-source  1 outlet
   4. Order atoms by earliest supporting timestamp -> story timeline.
 
@@ -88,12 +88,15 @@ def _content_count(tokens: list[str]) -> int:
 class FactAtom:
     text: str
     outlets: list[str]
-    placements: list[str]
+    owners: list[str]
     first_seen: str  # earliest published timestamp among supporters
     tier: str = "single-source"
 
     def retier(self) -> None:
-        if len(self.outlets) >= 2 and len(set(self.placements)) >= 2:
+        # corroborated requires confirmations from DISTINCT ownership
+        # clusters — sister publications under one owner are one voice.
+        # See DESIGN.md (independence-cluster model).
+        if len(self.outlets) >= 2 and len(set(self.owners)) >= 2:
             self.tier = "corroborated"
         elif len(self.outlets) >= 2:
             self.tier = "reported"
@@ -147,7 +150,7 @@ def build_consensus(story: Story) -> ConsensusRecord:
         per_outlet.append(
             {
                 "outlet": h.outlet,
-                "placement": h.placement,
+                "owner": h.owner,
                 "published": h.published,
                 "tokens": _tokens(neutralize(f"{h.title}. {h.summary}")),
             }
@@ -163,7 +166,7 @@ def build_consensus(story: Story) -> ConsensusRecord:
             for phrase in _shared_runs(oi["tokens"], oj["tokens"]):
                 for o in (oi, oj):
                     support[phrase].add(
-                        (o["outlet"], o["placement"], o["published"])
+                        (o["outlet"], o["owner"], o["published"])
                     )
 
     atoms: list[FactAtom] = []
@@ -174,12 +177,12 @@ def build_consensus(story: Story) -> ConsensusRecord:
             if phrase != other and phrase in other:
                 sup = sup | osup
         outlets = sorted({s[0] for s in sup})
-        placements = sorted({s[1] for s in sup})
+        owners = sorted({s[1] for s in sup})
         stamps = sorted(s[2] for s in sup if s[2])
         atom = FactAtom(
             text=phrase,
             outlets=outlets,
-            placements=placements,
+            owners=owners,
             first_seen=stamps[0] if stamps else "",
         )
         atom.retier()

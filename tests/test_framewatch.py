@@ -71,14 +71,14 @@ def test_neutralize_maps_labels_and_strips_loaded():
     assert "regime" not in out and "chaos" not in out and "slams" not in out
 
 
-def test_consensus_tiers_require_placement_diversity():
+def test_consensus_tiers_require_owner_diversity():
     stories = cluster_headlines(_day2())
     border = next(s for s in stories if "border" in s.label.lower())
     rec = build_consensus(border)
     corroborated = [f for f in rec.facts if f.tier == "corroborated"]
     assert corroborated
     for f in corroborated:
-        assert len(set(f.placements)) >= 2
+        assert len(set(f.owners)) >= 2
 
 
 def test_numeric_discrepancy_surfaced_not_averaged():
@@ -101,7 +101,7 @@ def test_consequences_report_what_started_only():
 
 def test_protesters_noun_does_not_log_protest_event():
     hs = from_records([{
-        "outlet": "X", "placement": "center",
+        "outlet": "X", "owner": "center",
         "title": "Protesters killed in clashes",
         "summary": "Several protesters were killed.",
         "link": "", "published": "2026-07-29T00:00:00Z",
@@ -125,3 +125,37 @@ def test_timeline_merges_same_event_across_runs(tmp_path):
     border = [e for e in entries if "border" in e["label"].lower()]
     assert len(border) == 1          # merged, not duplicated
     assert border[0]["consequences"] # something started, and it's recorded
+
+
+def test_same_owner_outlets_collapse_to_reported():
+    """The core of the independence-cluster model (DESIGN.md): sister
+    publications under one owner are one voice, not two confirmations."""
+    from parallax.cluster import cluster_headlines as _ch
+
+    base = {"link": "", "published": "2026-07-29T09:00:00Z",
+            "summary": "The central bank raised interest rates by 50 basis points on Monday."}
+    same_owner = from_records([
+        {**base, "outlet": "Hindustan Times", "owner": "HT Media (Birla family)",
+         "title": "Central bank raises interest rates by 50 basis points"},
+        {**base, "outlet": "LiveMint", "owner": "HT Media (Birla family)",
+         "title": "Interest rates raised 50 basis points by central bank"},
+    ])
+    stories = _ch(same_owner)
+    assert stories, "same-event headlines should cluster"
+    from parallax.consensus import build_consensus
+    rec = build_consensus(stories[0])
+    assert rec.facts, "shared phrasing should produce fact atoms"
+    assert all(f.tier == "reported" for f in rec.facts), (
+        "two outlets, one owner => reported, never corroborated")
+
+    # add a distinct-owner confirmation => corroborated
+    three = from_records([
+        {**base, "outlet": "Hindustan Times", "owner": "HT Media (Birla family)",
+         "title": "Central bank raises interest rates by 50 basis points"},
+        {**base, "outlet": "LiveMint", "owner": "HT Media (Birla family)",
+         "title": "Interest rates raised 50 basis points by central bank"},
+        {**base, "outlet": "The Hindu", "owner": "Kasturi & Sons (The Hindu Group)",
+         "title": "Central bank raises interest rates by 50 basis points on Monday"},
+    ])
+    rec3 = build_consensus(_ch(three)[0])
+    assert any(f.tier == "corroborated" for f in rec3.facts)

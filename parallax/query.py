@@ -77,19 +77,19 @@ def run_query(q: str, engine) -> dict:
         # --- per-outlet framing profile with denominators
         prof: dict[str, dict] = defaultdict(
             lambda: {"headlines": 0, "loaded": Counter(), "passive": 0,
-                     "placement": ""})
+                     "owner": ""})
         label_use: dict[str, set] = defaultdict(set)
         for c in coverage:
             p = prof[c.outlet]
             p["headlines"] += 1
-            p["placement"] = c.placement
+            p["owner"] = c.owner
             p["passive"] += int(c.passive_voice)
             for cat, terms in json.loads(c.loaded_terms).items():
                 p["loaded"][cat] += len(terms)
             for term in json.loads(c.labels_used):
                 label_use[term].add(c.outlet)
         outlets = [
-            {"outlet": o, "placement": p["placement"],
+            {"outlet": o, "owner": p["owner"],
              "headlines": p["headlines"],
              "loaded": dict(p["loaded"]),
              "loaded_total": sum(p["loaded"].values()),

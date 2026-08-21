@@ -67,7 +67,7 @@ PASSIVE_RE = re.compile(
 @dataclass
 class OutletFraming:
     outlet: str
-    placement: str
+    owner: str
     title: str
     link: str = ""
     published: str = ""
@@ -123,7 +123,7 @@ def analyze_story(story: Story) -> StoryAnalysis:
         per_outlet.append(
             OutletFraming(
                 outlet=h.outlet,
-                placement=h.placement,
+                owner=h.owner,
                 title=h.title,
                 link=h.link,
                 published=h.published,

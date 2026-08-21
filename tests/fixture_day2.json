@@ -1,7 +1,42 @@
 [
- {"outlet":"AP","placement":"center","title":"Border enforcement policy takes effect as legal challenges mount","summary":"The border enforcement policy took effect Monday. Civil rights groups filed lawsuits and a boycott of contractor firms was announced.","link":"","published":"2026-07-30T09:00:00Z"},
- {"outlet":"CNN","placement":"lean-left","title":"Thousands march against border enforcement policy in three cities","summary":"Organizers said thousands joined a march against the border policy; a petition gathered signatures.","link":"","published":"2026-07-30T10:00:00Z"},
- {"outlet":"Fox News","placement":"right","title":"Border policy takes effect amid protests, officials defend enforcement","summary":"The enforcement policy took effect Monday as protests continued; officials defended the border policy.","link":"","published":"2026-07-30T10:30:00Z"},
- {"outlet":"BBC","placement":"center","title":"Death toll rises to 5 in capital demonstration clashes","summary":"Officials said 5 people died in clashes at the demonstration; a general strike was called.","link":"","published":"2026-07-30T11:00:00Z"},
- {"outlet":"Al Jazeera","placement":"international","title":"Toll from demonstration clashes rises to 6, general strike called","summary":"Medics said 6 people died in the clashes at the demonstration as unions called a general strike.","link":"","published":"2026-07-30T11:30:00Z"}
+ {
+  "outlet": "AP",
+  "title": "Border enforcement policy takes effect as legal challenges mount",
+  "summary": "The border enforcement policy took effect Monday. Civil rights groups filed lawsuits and a boycott of contractor firms was announced.",
+  "link": "",
+  "published": "2026-07-30T09:00:00Z",
+  "owner": "Associated Press (nonprofit cooperative)"
+ },
+ {
+  "outlet": "CNN",
+  "title": "Thousands march against border enforcement policy in three cities",
+  "summary": "Organizers said thousands joined a march against the border policy; a petition gathered signatures.",
+  "link": "",
+  "published": "2026-07-30T10:00:00Z",
+  "owner": "Warner Bros. Discovery"
+ },
+ {
+  "outlet": "Fox News",
+  "title": "Border policy takes effect amid protests, officials defend enforcement",
+  "summary": "The enforcement policy took effect Monday as protests continued; officials defended the border policy.",
+  "link": "",
+  "published": "2026-07-30T10:30:00Z",
+  "owner": "Fox Corporation (Murdoch family)"
+ },
+ {
+  "outlet": "BBC",
+  "title": "Death toll rises to 5 in capital demonstration clashes",
+  "summary": "Officials said 5 people died in clashes at the demonstration; a general strike was called.",
+  "link": "",
+  "published": "2026-07-30T11:00:00Z",
+  "owner": "BBC (UK public corporation)"
+ },
+ {
+  "outlet": "Al Jazeera",
+  "title": "Toll from demonstration clashes rises to 6, general strike called",
+  "summary": "Medics said 6 people died in the clashes at the demonstration as unions called a general strike.",
+  "link": "",
+  "published": "2026-07-30T11:30:00Z",
+  "owner": "Al Jazeera Media Network (Qatar state-funded)"
+ }
 ]

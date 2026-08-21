@@ -25,7 +25,7 @@ def to_json(analyses: list[StoryAnalysis], reactions: list[dict]) -> list[dict]:
                 "coverage": [
                     {
                         "outlet": o.outlet,
-                        "placement": o.placement,
+                        "owner": o.owner,
                         "title": o.title,
                         "link": o.link,
                         "published": o.published,
@@ -85,7 +85,7 @@ def write_markdown(stories: list[dict], path: Path) -> None:
                 lines.append(f"- {c['type']} — first seen {when}, reported by "
                              f"{', '.join(c['outlets'])}{new}")
         lines.append("")
-        lines.append("| Outlet | Placement | Headline | Loaded terms |")
+        lines.append("| Outlet | Owner | Headline | Loaded terms |")
         lines.append("|---|---|---|---|")
         for c in s["coverage"]:
             loaded = "; ".join(
@@ -93,7 +93,7 @@ def write_markdown(stories: list[dict], path: Path) -> None:
             ) or "—"
             title = c["title"].replace("|", "\\|")
             lines.append(
-                f"| {c['outlet']} | {c['placement']} | {title} | {loaded} |"
+                f"| {c['outlet']} | {c['owner']} | {title} | {loaded} |"
             )
         lines.append("")
     path.write_text("\n".join(lines), encoding="utf-8")
@@ -148,7 +148,7 @@ def write_html(stories: list[dict], path: Path) -> None:
         body = "".join(
             "<tr><td>{o}</td><td>{p}</td><td>{t}</td><td class='loaded'>{l}</td></tr>".format(
                 o=html.escape(c["outlet"]),
-                p=html.escape(c["placement"]),
+                p=html.escape(c["owner"]),
                 t=html.escape(c["title"]),
                 l=html.escape(
                     "; ".join(
@@ -204,7 +204,7 @@ def write_html(stories: list[dict], path: Path) -> None:
   <p class="meta">{len(s['outlets'])} outlets ·
     <span class="score">divergence {s['divergence_score']}</span></p>
   {diverge}{record}{conseq}
-  <table><thead><tr><th>Outlet</th><th>Placement</th><th>Headline</th>
+  <table><thead><tr><th>Outlet</th><th>Owner</th><th>Headline</th>
   <th>Loaded terms</th></tr></thead><tbody>{body}</tbody></table>
 </section>"""
         )
