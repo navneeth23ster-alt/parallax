@@ -31,7 +31,8 @@ async function api(path) {
 /* ---------- feed ---------- */
 let stories = [];
 async function loadFeed(q = "") {
-  stories = await api(`/api/stories${q ? `?q=${encodeURIComponent(q)}` : ""}`);
+  const r = await api(`/api/stories${q ? `?q=${encodeURIComponent(q)}` : ""}`);
+  stories = r.stories;
   renderFeed();
 }
 function renderFeed() {
@@ -130,8 +131,49 @@ async function showStory(id) {
       <p class="note">An entry means outlets reported it happened —
         nothing here claims who arranged it or why.</p>
     </section>
-    ${velocityHtml(s.velocity)}`;
+    ${velocityHtml(s.velocity)}
+    <section class="report">
+      <button id="reportBtn" type="button">Report an issue with this story</button>
+      <div id="reportForm" hidden>
+        <select id="reportCategory">
+          <option value="wrong-loaded-term">Loaded-term flag looks wrong</option>
+          <option value="bad-cluster">Headlines don't belong together</option>
+          <option value="wrong-tier">Fact tier looks wrong</option>
+          <option value="broken-link">Broken link</option>
+          <option value="other">Other</option>
+        </select>
+        <textarea id="reportMessage" maxlength="2000" placeholder="What's wrong?"></textarea>
+        <button id="reportSubmit" type="button">Submit</button>
+        <span id="reportStatus" class="src"></span>
+      </div>
+    </section>`;
   renderFeed();
+  wireReportForm(id);
+}
+
+function wireReportForm(storyId) {
+  const btn = $("#reportBtn"), form = $("#reportForm"), status = $("#reportStatus");
+  if (!btn) return;
+  btn.addEventListener("click", () => { form.hidden = !form.hidden; });
+  $("#reportSubmit").addEventListener("click", async () => {
+    const message = $("#reportMessage").value.trim();
+    if (!message) { status.textContent = "Say a bit about the issue first."; return; }
+    status.textContent = "Sending…";
+    try {
+      const res = await fetch("/api/feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          category: $("#reportCategory").value,
+          message, story_id: storyId,
+        }),
+      });
+      status.textContent = res.ok ? "Thanks — received." : "Couldn't send, try again.";
+      if (res.ok) $("#reportMessage").value = "";
+    } catch {
+      status.textContent = "Couldn't send, try again.";
+    }
+  });
 }
 
 function velocityHtml(v) {

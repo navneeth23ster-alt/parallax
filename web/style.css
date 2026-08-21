@@ -113,6 +113,20 @@ table.profile th{text-align:left;font:600 11px "IBM Plex Sans",sans-serif;
 table.profile td{border-bottom:1px dashed var(--rule);padding:8px;vertical-align:top}
 table.profile mark{font-size:11px;font-family:"IBM Plex Mono",monospace;
   margin-right:6px;white-space:nowrap}
+.report{margin-top:8px}
+.report>button{font:12px "IBM Plex Mono",monospace;background:none;
+  border:1px solid var(--rule);color:var(--dim);padding:6px 10px;
+  border-radius:3px;cursor:pointer}
+.report>button:hover{color:var(--ink);border-color:var(--ink)}
+#reportForm{margin-top:10px;display:flex;flex-direction:column;gap:8px;
+  max-width:440px}
+#reportForm select,#reportForm textarea{font:13px "IBM Plex Sans",sans-serif;
+  border:1px solid var(--rule);border-radius:3px;padding:7px 9px;
+  background:var(--card);color:var(--ink)}
+#reportForm textarea{min-height:70px;resize:vertical}
+#reportForm button{align-self:flex-start;font:12px "IBM Plex Mono",monospace;
+  background:var(--ink);color:var(--paper);border:none;padding:6px 14px;
+  border-radius:3px;cursor:pointer}
 .foot{border-top:1px solid var(--rule);padding:14px 24px;
   font:12px "IBM Plex Mono",monospace;color:var(--dim)}
 

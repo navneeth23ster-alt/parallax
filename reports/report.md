@@ -1,5 +1,5 @@
 # Parallax daily report
-_Generated 2026-08-17 05:27 UTC. Text-observable signals only — no intent or
+_Generated 2026-08-21 09:18 UTC. Text-observable signals only — no intent or
 coordination claims can be drawn from headline statistics._
 
 ## Border enforcement policy takes effect as legal challenges mount

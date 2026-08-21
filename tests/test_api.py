@@ -38,19 +38,68 @@ def client(tmp_path, monkeypatch):
 
 def test_feed_lists_stories_with_signals(client):
     data = client.get("/api/stories").json()
-    assert len(data) == 2
-    border = next(s for s in data if "border" in s["label"].lower())
+    assert data["total"] == 2
+    border = next(s for s in data["stories"] if "border" in s["label"].lower())
     assert border["outlet_count"] >= 2
     assert "boycott" in border["consequence_kinds"]
 
 
 def test_feed_search_filters(client):
     data = client.get("/api/stories", params={"q": "border"}).json()
-    assert len(data) == 1
+    assert data["total"] == 1 and len(data["stories"]) == 1
+
+
+def test_feed_pagination(client):
+    page1 = client.get("/api/stories", params={"limit": 1, "offset": 0}).json()
+    page2 = client.get("/api/stories", params={"limit": 1, "offset": 1}).json()
+    assert len(page1["stories"]) == 1 and len(page2["stories"]) == 1
+    assert page1["stories"][0]["id"] != page2["stories"][0]["id"]
+    assert page1["total"] == 2
+
+
+def test_feed_limit_is_capped(client):
+    data = client.get("/api/stories", params={"limit": 99999}).json()
+    assert data["limit"] <= 100
+
+
+def test_health_reports_story_count(client):
+    h = client.get("/api/health").json()
+    assert h["status"] == "ok" and h["stories_tracked"] == 2
+
+
+def test_security_headers_present(client):
+    r = client.get("/api/health")
+    assert r.headers["x-content-type-options"] == "nosniff"
+    assert r.headers["x-frame-options"] == "DENY"
+
+
+def test_feedback_accepts_valid_submission(client):
+    r = client.post("/api/feedback", json={
+        "category": "wrong-loaded-term", "message": "the word X isn't loaded",
+        "story_id": "abc123",
+    })
+    assert r.status_code == 200 and r.json()["status"] == "received"
+
+
+def test_feedback_rejects_empty_message(client):
+    r = client.post("/api/feedback", json={"category": "other", "message": "  "})
+    assert r.status_code == 400
+
+
+def test_feedback_sanitizes_unknown_category(client):
+    from parallax.feedback import validate
+    fb = validate("nonsense-category", "a real issue description")
+    assert fb.category == "other"
+
+
+def test_query_length_is_capped(client):
+    long_q = "a" * 500
+    r = client.get("/api/query", params={"q": long_q})
+    assert r.status_code == 200  # doesn't error, just truncates server-side
 
 
 def test_detail_carries_full_evidence(client):
-    sid = client.get("/api/stories").json()[0]["id"]
+    sid = client.get("/api/stories").json()["stories"][0]["id"]
     d = client.get(f"/api/stories/{sid}").json()
     assert d["coverage"] and d["caveat"]
     for f in d["facts"]:
@@ -58,7 +107,7 @@ def test_detail_carries_full_evidence(client):
 
 
 def test_coverage_accumulates_across_runs(client):
-    data = client.get("/api/stories").json()
+    data = client.get("/api/stories").json()["stories"]
     border = next(s for s in data if "border" in s["label"].lower())
     d = client.get(f"/api/stories/{border['id']}").json()
     published = {c["published"][:10] for c in d["coverage"]}

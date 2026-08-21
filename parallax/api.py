@@ -5,23 +5,48 @@ Run:  python -m parallax serve            (default :8000)
 """
 
 import json
+import os
+import time
 from pathlib import Path
 
-from fastapi import FastAPI, HTTPException
-from fastapi.responses import FileResponse
+from fastapi import FastAPI, HTTPException, Request
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
-from sqlalchemy import desc
+from slowapi import Limiter, _rate_limit_exceeded_handler
+from slowapi.errors import RateLimitExceeded
+from slowapi.util import get_remote_address
+from sqlalchemy import desc, func
 from sqlalchemy.orm import Session
 
 from .db import (
     ConsequenceRow, CoverageRow, FactRow, NumericRow, StoryRow, get_engine,
 )
+from .feedback import append as append_feedback, validate as validate_feedback
 from .framing import LOADED_LEXICON
 
 WEB_DIR = Path(__file__).resolve().parent.parent / "web"
+DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+QUERY_MAX_LEN = 100
+FEED_PAGE_MAX = 100
 
-app = FastAPI(title="Parallax", version="0.3")
+limiter = Limiter(key_func=get_remote_address, default_limits=["120/minute"])
+app = FastAPI(title="Parallax", version="0.6")
+app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
+
+# CORS: read-only public API, safe to open widely. Restrict via env if the
+# frontend is ever split onto its own domain.
+_origins = os.environ.get("CORS_ORIGINS", "*")
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[_origins] if _origins != "*" else ["*"],
+    allow_methods=["GET", "POST"],
+    allow_headers=["*"],
+)
+
 _engine = None
+_start_time = time.time()
 
 
 def engine():
@@ -31,8 +56,46 @@ def engine():
     return _engine
 
 
+@app.middleware("http")
+async def security_headers(request: Request, call_next):
+    response = await call_next(request)
+    response.headers["X-Content-Type-Options"] = "nosniff"
+    response.headers["X-Frame-Options"] = "DENY"
+    response.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
+    return response
+
+
+def _clean_query(q: str) -> str:
+    q = (q or "").strip()
+    if len(q) > QUERY_MAX_LEN:
+        q = q[:QUERY_MAX_LEN]
+    return q
+
+
+@app.get("/api/health")
+def health():
+    """Liveness + basic readiness: DB reachable, data not stale."""
+    try:
+        with Session(engine()) as s:
+            count = s.query(func.count(StoryRow.id)).scalar()
+            latest = s.query(func.max(StoryRow.last_updated)).scalar()
+    except Exception as exc:
+        return JSONResponse(
+            status_code=503,
+            content={"status": "error", "db_ok": False, "detail": str(exc)},
+        )
+    return {
+        "status": "ok",
+        "db_ok": True,
+        "stories_tracked": count,
+        "latest_run": latest,
+        "uptime_seconds": round(time.time() - _start_time),
+    }
+
+
 @app.get("/api/meta")
-def meta():
+@limiter.limit("60/minute")
+def meta(request: Request):
     return {
         "categories": sorted(LOADED_LEXICON),
         "tiers": ["corroborated", "reported", "single-source"],
@@ -44,12 +107,20 @@ def meta():
 
 
 @app.get("/api/stories")
-def stories(q: str = ""):
+@limiter.limit("60/minute")
+def stories(request: Request, q: str = "", limit: int = 50, offset: int = 0):
+    q = _clean_query(q)
+    limit = max(1, min(limit, FEED_PAGE_MAX))
+    offset = max(0, offset)
     with Session(engine()) as s:
         query = s.query(StoryRow)
         if q:
             query = query.filter(StoryRow.label.ilike(f"%{q}%"))
-        rows = query.order_by(desc(StoryRow.last_updated)).all()
+        total = query.count()
+        rows = (
+            query.order_by(desc(StoryRow.last_updated))
+            .offset(offset).limit(limit).all()
+        )
         out = []
         for r in rows:
             n_disc = (
@@ -71,11 +142,13 @@ def stories(q: str = ""):
                 "discrepancies": n_disc,
                 "consequence_kinds": sorted(set(kinds)),
             })
-        return out
+        return {"total": total, "limit": limit, "offset": offset, "stories": out}
 
 
 @app.get("/api/stories/{story_id}")
-def story_detail(story_id: str):
+@limiter.limit("60/minute")
+def story_detail(request: Request, story_id: str):
+    story_id = story_id[:16]
     with Session(engine()) as s:
         r = s.get(StoryRow, story_id)
         if r is None:
@@ -139,11 +212,28 @@ def story_detail(story_id: str):
 
 
 @app.get("/api/query")
-def query(q: str):
+@limiter.limit("30/minute")
+def query(request: Request, q: str):
     from .query import run_query
-    if not q.strip():
+    q = _clean_query(q)
+    if not q:
         raise HTTPException(400, "empty query")
-    return run_query(q.strip(), engine())
+    return run_query(q, engine())
+
+
+@app.post("/api/feedback")
+@limiter.limit("10/minute")
+def submit_feedback(request: Request, payload: dict):
+    try:
+        fb = validate_feedback(
+            payload.get("category", ""),
+            payload.get("message", ""),
+            payload.get("story_id", ""),
+        )
+    except ValueError as exc:
+        raise HTTPException(400, str(exc))
+    append_feedback(DATA_DIR / "feedback.jsonl", fb)
+    return {"status": "received"}
 
 
 @app.get("/")

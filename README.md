@@ -19,6 +19,15 @@ It deliberately does **not** infer intent, funding, or coordination behind any s
 
 Outlet "placement" tags in `parallax/feeds.py` are coarse metadata drawn from public media-bias trackers (AllSides, Ad Fontes) for reader context. The tool never scores outlets — it only compares their text.
 
+## Production hardening (v0.6)
+
+- **Rate limiting** — per-IP limits on every endpoint (query 30/min, story/feed reads 60/min, feedback 10/min) via `slowapi`. Exceeding it returns `429`.
+- **`/api/health`** — DB reachability, tracked story count, latest run timestamp, uptime. Point your host's health check here.
+- **`/api/feedback`** (POST) — "report an issue" from any story page. Validated, length-capped, sanitized, append-only to `data/feedback.jsonl` (gitignored — a human reviews it; nothing auto-applies). No accounts required.
+- **Security headers** — `X-Content-Type-Options`, `X-Frame-Options`, `Referrer-Policy` on every response. CORS open by default for the public read-only API; set `CORS_ORIGINS` to restrict if the frontend ever moves to its own domain.
+- **Pagination** — `/api/stories` takes `limit`/`offset` (capped at 100) and returns `{total, limit, offset, stories}`.
+- **Input validation** — query strings capped at 100 chars server-side; story IDs sanitized before DB lookup.
+
 ## Velocity — observable timing of reactions
 
 ```bash
