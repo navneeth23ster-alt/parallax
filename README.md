@@ -19,6 +19,15 @@ It deliberately does **not** infer intent, funding, or coordination behind any s
 
 Outlets carry `owner` fields in `parallax/feeds.py` — ownership clusters as checkable public facts, used only to require independent confirmation for the `corroborated` tier (see `DESIGN.md`). The tool never scores outlets politically — it only compares their text. For the preserved global list (`feeds_global.py`), AllSides-derived lean tags are retained as display-only context since audited trackers exist for those outlets.
 
+## Live at useparallax.net
+
+Domain: `https://useparallax.net` (Cloudflare-managed)
+Deployment: Render (Docker, auto-deploy on push to `main`)
+Data: GitHub Actions runs every 6h, commits fresh `timeline.jsonl` + reports
+
+CORS is open to `https://useparallax.net`, `https://www.useparallax.net`, and localhost for dev.
+Override via `CORS_ORIGINS` env var (comma-separated) if needed.
+
 ## v1 region: Indian subcontinent
 
 Default feeds (`parallax/feeds.py`) now target India, Pakistan, and Bangladesh — 22 outlets spanning establishment broadsheets, business press, independent/investigative digital-native outlets (Scroll.in, The Wire, The News Minute), regional English press, and international coverage of the region (BBC India desk, Al Jazeera). The original global feed list is preserved in `parallax/feeds_global.py` if you want to switch back or run both.

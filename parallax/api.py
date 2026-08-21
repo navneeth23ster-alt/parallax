@@ -31,16 +31,25 @@ QUERY_MAX_LEN = 100
 FEED_PAGE_MAX = 100
 
 limiter = Limiter(key_func=get_remote_address, default_limits=["120/minute"])
-app = FastAPI(title="Parallax", version="0.6")
+app = FastAPI(title="Parallax", version="0.9")
 app.state.limiter = limiter
 app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 # CORS: read-only public API, safe to open widely. Restrict via env if the
 # frontend is ever split onto its own domain.
-_origins = os.environ.get("CORS_ORIGINS", "*")
+# Default CORS origins cover both the canonical domain and www.
+# Override via CORS_ORIGINS env var (comma-separated) for custom setups.
+_DEFAULT_ORIGINS = [
+    "https://useparallax.net",
+    "https://www.useparallax.net",
+    "http://localhost:8000",   # local dev
+    "http://127.0.0.1:8000",
+]
+_env = os.environ.get("CORS_ORIGINS", "")
+_origins = [o.strip() for o in _env.split(",") if o.strip()] or _DEFAULT_ORIGINS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[_origins] if _origins != "*" else ["*"],
+    allow_origins=_origins,
     allow_methods=["GET", "POST"],
     allow_headers=["*"],
 )
