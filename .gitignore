@@ -3,6 +3,4 @@ __pycache__/
 .pytest_cache/
 data/raw/
 data/parallax.db
-data/timeline.jsonl
-data/runs.jsonl
 data/feedback.jsonl

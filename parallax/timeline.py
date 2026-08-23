@@ -87,6 +87,32 @@ def extract_consequences(story: Story) -> list[dict]:
     return list(events.values())
 
 
+def _migrate(entry: dict) -> dict:
+    """Normalize entries written by earlier versions so the store is
+    always in current format regardless of what's on disk.
+
+    v0.7-and-earlier coverage records used `placement`; the
+    independence-cluster model (v0.8, DESIGN.md) renamed it `owner`.
+    Older entries may also predate accumulated coverage/divergence.
+    """
+    entry.setdefault("id", hashlib.sha1(
+        f"{entry.get('label','')}|{entry.get('tracked_since','')}".encode()
+    ).hexdigest()[:12])
+    entry.setdefault("coverage", [])
+    entry.setdefault("divergence", 0.0)
+    entry.setdefault("divergent_labels", [])
+    entry.setdefault("numeric", [])
+    entry.setdefault("facts", [])
+    entry.setdefault("consequences", [])
+    for c in entry["coverage"]:
+        if "owner" not in c:
+            c["owner"] = c.pop("placement", "unknown")
+    for f in entry["facts"]:
+        if "owners" not in f and "placements" in f:
+            f["owners"] = f.pop("placements")
+    return entry
+
+
 class TimelineStore:
     """JSONL store: one document per tracked story, rewritten per run."""
 
@@ -95,7 +121,7 @@ class TimelineStore:
         self.entries: list[dict] = []
         if path.exists():
             self.entries = [
-                json.loads(line)
+                _migrate(json.loads(line))
                 for line in path.read_text(encoding="utf-8").splitlines()
                 if line.strip()
             ]

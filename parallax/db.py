@@ -117,11 +117,13 @@ def sync(timeline_entries: list[dict], payload: list[dict] | None = None,
             s.add(row)
             for c in e.get("coverage", []):
                 s.add(CoverageRow(
-                    story_id=e["id"], outlet=c["outlet"],
-                    owner=c["owner"], title=c["title"],
+                    story_id=e["id"], outlet=c.get("outlet", "unknown"),
+                    # legacy entries (pre-v0.8) used "placement"
+                    owner=c.get("owner", c.get("placement", "unknown")),
+                    title=c.get("title", ""),
                     link=c.get("link", ""), published=c.get("published", ""),
-                    loaded_terms=json.dumps(c["loaded_terms"]),
-                    labels_used=json.dumps(c["labels_used"]),
+                    loaded_terms=json.dumps(c.get("loaded_terms", {})),
+                    labels_used=json.dumps(c.get("labels_used", [])),
                     passive_voice=int(c.get("passive_voice", False)),
                 ))
             for f in e.get("facts", []):
