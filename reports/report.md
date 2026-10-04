@@ -1,46 +1,54 @@
 # Parallax daily report
-_Generated 2026-10-04 05:32 UTC. Text-observable signals only — no intent or
+_Generated 2026-10-04 12:10 UTC. Text-observable signals only — no intent or
 coordination claims can be drawn from headline statistics._
 
-## Question Time: Weekly News Quiz
-Covered by 15 outlets · framing divergence 0.71
-- Same actors, different labels: administration, government
-- Same actors, different labels: activists, demonstrators, protesters
-- Reaction vocabulary present: campaign, campaigns, demands, march, marched, marches, protest, protested, protesting, protests, rally, strike
+## How tinda became a gourmet dish
+Covered by 14 outlets · framing divergence 0.7
+- Same actors, different labels: administration, government, regime
+- Same actors, different labels: attack, raid
+- Same actors, different labels: activists, protesters
+- Reaction vocabulary present: campaign, campaigning, demands, march, marched, protest, protesting, protests, strike, strikes
 
 **Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
 - `corroborated` 2026-10-01T13:54 — a href https www _(Dawn (Pakistan), India Today)_
-- `corroborated` 2026-10-02T04:25 — the cockroach janta party _(BBC (India desk), News18, Times of India)_
+- `corroborated` 2026-10-01T13:54 — kt rama rao _(India Today, Telangana Today)_
 - `corroborated` 2026-10-02T08:46 — opening the cockpit door _(BBC (India desk), News18)_
-- `corroborated` 2026-10-02T09:08 — cockpit military action _(BBC (India desk), India Today, LiveMint, Telangana Today)_
-- `corroborated` 2026-10-02T09:08 — prime minister narendra modi _(BBC (India desk), Dawn (Pakistan), Telangana Today)_
-- `corroborated` 2026-10-02T09:08 — capt smit machchhar _(BBC (India desk), LiveMint)_
-- `corroborated` 2026-10-03T03:10 — protests against cec _(Scroll.in, The Hindu)_
-- `corroborated` 2026-10-03T09:22 — asian games gold _(BBC (India desk), India Today)_
-- `corroborated` 2026-10-03T10:02 — the special intensive revision sir _(LiveMint, NDTV)_
-- `corroborated` 2026-10-03T13:01 — asian games 2026 _(LiveMint, NDTV, News18, The Hindu)_
-- `corroborated` 2026-10-03T13:22 — s shivaji park protest _(LiveMint, News18)_
-- `corroborated` 2026-10-03T13:32 — against chief election commissioner gyanesh kumar _(News18, Onmanorama (Kerala), The Hindu)_
-- `corroborated` 2026-10-03T13:46 — fir against cjp leaders _(LiveMint, Scroll.in)_
+- `corroborated` 2026-10-02T09:08 — cockpit military action _(BBC (India desk), LiveMint)_
+- `corroborated` 2026-10-03T04:10 — at jantar mantar on saturday _(Hindustan Times, Scroll.in)_
+- `corroborated` 2026-10-03T08:46 — for the first time signalled its willingness to play a role _(News18, Scroll.in)_
+- `corroborated` 2026-10-03T09:22 — gold at the asian games _(BBC (India desk), Telangana Today)_
+- `corroborated` 2026-10-03T11:04 — asian games gold medals _(India Today, Telangana Today)_
 - `corroborated` 2026-10-03T14:10 — protest against cec gyanesh kumar _(Scroll.in, The Hindu)_
-- `corroborated` 2026-10-03T15:08 — influencer mad sandhu shot dead in amritsar _(India Today, News18)_
-- `corroborated` 2026-10-03T15:33 — of chief election commissioner gyanesh kumar _(Scroll.in, Telangana Today)_
 - `corroborated` 2026-10-03T16:05 — terrorist military action _(LiveMint, News18)_
-- `corroborated` 2026-10-03T17:45 — giving shelter to sheikh hasina _(Hindustan Times, India Today)_
-- `corroborated` 2026-10-03T17:45 — choice dinesh trivedi _(India Today, The Hindu)_
-- `corroborated` 2026-10-03T19:00 — resignation of chief election commissioner _(Al Jazeera (South Asia), Scroll.in)_
 - `corroborated` 2026-10-03T19:07 — machchhar reveals new details of flydubai _(LiveMint, News18)_
+- `corroborated` 2026-10-03T19:07 — flydubai incident captain smit _(News18, The Hindu)_
 - `corroborated` 2026-10-03T19:07 — co-pilot got up to pray then _(LiveMint, News18)_
-- `corroborated` 2026-10-03T19:07 — captain smit machchhar _(News18, Telangana Today)_
+- `corroborated` 2026-10-03T19:07 — captain smit machchhar _(News18, Times of India)_
 - `corroborated` 2026-10-03T21:00 — sarvajana sanatan party chief _(India Today, News18)_
-- `corroborated` 2026-10-04T01:54 — against cec gyanesh kumar over _(LiveMint, News18, The Hindu)_
+- `corroborated` 2026-10-03T23:43 — chief election commissioner gyanesh kumar _(News18, Scroll.in)_
+- `corroborated` 2026-10-03T23:43 — rajya sabha mp _(Scroll.in, The Hindu)_
+- `corroborated` 2026-10-04T01:54 — against cec gyanesh kumar over _(LiveMint, News18)_
+- `corroborated` 2026-10-04T02:22 — special intensive revision sir _(LiveMint, News18)_
 - `corroborated` 2026-10-04T02:22 — trouble for gyanesh kumar _(India Today, LiveMint)_
-- `corroborated` 2026-10-04T02:53 — israeli prime minister benjamin netanyahu invited _(LiveMint, Telangana Today)_
-- `corroborated` 2026-10-04T02:53 — narendra modi to light a flame _(LiveMint, Telangana Today)_
-- `corroborated` 2026-10-04T03:37 — the 2026 asian games _(NDTV, The Hindu)_
-- `corroborated` 2026-10-04T04:09 — mystery pilots who _(LiveMint, NDTV)_
-- `corroborated` 2026-10-04T05:00 — india s asian games _(Hindustan Times, Times of India)_
-- `discrepancy` “…asian games” — The Hindu: 2026, India Today: 305
+- `corroborated` 2026-10-04T02:54 — while she was covering _(LiveMint, News18)_
+- `corroborated` 2026-10-04T03:07 — amit shah ji where are you _(Hindustan Times, News18)_
+- `corroborated` 2026-10-04T03:26 — independence day israeli prime minister benjamin netanyahu _(LiveMint, News18)_
+- `corroborated` 2026-10-04T03:26 — indian pilot smit machchhar _(LiveMint, News18)_
+- `corroborated` 2026-10-04T04:11 — probe into malaysian _(India Today, The Hindu)_
+- `corroborated` 2026-10-04T05:45 — parliament street police station demanding _(LiveMint, Scroll.in)_
+- `corroborated` 2026-10-04T05:45 — delhi police officer _(LiveMint, The Hindu)_
+- `corroborated` 2026-10-04T06:17 — silence on flydubai incident _(News18, The Hindu)_
+- `corroborated` 2026-10-04T07:01 — police have registered a case against tamil nadu leader of _(Telangana Today, Times of India)_
+- `corroborated` 2026-10-04T07:01 — opposition udhayanidhi stalin _(Telangana Today, Times of India)_
+- `corroborated` 2026-10-04T07:16 — former supreme court _(LiveMint, The Hindu)_
+- `corroborated` 2026-10-04T07:19 — journalists allege sexual _(News18, Scroll.in)_
+- `corroborated` 2026-10-04T07:31 — uddhav raj thackeray lead _(News18, The Hindu)_
+- `corroborated` 2026-10-04T09:18 — flydubai co-pilot's chilling _(Hindustan Times, India Today)_
+- `corroborated` 2026-10-04T10:27 — implement ucc in 6 months _(India Today, Times of India)_
+- `corroborated` 2026-10-04T10:27 — bring laws against love _(India Today, The Hindu)_
+- `corroborated` 2026-10-04T10:48 — dharapuram bypoll campaign _(Hindustan Times, Times of India)_
+- `corroborated` 2026-10-04T11:07 — reopening strait of hormuz _(Al Jazeera (South Asia), India Today)_
+- `discrepancy` “…000 feet” — Dawn (Pakistan): 16, Al Jazeera (South Asia): 17
 
 **Consequences (as reported — what started, not who arranged it):**
 - protest — first seen 2026-07-21T08:59, reported by The Hindu, Scroll.in, Telangana Today, Times of India, BBC (India desk), LiveMint, India Today, Hindustan Times, NDTV, News18, Dawn (Pakistan), Al Jazeera (South Asia), Business Line (The Hindu), The News Minute, Onmanorama (Kerala)
@@ -58,293 +66,156 @@ Covered by 15 outlets · framing divergence 0.71
 - dharna — first seen 2026-08-29T06:12, reported by Hindustan Times, Telangana Today, News18
 - walkout — first seen 2026-09-03T11:43, reported by India Today, The Hindu, Hindustan Times, Dawn (Pakistan), LiveMint, Al Jazeera (South Asia), Scroll.in
 - marched — first seen 2026-09-03T18:35, reported by NDTV, Al Jazeera (South Asia), Scroll.in
-- campaigning — first seen 2026-09-09T09:21, reported by Scroll.in, India Today
+- campaigning — first seen 2026-09-09T09:21, reported by Scroll.in, India Today, The Hindu, Times of India
 - rasta roko — first seen 2026-09-12T14:43, reported by Telangana Today
 - marching — first seen 2026-09-25T13:26, reported by Dawn (Pakistan)
 - petitioning — first seen 2026-10-01T03:30, reported by Scroll.in
 
 | Outlet | Owner | Headline | Loaded terms |
 |---|---|---|---|
-| The Hindu | Kasturi & Sons (The Hindu Group) | Asian Games 2026 India’s medallists: Full list of winners | — |
-| The Hindu | Kasturi & Sons (The Hindu Group) | Asian Games 2026 Medal Tally: India finishes fourth with 85 medals | — |
-| The Hindu | Kasturi & Sons (The Hindu Group) | M.R. Poovamma feted in Mangaluru | — |
-| Times of India | Bennett, Coleman & Co. (Times Group) | 20 Hangzhou golds gone, 13 new routes to gold: How India’s Asian Games medal map changed | minimizing: only |
-| Hindustan Times | HT Media (Birla family) | India’s Asian Games crown changed hands: Just 8 of 28 golds were defended, while 13 new champions emerged in Aichi-Nagoya | minimizing: just, only |
-| NDTV | Adani Group (AMG Media Networks) | Asian Games 2026 Closing Ceremony Live Streaming, Venue And Other Details | — |
-| NDTV | Adani Group (AMG Media Networks) | Asiad 2026: The Firsts, Bests And Breakthroughs That Defined India's Campaign | sympathetic: historic |
-| News18 | Network18 / Reliance Industries | BREAKING: Indian Wins Men's Hockey GOLD At Asian Games 2026, Qualifies For LA Olympics \| News18 | — |
+| The Hindu | Kasturi & Sons (The Hindu Group) | Ruling TVK is obsessed with purchasing MLAs: M.K. Stalin tells voters | — |
+| The Hindu | Kasturi & Sons (The Hindu Group) | BJP President Nagenthran condemns intimidation of journalist by TVK cadres | minimizing: alleged |
+| Times of India | Bennett, Coleman & Co. (Times Group) | Udhayanidhi Stalin booked for involving minor in Dharapuram bypoll campaign | — |
+| Hindustan Times | HT Media (Birla family) | Tamil Nadu CM Vijay rides bullock cart during Dharapuram bypoll campaign, interacts with voters \| Watch | — |
+| India Today | Living Media (India Today Group) | If you speak against our sisters, mothers...: Vijay to Stalin over Sathyabama row | — |
+| India Today | Living Media (India Today Group) | Aryna Sabalenka suffers yet another setback, makes shock exit at China Open | — |
+| India Today | Living Media (India Today Group) | Rahul Gandhi pauses to say hello to sniffer dog at airport. It's adorable | — |
+| India Today | Living Media (India Today Group) | Diljit Dosanjh announces 7-city Aura Tour across India from November | — |
+| India Today | Living Media (India Today Group) | Max Verstappen beats Antonelli to win F1's rain-delayed Bahrain Grand Prix | — |
+| India Today | Living Media (India Today Group) | TPLF withdraws from Mekelle as Ethiopian federal forces move back in | — |
+| Telangana Today | Telangana Publications | TN bypolls: FIR against Udhayanidhi Stalin for involving child in Dharapuram campaign | — |
+| Al Jazeera (South Asia) | Al Jazeera Media Network (Qatar state-funded) | Ethiopian government forces seize Tigray capital Mekelle as TPLF withdraws | — |
+| Al Jazeera (South Asia) | Al Jazeera Media Network (Qatar state-funded) | Red Bull’s Verstappen wins rain-delayed Bahrain GP F1 race in Sepang | — |
+| Al Jazeera (South Asia) | Al Jazeera Media Network (Qatar state-funded) | Sabalenka, Rybakina handed shock defeats at China Open tennis | — |
+| The Hindu | Kasturi & Sons (The Hindu Group) | Diljit Dosanjh Aura India Tour: Singer announces seven-city India leg across Delhi, Mumbai, Bengaluru and more | — |
+| Times of India | Bennett, Coleman & Co. (Times Group) | Migrant arrested for pushing co-worker off train in Tamil Nadu | — |
+| NDTV | Adani Group (AMG Media Networks) | Max Verstappen Wins Rain-Hit Bahrain GP; Hamilton Recovers From P18 To Finish Third | — |
+| India Today | Living Media (India Today Group) | US becoming a lonelier power by choice, says Jaishankar at Munich meet | — |
+| India Today | Living Media (India Today Group) | Uddhav, Raj Thackeray hit Mumbai streets for mega protest against Gyanesh Kumar | — |
+| India Today | Living Media (India Today Group) | Bengal to implement UCC in 6 months, bring laws against love jihad: CM Suvendu | — |
+| India Today | Living Media (India Today Group) | Wanted to crash plane, not afraid to die: flydubai co-pilot's chilling admission | — |
+| India Today | Living Media (India Today Group) | From Eliza to Savita, Balkrishan to Marijne: Inside India's 4-decade gold wait | — |
 | India Today | Living Media (India Today Group) | No trophy drama: Indian cricket team receives Asian Games gold medals from Jay Shah | — |
-| India Today | Living Media (India Today Group) | 21 golds in stunning late rush: India finish Asian Games with 85 medals in Japan | — |
 | India Today | Living Media (India Today Group) | Asian Games gold is historic, next target is LA Olympics: 17-year-old Kumkum's father | sympathetic: historic |
-| India Today | Living Media (India Today Group) | India win 6 medals in wrestling, clinch golden freestyle double after 48 years | — |
-| India Today | Living Media (India Today Group) | Vibe Punjab Di: Akali Dal ramps up Gen Z outreach ahead of 2027 Punjab polls | — |
-| India Today | Living Media (India Today Group) | Did a bullet crisis hit Indian shooters, cost medal at Asian Games? | alarmist: crisis |
-| India Today | Living Media (India Today Group) | You're coming in blind? Chilling audio surfaces after medical jet vanishes in US | — |
-| India Today | Living Media (India Today Group) | On camera, 4 drunk men in car chase, harass women on Haridwar highway; arrested | — |
-| India Today | Living Media (India Today Group) | Netanyahu's call with hero flydubai pilot ends with invite for him and PM Modi | — |
+| India Today | Living Media (India Today Group) | 21 golds in stunning late rush: India finish Asian Games with 85 medals in Japan | — |
+| India Today | Living Media (India Today Group) | Not about seats, it's about victory: Akhilesh Yadav amid rift rumours with Congress | — |
+| India Today | Living Media (India Today Group) | How to use Temple? Deepinder Goyal reveals full details | — |
+| India Today | Living Media (India Today Group) | Russia stood by India when much of the world backed Pakistan: S Jaishankar | — |
+| India Today | Living Media (India Today Group) | Chilling details: flydubai co-pilot used prayer as ruse, captain opened door twice | — |
+| India Today | Living Media (India Today Group) | Was Russia-Ukraine war a reason for fewer medals for Indian shooters at Asian Games? | alarmist: crisis; militarized: war |
 | India Today | Living Media (India Today Group) | Why Bangladesh's drone push could be India's eastern challenge | — |
 | India Today | Living Media (India Today Group) | Why Nara Lokesh defends Election Commission amidst SIR row | — |
 | India Today | Living Media (India Today Group) | Still struggling for a base, why BJP says it'll eventually take power in Kerala | — |
 | India Today | Living Media (India Today Group) | How Southern start-ups are solving local problems, building for global markets | — |
 | India Today | Living Media (India Today Group) | Why BRS leader KT Rama Rao calls alliance with BJP an 'absurd idea' | — |
-| India Today | Living Media (India Today Group) | Swara breaks down, misses daughter on Rise & Fall 2; Shehzad-Tej Pratap comfort her | — |
-| India Today | Living Media (India Today Group) | Ex-CBI chief enters politics, becomes Sarvajana Sanatan Party chief | — |
-| India Today | Living Media (India Today Group) | War isn't over: Al-Qaida calls for copycat attacks after flydubai hijack bid | militarized: war |
-| India Today | Living Media (India Today Group) | We had no choice: Dinesh Trivedi on India giving shelter to Sheikh Hasina in 2024 | — |
-| India Today | Living Media (India Today Group) | Vibe Punjab Di: Akali Dal ramps up Gen Z outreach ahead of 2027 Punjab polls | — |
-| India Today | Living Media (India Today Group) | No Insta, no off-days: At 17, Kumkum Mohod lives and breathes archery | — |
-| India Today | Living Media (India Today Group) | Blow to head, vision gone, plane plunging: Capt Smit recounts cockpit attack | — |
-| India Today | Living Media (India Today Group) | 2 years after PM's Lakshadweep visit, tourism expands, Navy strengthens presence | — |
-| India Today | Living Media (India Today Group) | Surat airport staffer suddenly collapses, CISF personnel revive him with CPR | — |
-| India Today | Living Media (India Today Group) | Fariba Hashimi: The Afghan cyclist who broke free from prison and learned to fly | — |
+| India Today | Living Media (India Today Group) | Who owns Durga Puja? Bengal's festival enters a new culture war | militarized: war |
+| India Today | Living Media (India Today Group) | Man watched Drishyam 3, travelled 2,000 km to kill father. One call exposed him | — |
+| India Today | Living Media (India Today Group) | How tinda became a gourmet dish | — |
+| India Today | Living Media (India Today Group) | Women journalists claim cops groped them at Jantar Mantar stir, probe launched | — |
+| India Today | Living Media (India Today Group) | Not about seats, it's about victory: Akhilesh Yadav amid rift rumours with Congress | — |
+| India Today | Living Media (India Today Group) | IndiGo flight attendant gets creative with in-flight snacks, bakes cake for captain | — |
+| India Today | Living Media (India Today Group) | Trouble for Gyanesh Kumar as Keralam reopens probe into Malaysian engineer's death | — |
+| India Today | Living Media (India Today Group) | Aichi-Nagoya Asian Games declared closed, baton passed to Doha | — |
+| India Today | Living Media (India Today Group) | flydubai passenger feared pilots saving plane might hijack it, fly to Iran | — |
+| India Today | Living Media (India Today Group) | Spotify deletes big chunks of a song, bets you won't notice. Your ears are the alibi | — |
 | India Today | Living Media (India Today Group) | Question Time: Weekly News Quiz | — |
-| India Today | Living Media (India Today Group) | Makeup artist and LGBTQ influencer Mad Sandhu shot dead in Amritsar | — |
-| India Today | Living Media (India Today Group) | Former sarpanch shot dead in Ludhiana, attackers fire 10 rounds at his car | — |
-| India Today | Living Media (India Today Group) | He drove an auto, worked at Pizza Hut, then built a Rs 10,964 crore empire | — |
-| India Today | Living Media (India Today Group) | Not a good sign for World Cup: Shubman Gill flags concern areas after WI series | — |
-| India Today | Living Media (India Today Group) | flydubai crew demanded tied-up Omani co-pilot be freed, Israeli passengers claim | — |
-| India Today | Living Media (India Today Group) | ED seizes land of UP madrasa teacher who drew salary after becoming UK citizen | — |
-| India Today | Living Media (India Today Group) | Brazil votes in high-stakes Lula vs Flavio Bolsonaro presidential race | — |
-| India Today | Living Media (India Today Group) | Adani-run Mumbai Airport to redevelop T1B from Jan 2027, 9% traffic to be affected | — |
-| India Today | Living Media (India Today Group) | Spotify deletes most of a song's data. Your ears let it get away with this | — |
-| India Today | Living Media (India Today Group) | Rise & Fall 2: Shehzad-Swara rivalry takes a twist as he becomes her fitness coach | — |
-| India Today | Living Media (India Today Group) | Surat airport staffer suddenly collapses, CISF personnel revive him with CPR | — |
-| Telangana Today | Telangana Publications | ‘I had that one last fight left in me’: Capt Machchhar recalls cockpit attack | — |
-| Telangana Today | Telangana Publications | Who are mystery men who stepped in to keep FlyDubai plane from crashing? | — |
-| Telangana Today | Telangana Publications | Israeli PM Netanyahu invites ‘true hero’ Captain Smit, PM Modi to light Independence Day flame | — |
-| Telangana Today | Telangana Publications | India can become a developed nation within a decade: Nara Lokesh | — |
+| India Today | Living Media (India Today Group) | India vs Brazil game a circus: Bhutia slams AIFF, calls friendly illogical | alarmist: slams |
+| India Today | Living Media (India Today Group) | 4 hours a day is enough: Chetan Bhagat says prioritise your work, not the clock | — |
+| India Today | Living Media (India Today Group) | 2 years after PM's Lakshadweep visit, tourism expands, Navy strengthens presence | — |
+| India Today | Living Media (India Today Group) | Ex-CBI chief enters politics, becomes Sarvajana Sanatan Party chief | — |
+| India Today | Living Media (India Today Group) | Iran sets 7 conditions for reopening Strait of Hormuz, rules out nuclear talks | militarized: war |
+| Scroll.in | Scroll Media (independent) | Jantar Mantar protest: Three journalists allege sexual assault by Delhi Police officers | militarized: assault |
+| Scroll.in | Scroll Media (independent) | Mumbai: FIR against CJP leaders, over 400 others for protest against CEC Gyanesh Kumar | — |
+| Scroll.in | Scroll Media (independent) | Prashant Bhushan, AISA’s Neha Bora detained at Jantar Mantar on day 2 of protest against CEC | — |
+| Scroll.in | Scroll Media (independent) | CJP says Delhi protest on October 10 if CEC Gyanesh Kumar does not resign | — |
+| Scroll.in | Scroll Media (independent) | ‘Delhi was a warzone, Mumbai a concert’: Protests against CEC Gyanesh Kumar strike contrasting notes | — |
+| Telangana Today | Telangana Publications | Asian Games: Haryana’s Kirti Sharma overcomes odds to win recurve team gold | — |
+| Telangana Today | Telangana Publications | Pakistan speedster Kainat Imtiaz announces retirement from international cricket | — |
+| Telangana Today | Telangana Publications | Saints urge Akhilesh Yadav to seek blessings at Ayodhya Ram Temple | — |
+| Telangana Today | Telangana Publications | KTR invited as guest of honour at US healthcare summit | — |
 | BBC (India desk) | BBC (UK public corporation) | Flydubai co-pilot attacked captain with axe, UAE official says | — |
 | BBC (India desk) | BBC (UK public corporation) | India beat Pakistan to take Asian Games gold | — |
 | BBC (India desk) | BBC (UK public corporation) | 'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot | — |
 | BBC (India desk) | BBC (UK public corporation) | Watch: Emotional pilot recounts moment of Flydubai attack | — |
-| Al Jazeera (South Asia) | Al Jazeera Media Network (Qatar state-funded) | Ballots reach remote Indigenous Brazilians ahead of presidential election | — |
-| Al Jazeera (South Asia) | Al Jazeera Media Network (Qatar state-funded) | Brazil’s Lula and Bolsonaro close campaigns ahead of critical election | — |
-| Al Jazeera (South Asia) | Al Jazeera Media Network (Qatar state-funded) | Debris from missing medical plane found, US coastguard says | — |
+| Al Jazeera (South Asia) | Al Jazeera Media Network (Qatar state-funded) | Iran says Hormuz to remain closed until US meets conditions | — |
 | Dawn (Pakistan) | Pakistan Herald Publications (Haroon family) | UAE investigators say flydubai co-pilot was planning 'terrorist act' | — |
-| Dawn (Pakistan) | Pakistan Herald Publications (Haroon family) | Asian Games: Pakistan hockey claim comeback bronze as volleyball end 64-year wait | — |
-| Dawn (Pakistan) | Pakistan Herald Publications (Haroon family) | Hasan Nawaz's fighting 96 against India in vain as Pakistan settle for Asian Games cricket silver | — |
-| The Hindu | Kasturi & Sons (The Hindu Group) | Asian Games 2026: India finishes fourth with 85 medals, late gold rush seals campaign | alarmist: surge |
-| The Hindu | Kasturi & Sons (The Hindu Group) | 'Debris field' found from medical flight missing over Atlantic en route to Boston | — |
-| The Hindu | Kasturi & Sons (The Hindu Group) | Lula ahead in polls for Brazil’s first-round vote; runoff likely | — |
-| The Hindu | Kasturi & Sons (The Hindu Group) | Sheikh Hasina’s extradition possible via ‘well-structured’ process: India’s High Commissioner to Bangladesh | — |
-| Business Line (The Hindu) | Kasturi & Sons (The Hindu Group) | Adani Airports set to begin Mumbai Terminal 1B redevelopment in January 2027 | — |
-| Business Line (The Hindu) | Kasturi & Sons (The Hindu Group) | Chandrababu Naidu calls on IITians to unite for nation building, pitches Quantum Valley in Amaravati | — |
-| Business Line (The Hindu) | Kasturi & Sons (The Hindu Group) | Mumbai airport Terminal 1 revamp: 91% passenger traffic to remain unaffected | — |
-| Hindustan Times | HT Media (Birla family) | ‘No time to experiment’: Shubman Gill hints at end of road for Auqib Nabi, Anshul Kamboj in India’s ODI World Cup 2027 plans | — |
-| Hindustan Times | HT Media (Birla family) | Indian envoy on giving shelter to Sheikh Hasina: 'It was our duty...she was still Bangladesh PM' | — |
-| Hindustan Times | HT Media (Birla family) | ‘God made me this way’: What murdered Punjab influencer Mad Sandhu, vocal about LGBT issues, told trolls | — |
-| Hindustan Times | HT Media (Birla family) | Gulfstream G100 missing jet update: Searchers find ‘debris field’ off the coast of Nantucket as hunt for plane continues | — |
+| The Hindu | Kasturi & Sons (The Hindu Group) | Protest against CEC Gyanesh Kumar: AISA activists attempt return to Jantar Mantar amid heavy barricading | minimizing: alleged |
+| The Hindu | Kasturi & Sons (The Hindu Group) | BJP rejects allegations of voter deletions during SIR, defends EC process | — |
+| The Hindu | Kasturi & Sons (The Hindu Group) | UAE shared details about FlyDubai flight with Israel, including pilots’ names, nationalities | — |
+| The Hindu | Kasturi & Sons (The Hindu Group) | Keralam’s former Minister Muneer seeks comprehensive probe into Malaysian engineer’s death in 2006 | — |
+| The Hindu | Kasturi & Sons (The Hindu Group) | Will bring laws against love, land jihad in 6 months, implement UCC like Uttarakhand, Gujarat: Adhikari | — |
+| The Hindu | Kasturi & Sons (The Hindu Group) | India is going ‘beyond advocacy’ on the Russia-Ukraine conflict: Jaishankar | delegitimizing: regime |
+| The Hindu | Kasturi & Sons (The Hindu Group) | Gyanesh Kumar undermined Election Commission’s independence: Sachin Pilot | minimizing: alleged |
+| The Hindu | Kasturi & Sons (The Hindu Group) | Asian Games close in Japan after records, rancour and rain | — |
+| The Hindu | Kasturi & Sons (The Hindu Group) | Uddhav, Raj Thackeray, lead morcha in Mumbai against CEC Gyanesh Kumar | — |
+| Business Line (The Hindu) | Kasturi & Sons (The Hindu Group) | Today’s Gold Rate in India October 4: Gold prices steady in Coimbatore, Nagpur, Visakhapatnam, Surat, Jaipur | — |
+| Business Line (The Hindu) | Kasturi & Sons (The Hindu Group) | Today’s Gold Rate in India October 4: Gold prices steady in Delhi, Mumbai, Kolkata, Chennai, Bengaluru | — |
+| Times of India | Bennett, Coleman & Co. (Times Group) | 20-year-old worker found hanging from tree in Bikram | — |
+| Times of India | Bennett, Coleman & Co. (Times Group) | Bengal to bring law against land and love jihad, implement UCC in 6 months: CM Suvendu | — |
+| Times of India | Bennett, Coleman & Co. (Times Group) | 'Not a single post, statement': BJP launches blistering attack on Congress over Captain Smit Machchhar | — |
+| Hindustan Times | HT Media (Birla family) | ‘Amit Shah ji, where are you’: Oppn slams Centre, Delhi Police as women journalists await FIR in harrasment case | alarmist: slams; minimizing: alleged |
+| Hindustan Times | HT Media (Birla family) | Love for flying, then a crash bid: flydubai co-pilot's chilling ‘not afraid of death’ confession | — |
+| LiveMint | HT Media (Birla family) | India's Kusum Group pharma plant in Ukraine comes under attack, says report: What to know | — |
+| LiveMint | HT Media (Birla family) | Election Commission SIR 2026: Meet 5 retired SC, HC judges on panel examining legality, impact on voters | — |
+| LiveMint | HT Media (Birla family) | Jantar Mantar row explained: Journalist alleges sexual assault by Delhi cop, protesters demand FIR | minimizing: alleged; militarized: assault |
 | LiveMint | HT Media (Birla family) | What we know about mystery pilots who saved Dubai-Tel Aviv Flydubai flight from crashing after Indian pilot attacked | — |
 | LiveMint | HT Media (Birla family) | 'Hero for the world': Netanyahu invites PM Modi, Flydubai pilot Machchhar to light celebratory flame on Independence Day | minimizing: alleged |
 | LiveMint | HT Media (Birla family) | Flydubai co-pilot who attacked Smit Machchhar to carry out a terrorist attack studied at a UK university: Report | — |
-| LiveMint | HT Media (Birla family) | ‘Co-pilot got up to pray, then.’: Indian pilot Machchhar reveals new details of flydubai cockpit attack to Netanyahu | — |
-| LiveMint | HT Media (Birla family) | Who was Mad Sandhu? Popular LGBTQ influencer, makeup artist shot dead in Amritsar; found lying on road, blood-soaked | — |
-| LiveMint | HT Media (Birla family) | Airlines reject 33% cut in international slots at Mumbai airport T2 from Oct 25: Report | — |
-| LiveMint | HT Media (Birla family) | ‘Proud he is part of our nation's story’: Dubai Crown Prince praises Indian flydubai pilot Smit Machchhar's courage | — |
-| LiveMint | HT Media (Birla family) | Tamil Nadu: CM Vijay announces  ₹30 lakh each for India's Asian Games 2026 heroes; check who will receive the reward | sympathetic: historic |
-| LiveMint | HT Media (Birla family) | 'A hero of our times': Mankind Pharma to give  ₹1 crore to FlyDubai Capt Smit Machchhar | alarmist: crisis |
-| NDTV | Adani Group (AMG Media Networks) | Bhagwant Mann Under Fire From Opposition After LGBTQ Influencer Shot Dead | — |
-| NDTV | Adani Group (AMG Media Networks) | Mystery Pilots Who Steered FlyDubai Hijack-Scare To Safety Remain Unnamed | — |
-| NDTV | Adani Group (AMG Media Networks) | flydubai Crew Asked To Free Co-Pilot? Passengers Say "Only To Cops" In Video | minimizing: only |
-| NDTV | Adani Group (AMG Media Networks) | Gill Puts India's Coaching Staff Under Spotlight, Slams Repeated Bowling Issues | alarmist: slams |
-| News18 | Network18 / Reliance Industries | Former CBI Director M Nageshwar Rao Enters Politics, Takes Charge As Sarvajana Sanatan Party Chief | — |
-| News18 | Network18 / Reliance Industries | 'No Specific Timeline': India Says Decision On Sheikh Hasina's Extradition To Bangladesh Still Under Legal Review | — |
-| News18 | Network18 / Reliance Industries | 'Co-Pilot Got Up To Pray, Then Hit Me On The Head': Smit Machchhar Reveals New Details Of Flydubai Incident | — |
-| News18 | Network18 / Reliance Industries | FlyDubai FZ1073: Co-Pilot’s Past Raises Major Security & Vetting Questions \| Super Saturday Debate | — |
-| News18 | Network18 / Reliance Industries | Punjab Makeup Artist And Influencer Mad Sandhu Shot Dead In Amritsar | — |
-| News18 | Network18 / Reliance Industries | Vijay’s TVK Faces Crucial Test In Tamil Nadu Bypolls: Can It Take On DMK & AIADMK? \| Simply South | — |
-| India Today | Living Media (India Today Group) | Rahul Gandhi, CJP claim cops groped women journalists at Jantar Mantar stir | — |
-| India Today | Living Media (India Today Group) | Chilling details: flydubai co-pilot used prayer as ruse, captain opened door twice | — |
-| India Today | Living Media (India Today Group) | Trouble for Gyanesh Kumar as Keralam reopens probe into Malaysian engineer's death | — |
-| India Today | Living Media (India Today Group) | flydubai passenger feared pilots saving plane might hijack it, fly to Iran | — |
-| Scroll.in | Scroll Media (independent) | Prashant Bhushan, AISA’s Neha Bora detained at Jantar Mantar on day 2 of protest against CEC | — |
-| Scroll.in | Scroll Media (independent) | CJP says Delhi protest on October 10 if CEC Gyanesh Kumar does not resign | — |
-| Scroll.in | Scroll Media (independent) | ‘Delhi was a warzone, Mumbai a concert’: Protests against CEC Gyanesh Kumar strike contrasting notes | — |
-| Scroll.in | Scroll Media (independent) | Updates: Opposition leaders detained in Delhi, demonstrators gather in Mumbai to protest against CEC | — |
-| Onmanorama (Kerala) | Malayala Manorama Group (Kandathil family) | Vigilance to probe corruption allegations during Gyanesh Kumar's stint as Kerala PWD Secretary | — |
-| Telangana Today | Telangana Publications | INDIA bloc parties announce ‘Save Democracy’ rally in Jammu on Oct 7, demand CEC ouster | — |
-| Al Jazeera (South Asia) | Al Jazeera Media Network (Qatar state-funded) | Is the CJP changing India’s political landscape? | — |
-| Dawn (Pakistan) | Pakistan Herald Publications (Haroon family) | Indian police detain several people in Gen Z-led protests against voter roll changes | — |
-| The Hindu | Kasturi & Sons (The Hindu Group) | Protest against CEC Gyanesh Kumar: Over 500 protesters detained; AISA, Yogendra Yadav call for citizen's march again today | minimizing: alleged |
-| The Hindu | Kasturi & Sons (The Hindu Group) | Protest against CEC Gyanesh Kumar updates: AISA president Neha Bora, Prashant Bhushan among 150 protesters detained in Delhi | — |
-| The Hindu | Kasturi & Sons (The Hindu Group) | ‘Satyagraha’ website launched by Rahul Gandhi: What is it? | — |
-| The Hindu | Kasturi & Sons (The Hindu Group) | As protests against CEC continue, Rahul launches ‘Satyagraha’ digital platform | — |
-| The Hindu | Kasturi & Sons (The Hindu Group) | Protests held across country demanding CEC Gyanesh Kumar’s ouster, hundreds detained | alarmist: slams |
-| Hindustan Times | HT Media (Birla family) | Husband’s CBI case led wife to study law, fight his legal battle and write a book | militarized: battle |
 | LiveMint | HT Media (Birla family) | More trouble for Gyanesh Kumar? Keralam orders probe in 2006 case linked to Malaysian man's suicide: What we know so far | minimizing: alleged |
-| LiveMint | HT Media (Birla family) | CJP’s Shivaji Park protest triggers FIR: Mumbai Police name organisers, 400-500 others | — |
-| LiveMint | HT Media (Birla family) | SIR 2026 voter list: Name deleted? A step-by-step guide on how to get it added back — Form 6 explained | — |
-| NDTV | Adani Group (AMG Media Networks) | Thackeray Brothers To Lead Mega Mumbai Protest Against Poll Body Chief Today | minimizing: alleged |
+| LiveMint | HT Media (Birla family) | Iran war news LIVE Updates: Ghalibaf says Iran won't reopen the Strait of Hormuz until conditions are met | militarized: war |
+| LiveMint | HT Media (Birla family) | ‘Co-pilot got up to pray, then.’: Indian pilot Machchhar reveals new details of flydubai cockpit attack to Netanyahu | — |
+| LiveMint | HT Media (Birla family) | ‘Proud he is part of our nation's story’: Dubai Crown Prince praises Indian flydubai pilot Smit Machchhar's courage | — |
+| NDTV | Adani Group (AMG Media Networks) | Al-Qaeda Praises flydubai Co-Pilot, Calls For Similar Attacks On US, Israel | — |
+| News18 | Network18 / Reliance Industries | Hero For Entire World: Netanyahu Speaks To Smit Machchhar, Invites Him To Israel's Independence Day | — |
+| News18 | Network18 / Reliance Industries | 'US Becoming Lonelier Power By Choice': Jaishankar Flags 'Radical Repositioning' Of America | — |
+| News18 | Network18 / Reliance Industries | CEC Gyanesh Kumar Faces Vigilance Probe: Complainant Malayankeezhu Venugopal Speaks To CNN-News18 | — |
+| News18 | Network18 / Reliance Industries | BJP Nominates Former Trinamool MP Koel Mallick To Rajya Sabha, Picks Dinesh Arya For Uttarakhand RS | — |
+| News18 | Network18 / Reliance Industries | Uddhav, Raj Thackeray Lead Joint ‘Virat Garjana Morcha’ Against CEC Gyanesh Kumar In Mumbai | — |
+| News18 | Network18 / Reliance Industries | ‘Entire Country Is Proud Of Captain Smit’: BJP Slams Congress Over Silence On Flydubai Incident | alarmist: slams |
+| News18 | Network18 / Reliance Industries | Women Journalists Allege Sexual Harassment By Delhi Cops During Jantar Mantar Protests, Probe Launched | minimizing: alleged |
 | News18 | Network18 / Reliance Industries | BJP Hits Back at Rahul Gandhi Over Election Commission Attack \| Rahul Gandhi vs BJP \| Delhi Protests | minimizing: claims |
 | News18 | Network18 / Reliance Industries | Rahul Gandhi Criticizes Delhi Police Over Allegations of Misconduct at Janatar Mantar | minimizing: alleged, claims |
+| News18 | Network18 / Reliance Industries | Former CBI Director M Nageshwar Rao Enters Politics, Takes Charge As Sarvajana Sanatan Party Chief | — |
 | News18 | Network18 / Reliance Industries | CJP Demands Action After Alleged Assault on Content Creator by Delhi Police \| WATCH \| Protests News | minimizing: alleged; militarized: assault |
 | News18 | Network18 / Reliance Industries | Kerala Home Minister Orders Vigilance Enquiry Against CEC Gyanesh Kumar Over 2006 PWD Allegations | — |
-| News18 | Network18 / Reliance Industries | 'Evil Force': Vijay Rips Into MK Stalin Over Remarks On TVK's Woman Candidate | — |
-| News18 | Network18 / Reliance Industries | Stalin’s ‘Body-Shaming’ Remark Sparks Row: TVK, BJP Slam Former TN CM \| Dharapuram Bypoll \| News18 | — |
-| News18 | Network18 / Reliance Industries | Mumbai Police Files Case Against CJP Over Shivaji Park Protest \| 400+ Supporters Booked \| News18 | minimizing: alleged |
-| News18 | Network18 / Reliance Industries | ‘Will Keep Fighting To Save Democracy’: CJP’s Abhijeet Dipke Reacts To Complaint Over Shivaji Park Protest | — |
-| Scroll.in | Scroll Media (independent) | Mumbai: FIR against CJP leaders, over 400 others for protest against CEC Gyanesh Kumar | — |
-| Scroll.in | Scroll Media (independent) | SIR: EC asks BLOs to revisit voter list, add through Form 6 those eligible but deleted | minimizing: only |
-| Scroll.in | Scroll Media (independent) | Karnataka SIR: EC says it will take action against bulk applications to delete voters | — |
-| The News Minute | Spunklane Media (independent) | Beyond ‘cleaning’ voter rolls: The digital machinery behind SIR | — |
-| BBC (India desk) | BBC (UK public corporation) | India's 'cockroach' protesters are back - this time asking poll chief to resign | — |
-| BBC (India desk) | BBC (UK public corporation) | How India's election chief became embroiled in a crisis of trust | alarmist: crisis |
-| The Hindu | Kasturi & Sons (The Hindu Group) | ‘There should be some proof’: Delhi Police yet to file FIR over journalist’s sexual harassment claim against ACP | — |
-| The Hindu | Kasturi & Sons (The Hindu Group) | Protesters in Hyderabad demand CEC Gyanesh Kumar’s resignation, scrapping of SIR | — |
-| The Hindu | Kasturi & Sons (The Hindu Group) | CaRWAN protests ‘unlawful’ arrests of Noida workers, activists near Jantar Mantar, 70 detained | — |
-| Times of India | Bennett, Coleman & Co. (Times Group) | ‘Abhijeet Dipke can’t run away from this’: CJP in soup after 75-year-old dies during Mumbai protest; Dadar residents demand action | — |
-| News18 | Network18 / Reliance Industries | Delhi Police Say 'Received Sexual Harassment Complaints' By Female Journalists Against Cops; Crime Branch To Probe | minimizing: alleged |
-| BBC (India desk) | BBC (UK public corporation) | Women protest in the streets of Delhi after string of sexual assaults | — |
-
-## Legendary filmmaker Singeetham Srinivasa Rao passes away
-Covered by 6 outlets · framing divergence 0.0
-
-**Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
-- `corroborated` 2026-10-03T18:28 — singeetham srinivasa rao passes away _(Business Line (The Hindu), Telangana Today, The Hindu)_
-- `corroborated` 2026-10-04T04:19 — legendary filmmaker singeetham srinivasa rao _(Business Line (The Hindu), NDTV)_
-- `corroborated` 2026-10-04T04:56 — had a career spanning more than six decades _(Hindustan Times, Times of India)_
-- `corroborated` 2026-10-04T04:56 — across several indian languages _(Hindustan Times, Times of India)_
-- `corroborated` 2026-10-04T04:56 — pushpaka vimana aditya 369 _(Hindustan Times, Times of India)_
-
-| Outlet | Owner | Headline | Loaded terms |
-|---|---|---|---|
-| The Hindu | Kasturi & Sons (The Hindu Group) | Legendary movie director, writer Singeetham Srinivasa Rao passes away | — |
-| The Hindu | Kasturi & Sons (The Hindu Group) | The enduring impact of Singeetham Srinivasa Rao’s films on contemporary filmmakers | — |
-| Business Line (The Hindu) | Kasturi & Sons (The Hindu Group) | Legendary filmmaker Singeetham Srinivasa Rao passes away | — |
-| Times of India | Bennett, Coleman & Co. (Times Group) | Jagan Mohan Reddy mourns Singeetam Srinivasa Rao's demise; calls him a 'true pioneer and pathbreaker' | — |
-| Hindustan Times | HT Media (Birla family) | Legendary filmmaker Singeetam Srinivasa Rao, maker of classics Pushpaka Vimana, Aditya 369, dies at 94 | — |
-| NDTV | Adani Group (AMG Media Networks) | Legendary Filmmaker Singeetham Srinivasa Rao Dies At 94, Celebs Pay Tribute | — |
-| Telangana Today | Telangana Publications | Veteran director Singeetham Srinivasa Rao passes away at 94 | — |
-
-## Pakistan summons Indian envoy over killing of 2 civilians by border troops
-Covered by 5 outlets · framing divergence 0.0
-- Reaction vocabulary present: protest, protests
-
-**Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
-- `corroborated` 2026-10-03T17:25 — to lodge a strong protest over _(Dawn (Pakistan), LiveMint)_
-- `corroborated` 2026-10-03T17:25 — charg d affaires _(Dawn (Pakistan), LiveMint)_
-
-**Consequences (as reported — what started, not who arranged it):**
-- strike — first seen 2026-09-05T09:56, reported by The Hindu, NDTV, Dawn (Pakistan)
-- campaign — first seen 2026-09-20T10:15, reported by Times of India
-- protest — first seen 2026-10-03T17:25, reported by The Hindu, Dawn (Pakistan), LiveMint · NEW this run
-
-| Outlet | Owner | Headline | Loaded terms |
-|---|---|---|---|
-| The Hindu | Kasturi & Sons (The Hindu Group) | Morning Digest: Protests against CEC persist as Rahul calls for joint ‘resistance’; Indian, Pakistani diplomats summoned over BSF killing two ‘infiltrators’, and more | — |
-| The Hindu | Kasturi & Sons (The Hindu Group) | Indian and Pakistani diplomats summoned over BSF killing two ‘infiltrators’ | — |
-| News18 | Network18 / Reliance Industries | India Summons Pakistani Diplomat Over Cross-Border Infiltration, Rejects ‘Baseless’ Civilian Claim | — |
-| Telangana Today | Telangana Publications | India rejects Pakistan’s ‘baseless and motivated allegations’ about inflitration incident along International border | — |
-| Dawn (Pakistan) | Pakistan Herald Publications (Haroon family) | Pakistan summons Indian envoy over killing of 2 civilians by border troops | — |
-| LiveMint | HT Media (Birla family) | India-Pakistan face-off over Punjab border deaths: Delhi alleges infiltration, Islamabad calls victims civilians | — |
-
-## India proposal to end Russia war ‘most comprehensive’, says Ukraine
-Covered by 5 outlets · framing divergence 0.2
-- Reaction vocabulary present: strikes
-
-**Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
-- `corroborated` 2026-10-03T08:46 — for the first time signalled its willingness to play a role _(News18, Scroll.in)_
-
-**Consequences (as reported — what started, not who arranged it):**
-- protest — first seen 2026-07-22T14:59, reported by Al Jazeera (South Asia), The Hindu, Scroll.in, BBC (India desk), Telangana Today, Hindustan Times, News18, Dawn (Pakistan), Business Line (The Hindu), LiveMint
-- campaign — first seen 2026-09-07T19:01, reported by News18, NDTV, Telangana Today, The Hindu, LiveMint, Scroll.in, Dawn (Pakistan), Hindustan Times
-- marched — first seen 2026-09-10T18:36, reported by NDTV
-- strike — first seen 2026-09-13T04:09, reported by Times of India, The Hindu, Business Line (The Hindu), LiveMint, News18, Telangana Today, Al Jazeera (South Asia), Hindustan Times, NDTV
-- march — first seen 2026-09-19T14:21, reported by Business Line (The Hindu), Scroll.in
-- protesting — first seen 2026-09-21T10:41, reported by Telangana Today, BBC (India desk)
-- gherao — first seen 2026-09-23T10:35, reported by Hindustan Times
-- backlash — first seen 2026-09-24T10:41, reported by LiveMint
-- demand — first seen 2026-09-24T15:05, reported by News18
-- dharna — first seen 2026-09-24T16:56, reported by News18
-- petitioning — first seen 2026-10-01T03:30, reported by Scroll.in
-
-| Outlet | Owner | Headline | Loaded terms |
-|---|---|---|---|
-| Business Line (The Hindu) | Kasturi & Sons (The Hindu Group) | Russia to take 70,000 Indian skilled workers this year, Jaishankar tells parliamentary panel | — |
-| LiveMint | HT Media (Birla family) | 140 Indians discharged from Russian army: Govt seeks Moscow update on 55, 'balanced' trade push | — |
+| News18 | Network18 / Reliance Industries | 'Co-Pilot Got Up To Pray, Then Hit Me On The Head': Smit Machchhar Reveals New Details Of Flydubai Incident | — |
 | News18 | Network18 / Reliance Industries | India Steps Into Russia-Ukraine Peace Push: Kyiv Praises Modi’s Proposal \| Super Saturday Debate | — |
-| News18 | Network18 / Reliance Industries | BREAKING: India Steps In To Broker Russia-Ukraine Ceasefire As Kyiv Confirms Peace Proposal \| News18 | militarized: war |
+| News18 | Network18 / Reliance Industries | FlyDubai FZ1073: Co-Pilot’s Past Raises Major Security & Vetting Questions \| Super Saturday Debate | — |
+| Scroll.in | Scroll Media (independent) | Apple removes messaging app used by protesters to bypass internet restrictions in India | — |
 | Scroll.in | Scroll Media (independent) | India proposal to end Russia war ‘most comprehensive’, says Ukraine | militarized: war |
-| NDTV | Adani Group (AMG Media Networks) | Russia's 'New Doctrine' Meets Ukraine's Oil Strategy: The Escalation Dilemma | — |
+| Scroll.in | Scroll Media (independent) | When does crowd control become ‘excessive’ police force? | — |
+| Telangana Today | Telangana Publications | flydubai crew asked passengers to free co-pilot after he was overpowered: Report | — |
+| BBC (India desk) | BBC (UK public corporation) | How India's election chief became embroiled in a crisis of trust | alarmist: crisis |
+| BBC (India desk) | BBC (UK public corporation) | Women protest in the streets of Delhi after string of sexual assaults | — |
+| Al Jazeera (South Asia) | Al Jazeera Media Network (Qatar state-funded) | Russia hits Kyiv bridge as Germany’s Merz visits Ukraine’s capital | — |
+| Dawn (Pakistan) | Pakistan Herald Publications (Haroon family) | Like a 'vertical roller coaster': Simulating flydubai flight FZ1073's sudden plunge | — |
+| The Hindu | Kasturi & Sons (The Hindu Group) | BJP questions Rahul Gandhi’s ‘silence’ on flydubai incident, Captain Smit’s bravery | — |
+| The Hindu | Kasturi & Sons (The Hindu Group) | RS polls: BJP fields Dinesh Arya from Uttarakhand | — |
+| Business Line (The Hindu) | Kasturi & Sons (The Hindu Group) | AP Govt to implement 100 per cent housing programme by 2029: CM Naidu | — |
+| Hindustan Times | HT Media (Birla family) | Russia to intensify strikes on Kyiv and other Ukraine regions after Zelensky vows to ‘double down’ on attacks | — |
+| News18 | Network18 / Reliance Industries | Haldwani Shuddhikaran Row: Is Dalit Candidate BJP’s Answer To Congress’s Kharge-Led Narrative? | — |
+| News18 | Network18 / Reliance Industries | Who Is Dinesh Arya? BJP Names Dalit Leader As Uttarakhand Rajya Sabha Candidate | — |
+| News18 | Network18 / Reliance Industries | BJP Targets Congress: “Silent Due To Vote-Bank Politics” \| Fly Dubai Incident \| BJP’s Big Attack | — |
+| News18 | Network18 / Reliance Industries | Navy Sailor Arrested Over Alleged Defence Data Leak To Pakistani Operative In Coimbatore | minimizing: alleged |
+| News18 | Network18 / Reliance Industries | ‘Even 50 Would Be A Big Deal’: Samajwadi MP Snubs Congress’ 150-Seat Demand For UP Polls | — |
+| Al Jazeera (South Asia) | Al Jazeera Media Network (Qatar state-funded) | Flydubai: What happens when a plane plunges 17,000 feet? | — |
+| News18 | Network18 / Reliance Industries | Indian Navy Sailor Arrested For Leaking Key Defence Data After Being Honey Trapped By Pakistan Operative | — |
+| ABP News | ABP Group (Ananda Bazar Patrika) | UPSC में 3 बार फेल, 8 साल नौकरी नहीं, फिर मिला 17 लाख का पैकेज | — |
+| ABP News | ABP Group (Ananda Bazar Patrika) | सिर्फ धूप दिखाने से नहीं जाएगी तकिए की गंदगी, साफ करने के लिए करें ये काम | — |
+| ABP News | ABP Group (Ananda Bazar Patrika) | सरकारी कर्मचारियों को दिवाली गिफ्ट! DA में बढ़ोतरी करेगी योगी सरकार | — |
+| ABP News | ABP Group (Ananda Bazar Patrika) | 126 करोड़ किमी दूर होकर भी आज सबसे करीब शनि, क्या कुंडली में भी बदल जाएगी शनिदेव की पावर? | — |
+| ABP News | ABP Group (Ananda Bazar Patrika) | शोएब अख्तर बनेंगे पाकिस्तान टीम के चीफ सेलेक्टर? खुद जवाब देकर सबको किया हैरान | — |
+| ABP News | ABP Group (Ananda Bazar Patrika) | रोहित शर्मा ने बनाए 92, फिर भी उनसे खुश नहीं दिग्गज सुनील गावस्कर, जानें क्या है वजह | — |
+| ABP News | ABP Group (Ananda Bazar Patrika) | 'दृश्यम 3' दूसरे दिन भी 50 करोड़ के पार, बनी फर्स्ट सैटरडे को सबसे ज्यादा कमाई करने वाली 5वीं फिल्म | — |
+| ABP News | ABP Group (Ananda Bazar Patrika) | बंजी जंपिंग में शख्स की कांपने लगी टांगे, जंप मास्टर बोला- मर्द हो तुम | — |
+| ABP News | ABP Group (Ananda Bazar Patrika) | UPI पर चार्ज का असर! 10 अक्टूबर से ये कंपनी बंद करेगी UPI पेमेंट, जानें क्या है वजह | — |
+| ABP News | ABP Group (Ananda Bazar Patrika) | फिर संसद मार्ग थाने पहुंचे सौरव दास, बैरिकेड पर चढ़े, कर दी बड़ी मांग | — |
+| ABP News | ABP Group (Ananda Bazar Patrika) | 'इस्तीफा दें और बैलेट पेपर से चुनाव में...', BJP का CM रेवंत रेड्डी को चैलेंज | — |
+| ABP News | ABP Group (Ananda Bazar Patrika) | चुनाव प्रचार में बच्चे के इस्तेमाल का आरोप, उदयनिधि स्टालिन पर केस दर्ज | — |
 
-## Yemen offensive
-Covered by 4 outlets · framing divergence 0.4
-- Reaction vocabulary present: strike, strikes
-
-**Consequences (as reported — what started, not who arranged it):**
-- strike — first seen 2026-08-22T14:03, reported by Hindustan Times, Al Jazeera (South Asia), Dawn (Pakistan), LiveMint, News18, Business Line (The Hindu), Telangana Today, NDTV
-- demand — first seen 2026-08-25T05:28, reported by Telangana Today, LiveMint
-- campaign — first seen 2026-08-26T21:22, reported by LiveMint, Dawn (Pakistan), Al Jazeera (South Asia)
-- march — first seen 2026-09-06T02:56, reported by Al Jazeera (South Asia), Dawn (Pakistan)
-- rally — first seen 2026-09-08T14:42, reported by NDTV
-- petition — first seen 2026-09-11T16:43, reported by LiveMint
-- protest — first seen 2026-09-17T17:02, reported by Al Jazeera (South Asia), Dawn (Pakistan)
-- marched — first seen 2026-09-19T10:56, reported by Al Jazeera (South Asia)
-- backlash — first seen 2026-09-19T20:13, reported by Al Jazeera (South Asia)
-
-| Outlet | Owner | Headline | Loaded terms |
-|---|---|---|---|
-| LiveMint | HT Media (Birla family) | Iran war news LIVE updates: Trump reiterates Iran has been 'decimated,' says Washington to decide Iran war outcome | militarized: war |
-| Telangana Today | Telangana Publications | Iran’s IRGC hit 7 ‘violating’ oilers in Hormuz Strait in 5 days | militarized: war |
-| Telangana Today | Telangana Publications | Iranian President says enemy failed to achieve economic war objectives | militarized: war |
-| Al Jazeera (South Asia) | Al Jazeera Media Network (Qatar state-funded) | Saudi-backed Yemeni army says 700 Houthis killed in 24 hours | — |
-| Al Jazeera (South Asia) | Al Jazeera Media Network (Qatar state-funded) | Houthis claim strike on Saudi energy facility as Yemen fighting intensifies | — |
-| Al Jazeera (South Asia) | Al Jazeera Media Network (Qatar state-funded) | Iran war live: Yemeni forces strike Sanaa as Trump warns Tehran of hard way | militarized: war |
-| Dawn (Pakistan) | Pakistan Herald Publications (Haroon family) | Sanaa, Riyadh rattled by strikes as war widens | militarized: war |
-| Dawn (Pakistan) | Pakistan Herald Publications (Haroon family) | Yemen offensive | militarized: war |
-| Al Jazeera (South Asia) | Al Jazeera Media Network (Qatar state-funded) | Somalia President: Houthis ‘not in a position’ to bring Yemen peace | — |
-
-## Tennessee prison chief who oversaw botched execution resigns: governor
-Covered by 3 outlets · framing divergence 0.0
-
-**Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
-- `corroborated` 2026-10-03T19:01 — tennessee prison chief _(Dawn (Pakistan), LiveMint)_
-
-| Outlet | Owner | Headline | Loaded terms |
-|---|---|---|---|
-| The Hindu | Kasturi & Sons (The Hindu Group) | Tennessee’s prisons chief is resigning after failed execution of Christa Pike | — |
-| LiveMint | HT Media (Birla family) | Christa Pike's botched execution: Tennessee prison chief Frank Strada resigns, says ‘I continue to believe that...’ | — |
-| Dawn (Pakistan) | Pakistan Herald Publications (Haroon family) | Tennessee prison chief who oversaw botched execution resigns: governor | — |
-
-## Apple removes messaging app used by protesters to bypass internet restrictions
-Covered by 3 outlets · framing divergence 0.0
-
-**Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
-- `reported` 2026-10-03T16:08 — india app store following govt's demand jack dorsey _(Business Line (The Hindu), The Hindu)_
-
-**Consequences (as reported — what started, not who arranged it):**
-- protest — first seen 2026-07-22T14:59, reported by Al Jazeera (South Asia), The Hindu, Scroll.in, BBC (India desk), Telangana Today, Hindustan Times, News18, Dawn (Pakistan), Business Line (The Hindu), LiveMint
-- campaign — first seen 2026-09-07T19:01, reported by News18, NDTV, Telangana Today, The Hindu, LiveMint, Scroll.in, Dawn (Pakistan), Hindustan Times
-- marched — first seen 2026-09-10T18:36, reported by NDTV
-- strike — first seen 2026-09-13T04:09, reported by Times of India, The Hindu, Business Line (The Hindu), LiveMint, News18, Telangana Today, Al Jazeera (South Asia), Hindustan Times, NDTV
-- march — first seen 2026-09-19T14:21, reported by Business Line (The Hindu), Scroll.in
-- protesting — first seen 2026-09-21T10:41, reported by Telangana Today, BBC (India desk)
-- gherao — first seen 2026-09-23T10:35, reported by Hindustan Times
-- backlash — first seen 2026-09-24T10:41, reported by LiveMint
-- demand — first seen 2026-09-24T15:05, reported by News18
-- dharna — first seen 2026-09-24T16:56, reported by News18
-- petitioning — first seen 2026-10-01T03:30, reported by Scroll.in
-
-| Outlet | Owner | Headline | Loaded terms |
-|---|---|---|---|
-| The Hindu | Kasturi & Sons (The Hindu Group) | Bitchat removed from Apple’s India App Store following govt's demand: Jack Dorsey | — |
-| Business Line (The Hindu) | Kasturi & Sons (The Hindu Group) | Bitchat removed from Apple's India App Store following govt's demand: Jack Dorsey | — |
-| Scroll.in | Scroll Media (independent) | Apple removes messaging app used by protesters to bypass internet restrictions | — |
-
-## Cornell president vows transparency amid outrage over fraternity rape case
-Covered by 3 outlets · framing divergence 0.4
-
-**Consequences (as reported — what started, not who arranged it):**
-- protest — first seen 2026-09-28T03:15, reported by Scroll.in
-
-| Outlet | Owner | Headline | Loaded terms |
-|---|---|---|---|
-| The Hindu | Kasturi & Sons (The Hindu Group) | Cornell president calls alleged gang rape ’deeply disturbing’, pledges greater transparency | minimizing: alleged |
-| LiveMint | HT Media (Birla family) | Cornell University president vows 'rigorous' probe in gangrape case, shares new video: 'My heart aches' | minimizing: alleged |
-| Al Jazeera (South Asia) | Al Jazeera Media Network (Qatar state-funded) | Cornell president vows transparency amid outrage over fraternity rape case | — |
-
-## Car crashes into crowd in Australia, 10 injured
-Covered by 3 outlets · framing divergence 0.0
+## Telangana woman dies after truck rams car from behind in US
+Covered by 6 outlets · framing divergence 0.06
+- Reaction vocabulary present: protests
 
 **Consequences (as reported — what started, not who arranged it):**
 - protest — first seen 2026-07-22T14:59, reported by Hindustan Times, Dawn (Pakistan), Telangana Today, News18, Scroll.in, The Hindu, BBC (India desk), Times of India, NDTV, Al Jazeera (South Asia), LiveMint, Business Line (The Hindu)
@@ -363,130 +234,221 @@ Covered by 3 outlets · framing divergence 0.0
 
 | Outlet | Owner | Headline | Loaded terms |
 |---|---|---|---|
+| The Hindu | Kasturi & Sons (The Hindu Group) | Two held after man tries to run over wife with car in Meerut | — |
+| News18 | Network18 / Reliance Industries | UP Woman Catches Husband On Date With Girlfriend, Clings To His Car Bonnet As He Drives Away \| Video | — |
 | News18 | Network18 / Reliance Industries | Delhi Hit-And-Run: Elderly Couple Flung Into Air After Car Hits Them, Woman Driver Arrested | — |
+| Telangana Today | Telangana Publications | Telangana woman dies after truck rams car from behind in US | — |
+| Telangana Today | Telangana Publications | Meerut man arrested after wife allegedly carried on car bonnet | — |
+| Times of India | Bennett, Coleman & Co. (Times Group) | Jeewan Kundu murder case: Woman alleges illegal detention, court seeks CCTV footage | minimizing: claims |
+| Hindustan Times | HT Media (Birla family) | Elderly couple found dead at Kolkata home; note says  ₹1 lakh left for funeral | — |
 | Scroll.in | Scroll Media (independent) | Punjab: Two arrested for allegedly spreading rumours of girls missing from university hostel | — |
-| Dawn (Pakistan) | Pakistan Herald Publications (Haroon family) | Car crashes into crowd in Australia, 10 injured | — |
+| Telangana Today | Telangana Publications | Hyderabad delivery agent allegedly assaulted over late food order | — |
+| The Hindu | Kasturi & Sons (The Hindu Group) | AMU protests: Students block four entry gates, proctor says ‘outsider’ detained from hostel | — |
 
-## Patancheru MLA demands Rs 25 lakh exgratia to deceased
-Covered by 2 outlets · framing divergence 0.0
-- Reaction vocabulary present: demands
+## Tight monetary policy likely to continue
+Covered by 6 outlets · framing divergence 0.0
+- Reaction vocabulary present: rally
 
-**Consequences (as reported — what started, not who arranged it):**
-- march — first seen 2026-08-24T14:35, reported by Scroll.in
-- campaign — first seen 2026-08-24T14:35, reported by Scroll.in, NDTV, News18
-- demand — first seen 2026-10-03T15:21, reported by Telangana Today · NEW this run
-
-| Outlet | Owner | Headline | Loaded terms |
-|---|---|---|---|
-| The Hindu | Kasturi & Sons (The Hindu Group) | Five workers dead, one injured in a boiler explosion at a Sri City SEZ facility | — |
-| Telangana Today | Telangana Publications | Patancheru MLA demands Rs 25 lakh exgratia to deceased | — |
-
-## Delays in Tejas combat jet programme hurting IAF: Air Chief Marshal A.P. Singh
-Covered by 2 outlets · framing divergence 0.0
+**Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
+- `corroborated` 2026-10-04T01:31 — rbi policy tcs _(Business Line (The Hindu), LiveMint)_
+- `discrepancy` “…per cent” — Dawn (Pakistan): 3, Business Line (The Hindu): 6
 
 **Consequences (as reported — what started, not who arranged it):**
-- strike — first seen 2026-09-24T06:29, reported by Al Jazeera (South Asia), Dawn (Pakistan)
+- rally — first seen 2026-08-25T08:01, reported by NDTV, Business Line (The Hindu), Telangana Today
 
 | Outlet | Owner | Headline | Loaded terms |
 |---|---|---|---|
-| The Hindu | Kasturi & Sons (The Hindu Group) | Delays in Tejas combat jet programme hurting IAF: Air Chief Marshal A.P. Singh | — |
-| News18 | Network18 / Reliance Industries | Tejas MK-1A Delivery Update: IAF Awaits First Batch Amid Fighter Squadron Shortage \| News18 | — |
-| News18 | Network18 / Reliance Industries | Tejas Mk1A: Review Meeting Post Oct 15 To Decide Delivery Schedule, First Lot Expected By Year-End | — |
-
-## 325 million oil barrels released to counter global energy crisis: IEA
-Covered by 2 outlets · framing divergence 0.3
-
-| Outlet | Owner | Headline | Loaded terms |
-|---|---|---|---|
-| Business Line (The Hindu) | Kasturi & Sons (The Hindu Group) | 325 million oil barrels released to counter global energy crisis: IEA | alarmist: crisis |
-| NDTV | Adani Group (AMG Media Networks) | Wartime Energy Shock: Why G7 Cracked Open 100 Million Barrels Of Emergency Fuel Reserve | — |
-
-## MPC meet: Economists expect RBI to begin rate-hiking cycle
-Covered by 2 outlets · framing divergence 0.0
-
-**Consequences (as reported — what started, not who arranged it):**
-- rally — first seen 2026-09-17T10:39, reported by Business Line (The Hindu)
-- demand — first seen 2026-09-17T01:45, reported by LiveMint
-
-| Outlet | Owner | Headline | Loaded terms |
-|---|---|---|---|
-| Business Line (The Hindu) | Kasturi & Sons (The Hindu Group) | RBI repo rate likely to climb to 6% in FY27; G-Sec yields face upward pressure | — |
+| The Hindu | Kasturi & Sons (The Hindu Group) | Experts’ poll: RBI may hike rates by 0.25% in October policy amid inflationary pressures | — |
+| LiveMint | HT Media (Birla family) | The week ahead in numbers: RBI policy, TCS Q2 results, Nobel prizes | — |
+| NDTV | Adani Group (AMG Media Networks) | Week Ahead On D-Street: RBI Policy, Q2 Results, FPI Flows Among Key Triggers | — |
+| Telangana Today | Telangana Publications | Market outlook: RBI policy stance, Q2 earnings, West Asia tensions key triggers next week | — |
 | Telangana Today | Telangana Publications | MPC meet: Economists expect RBI to begin rate-hiking cycle | — |
+| Dawn (Pakistan) | Pakistan Herald Publications (Haroon family) | Tight monetary policy likely to continue | — |
+| Dawn (Pakistan) | Pakistan Herald Publications (Haroon family) | Analysis: Why lower inflation still feels expensive | — |
+| Business Line (The Hindu) | Kasturi & Sons (The Hindu Group) | IT Q2 preview: Muted growth, steady margins likely; deal conversion, AI deflation under lens | — |
+| Business Line (The Hindu) | Kasturi & Sons (The Hindu Group) | RBI policy, TCS earnings, crude prices to steer markets this week | — |
+| Telangana Today | Telangana Publications | Sensex falls 1,671 points as market extends losing streak for eighth week | — |
 
-## Equity bulls have a new competitor in global bonds
-Covered by 2 outlets · framing divergence 0.0
+## Rs 7L cash stolen from bank ATM in Rohtas
+Covered by 4 outlets · framing divergence 0.24
+
+**Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
+- `corroborated` 2026-10-04T03:30 — must do better _(Al Jazeera (South Asia), LiveMint)_
 
 **Consequences (as reported — what started, not who arranged it):**
-- campaign — first seen 2026-09-27T15:12, reported by Scroll.in
+- campaign — first seen 2026-09-01T04:35, reported by Times of India, News18, Telangana Today
+- protest — first seen 2026-09-08T09:45, reported by The Hindu, Times of India, Hindustan Times, News18, Scroll.in
+- strike — first seen 2026-09-24T17:47, reported by LiveMint
+- demand — first seen 2026-09-25T19:54, reported by The Hindu
 
 | Outlet | Owner | Headline | Loaded terms |
 |---|---|---|---|
-| Business Line (The Hindu) | Kasturi & Sons (The Hindu Group) | Equity bulls have a new competitor in global bonds | — |
-| Telangana Today | Telangana Publications | FPIs sell Rs 45,536 crore worth equity in Sep, valuations of large-caps turn attractive | — |
+| Times of India | Bennett, Coleman & Co. (Times Group) | 2 men held for buying rape accused’s stolen bike | — |
+| Times of India | Bennett, Coleman & Co. (Times Group) | Rs 7L cash stolen from bank ATM in Rohtas | — |
+| Al Jazeera (South Asia) | Al Jazeera Media Network (Qatar state-funded) | Cornell president says university ‘must do better’ after rape allegations | — |
+| LiveMint | HT Media (Birla family) | Cornell University president vows 'rigorous' probe in gangrape case, shares new video: 'My heart aches' | minimizing: alleged |
+| BBC (India desk) | BBC (UK public corporation) | How an alleged rape sent an Indian university into turmoil and emptied hostels | minimizing: alleged |
 
-## Who Am I? October 4, 2026
-Covered by 2 outlets · framing divergence 0.0
+## Pakistan summons Indian envoy over killing of 2 civilians by border troops
+Covered by 4 outlets · framing divergence 0.0
+- Reaction vocabulary present: protest
+
+**Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
+- `corroborated` 2026-10-03T17:25 — to lodge a strong protest over _(Dawn (Pakistan), LiveMint)_
+- `corroborated` 2026-10-03T17:25 — charg d affaires _(Dawn (Pakistan), LiveMint)_
+
+**Consequences (as reported — what started, not who arranged it):**
+- protest — first seen 2026-07-21T08:59, reported by The Hindu, Scroll.in, Telangana Today, Times of India, BBC (India desk), LiveMint, India Today, Hindustan Times, NDTV, News18, Dawn (Pakistan), Al Jazeera (South Asia), Business Line (The Hindu), The News Minute, Onmanorama (Kerala)
+- protesting — first seen 2026-07-21T08:59, reported by News18, BBC (India desk), The Hindu, Scroll.in, Hindustan Times, Telangana Today, India Today, Al Jazeera (South Asia), Onmanorama (Kerala), NDTV
+- demand — first seen 2026-08-23T14:19, reported by Dawn (Pakistan), NDTV, India Today, LiveMint, Times of India, Hindustan Times, News18, Telangana Today, The Hindu, Al Jazeera (South Asia), Scroll.in, The News Minute, Business Line (The Hindu), Onmanorama (Kerala)
+- petition — first seen 2026-08-22T16:00, reported by Dawn (Pakistan), Telangana Today, News18, India Today, Scroll.in, LiveMint, Hindustan Times, The Hindu
+- protested — first seen 2026-08-23T13:36, reported by Times of India, News18, Telangana Today, Al Jazeera (South Asia), LiveMint, Scroll.in
+- march — first seen 2026-03-16T05:04, reported by Times of India, The Daily Star (Bangladesh), India Today, Telangana Today, LiveMint, Scroll.in, News18, Hindustan Times, The Hindu, NDTV, Dawn (Pakistan), Al Jazeera (South Asia), Business Line (The Hindu)
+- campaign — first seen 2026-08-21T00:04, reported by BBC (India desk), Al Jazeera (South Asia), Telangana Today, Business Line (The Hindu), Hindustan Times, Scroll.in, NDTV, The Hindu, News18, LiveMint, Times of India, India Today, Dawn (Pakistan)
+- rally — first seen 2026-08-23T14:48, reported by Telangana Today, India Today, Hindustan Times, LiveMint, News18, Scroll.in, Times of India, Business Line (The Hindu), The Hindu, Dawn (Pakistan), Al Jazeera (South Asia), NDTV
+- backlash — first seen 2026-08-23T10:00, reported by News18, India Today, Hindustan Times, BBC (India desk), Al Jazeera (South Asia), LiveMint, Times of India, Business Line (The Hindu)
+- strike — first seen 2026-08-24T08:15, reported by LiveMint, Times of India, India Today, Telangana Today, News18, Al Jazeera (South Asia), NDTV, The News Minute, Dawn (Pakistan), Hindustan Times, The Hindu, Business Line (The Hindu), Scroll.in, Deccan Chronicle
+- boycott — first seen 2026-08-27T21:32, reported by India Today, Times of India, Al Jazeera (South Asia), Telangana Today, Dawn (Pakistan), NDTV, Hindustan Times, News18, Scroll.in, Onmanorama (Kerala)
+- marche — first seen 2026-08-27T16:21, reported by India Today, Telangana Today, Dawn (Pakistan), The Hindu
+- dharna — first seen 2026-08-29T06:12, reported by Hindustan Times, Telangana Today, News18
+- walkout — first seen 2026-09-03T11:43, reported by India Today, The Hindu, Hindustan Times, Dawn (Pakistan), LiveMint, Al Jazeera (South Asia), Scroll.in
+- marched — first seen 2026-09-03T18:35, reported by NDTV, Al Jazeera (South Asia), Scroll.in
+- campaigning — first seen 2026-09-09T09:21, reported by Scroll.in, India Today, The Hindu, Times of India
+- rasta roko — first seen 2026-09-12T14:43, reported by Telangana Today
+- marching — first seen 2026-09-25T13:26, reported by Dawn (Pakistan)
+- petitioning — first seen 2026-10-01T03:30, reported by Scroll.in
 
 | Outlet | Owner | Headline | Loaded terms |
 |---|---|---|---|
-| Business Line (The Hindu) | Kasturi & Sons (The Hindu Group) | Who Am I? October 4, 2026 | — |
-| Business Line (The Hindu) | Kasturi & Sons (The Hindu Group) | Investor Week: Put SEBI’s safeguards to work | — |
-| Hindustan Times | HT Media (Birla family) | Gurgaon woman defends 9-to-5 jobs amid ‘quit corporate’ trend: ‘As long as it pays your bills, it’s fine’ | — |
+| LiveMint | HT Media (Birla family) | India-Pakistan face-off over Punjab border deaths: Delhi alleges infiltration, Islamabad calls victims civilians | — |
+| News18 | Network18 / Reliance Industries | India Summons Pakistani Diplomat Over Cross-Border Infiltration, Rejects ‘Baseless’ Civilian Claim | — |
+| Telangana Today | Telangana Publications | India rejects Pakistan’s ‘baseless and motivated allegations’ about inflitration incident along International border | — |
+| Dawn (Pakistan) | Pakistan Herald Publications (Haroon family) | Pakistan summons Indian envoy over killing of 2 civilians by border troops | — |
+| Dawn (Pakistan) | Pakistan Herald Publications (Haroon family) | 4 injured Pakistanis rescued from vessel hijacked in Somalia head to Karachi with remains of 3 colleagues | — |
+| Dawn (Pakistan) | Pakistan Herald Publications (Haroon family) | Efforts underway to repatriate remains of 3 Pakistanis killed while recovering hijacked tanker from Somali pirates: PMO | — |
 
-## In 1910, Oregon planted a grass to hold back sand. It set off a century of change on the coast
-Covered by 2 outlets · framing divergence 0.0
+## Legendary filmmaker Singeetham Srinivasa Rao passes away
+Covered by 3 outlets · framing divergence 0.0
+
+**Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
+- `corroborated` 2026-10-04T05:09 — filmmaker singeetham srinivasa rao _(Business Line (The Hindu), Telangana Today)_
+- `corroborated` 2026-10-04T08:17 — singeetham srinivasa rao s _(Telangana Today, The Hindu)_
 
 | Outlet | Owner | Headline | Loaded terms |
 |---|---|---|---|
-| Times of India | Bennett, Coleman & Co. (Times Group) | From 1946, NSW planted South African bitou bush to stabilise coastal sand dunes; decades later it had spread along 46% of the state's coastline and threatened native ecosystems | — |
-| Hindustan Times | HT Media (Birla family) | In 1910, Oregon planted a grass to hold back sand. It set off a century of change on the coast | — |
+| The Hindu | Kasturi & Sons (The Hindu Group) | Singeetham Srinivasa Rao’s ‘Michael Madana Kama Rajan’, a timeless classic from a master filmmaker | — |
+| The Hindu | Kasturi & Sons (The Hindu Group) | Singeetham Srinivasa Rao death: Kamal Haasan, S.S. Rajamouli, Jr NTR and more mourn legendary filmmaker | — |
+| The Hindu | Kasturi & Sons (The Hindu Group) | Remembering Singeetham Srinivasa Rao: Cinema’s eternal experimenter at 94 | — |
+| Business Line (The Hindu) | Kasturi & Sons (The Hindu Group) | Legendary filmmaker Singeetham Srinivasa Rao passes away | — |
+| Telangana Today | Telangana Publications | Vijay Deverakonda recalls Singeetham Srinivasa Rao’s love since ‘Pelli Choopulu’ | — |
 
-## Hina Khan reveals ‘she bled through nose every day’ during Ladakh trip
+## Punjab Makeup Artist And Influencer Mad Sandhu Shot Dead In Amritsar
+Covered by 3 outlets · framing divergence 0.0
+
+**Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
+- `corroborated` 2026-10-03T15:12 — shot dead in amritsar _(LiveMint, News18)_
+
+**Consequences (as reported — what started, not who arranged it):**
+- protest — first seen 2026-09-21T03:16, reported by Telangana Today, Al Jazeera (South Asia)
+
+| Outlet | Owner | Headline | Loaded terms |
+|---|---|---|---|
+| LiveMint | HT Media (Birla family) | Who was Mad Sandhu? Popular LGBTQ influencer, makeup artist shot dead in Amritsar; found lying on road, blood-soaked | — |
+| News18 | Network18 / Reliance Industries | Punjab Makeup Artist And Influencer Mad Sandhu Shot Dead In Amritsar | — |
+| NDTV | Adani Group (AMG Media Networks) | Akali Dal Leader Shot Dead In Punjab; Family Accuses Brother Of Land-Dispute Attack | — |
+
+## Yemen offensive
+Covered by 3 outlets · framing divergence 0.3
+- Reaction vocabulary present: strikes
+
+**Consequences (as reported — what started, not who arranged it):**
+- march — first seen 2026-09-19T06:22, reported by LiveMint
+- strike — first seen 2026-09-19T18:34, reported by NDTV, Dawn (Pakistan), News18, Al Jazeera (South Asia), Telangana Today
+
+| Outlet | Owner | Headline | Loaded terms |
+|---|---|---|---|
+| Telangana Today | Telangana Publications | Saudi airstrikes reported on Yemen’s Houthi-held capital Sanaa | alarmist: blasts |
+| Al Jazeera (South Asia) | Al Jazeera Media Network (Qatar state-funded) | Saudi-led coalition dismisses ‘misleading’ Houthi claim of Riyadh attack | — |
+| Dawn (Pakistan) | Pakistan Herald Publications (Haroon family) | Yemen forces say struck Houthi targets in several areas | — |
+| Dawn (Pakistan) | Pakistan Herald Publications (Haroon family) | Yemen offensive | militarized: war |
+
+## CPI(M) dumps Palakkad district secretary after election setback
 Covered by 2 outlets · framing divergence 0.0
 
 **Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
-- `corroborated` 2026-10-04T03:39 — daily nosebleeds due to _(Telangana Today, Times of India)_
-- `corroborated` 2026-10-04T03:39 — hina khan reveals _(Telangana Today, Times of India)_
-- `corroborated` 2026-10-04T03:39 — nose every day _(Telangana Today, Times of India)_
+- `corroborated` 2026-10-04T11:42 — palakkad district secretary after _(Onmanorama (Kerala), The Hindu)_
 
 | Outlet | Owner | Headline | Loaded terms |
 |---|---|---|---|
-| Times of India | Bennett, Coleman & Co. (Times Group) | Hina Khan reveals the challenges of her Ladakh trip; says, ‘I bled through my nose every day’ | — |
-| Telangana Today | Telangana Publications | Hina Khan reveals ‘she bled through nose every day’ during Ladakh trip | — |
+| The Hindu | Kasturi & Sons (The Hindu Group) | CPI(M) dumps Palakkad district secretary after election setback | — |
+| The Hindu | Kasturi & Sons (The Hindu Group) | CPI(M) Pathanamthitta meet to take stock of poll setback, internal challenges | — |
+| Onmanorama (Kerala) | Malayala Manorama Group (Kandathil family) | CPM removes Palakkad secretary EN Suresh Babu following woman lawyer’s complaint | — |
 
-## Hanuman Ansh Box Office Collection Day 58: Devotional Drama Holds Strong In Ninth Week
+## AAP MLA cries foul over teacher shortage in Punjab; is suspended by party
+Covered by 2 outlets · framing divergence 0.0
+
+**Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
+- `corroborated` 2026-10-03T15:35 — teacher shortage in punjab _(News18, The Hindu)_
+
+**Consequences (as reported — what started, not who arranged it):**
+- campaign — first seen 2026-09-15T14:17, reported by LiveMint, Times of India
+- protest — first seen 2026-09-30T04:56, reported by Times of India
+- strike — first seen 2026-09-30T03:53, reported by Al Jazeera (South Asia)
+- march — first seen 2026-09-30T03:53, reported by Al Jazeera (South Asia)
+
+| Outlet | Owner | Headline | Loaded terms |
+|---|---|---|---|
+| The Hindu | Kasturi & Sons (The Hindu Group) | AAP MLA cries foul over teacher shortage in Punjab; is suspended by party | — |
+| News18 | Network18 / Reliance Industries | 'If I Won't Raise Voice, Then Who Will?': AAP Suspends MLA After He Flagged Teacher Shortage In Punjab | — |
+
+## EC Teams To Visit 5 Poll-Bound States From This Week, UP Schedule Yet To Be Finalised
+Covered by 2 outlets · framing divergence 0.0
+
+**Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
+- `corroborated` 2026-10-04T08:29 — followed by uttarakhand next week _(Business Line (The Hindu), News18)_
+- `corroborated` 2026-10-04T08:29 — will visit goa _(Business Line (The Hindu), News18)_
+
+| Outlet | Owner | Headline | Loaded terms |
+|---|---|---|---|
+| Business Line (The Hindu) | Kasturi & Sons (The Hindu Group) | Deputy ECs to visit 5 states as poll body steps up preparedness to hold high stakes elections | — |
+| News18 | Network18 / Reliance Industries | EC Teams To Visit 5 Poll-Bound States From This Week, UP Schedule Yet To Be Finalised | — |
+
+## OPEC+ keeps November oil output targets steady as Iran war hits supply
 Covered by 2 outlets · framing divergence 0.3
 
 **Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
-- `corroborated` 2026-10-04T03:43 — box office collection day _(Hindustan Times, NDTV)_
-
-| Outlet | Owner | Headline | Loaded terms |
-|---|---|---|---|
-| Hindustan Times | HT Media (Birla family) | Drishyam 3 worldwide box office collection: Ajay Devgn film races to  ₹177 crore; beats part 1's lifetime haul in just 2 days | minimizing: just |
-| NDTV | Adani Group (AMG Media Networks) | Hanuman Ansh Box Office Collection Day 58: Devotional Drama Holds Strong In Ninth Week | — |
-
-## Priyanka Chopra Jonas on making a film about love and caste inequality
-Covered by 2 outlets · framing divergence 0.0
-
-| Outlet | Owner | Headline | Loaded terms |
-|---|---|---|---|
-| Hindustan Times | HT Media (Birla family) | Ukrainian shares the exact 'type of woman who will be happy with an Indian man': 'This is the conclusion I’ve come to based on my own experience' | — |
-| BBC (India desk) | BBC (UK public corporation) | Priyanka Chopra Jonas on making a film about love and caste inequality | — |
-
-## ‘Ilaiyaraaja gave Dorothy a soul’: Director Karthik Subbaraj opens up about his new hit
-Covered by 2 outlets · framing divergence 0.0
-- Reaction vocabulary present: boycott
+- `corroborated` 2026-10-04T07:52 — oil output targets _(Business Line (The Hindu), Times of India)_
 
 **Consequences (as reported — what started, not who arranged it):**
-- boycott — first seen 2026-10-04T04:05, reported by Hindustan Times · NEW this run
+- strike — first seen 2026-08-22T14:03, reported by Hindustan Times, Al Jazeera (South Asia), Dawn (Pakistan), LiveMint, News18, Business Line (The Hindu), Telangana Today, NDTV
+- demand — first seen 2026-08-25T05:28, reported by Telangana Today, LiveMint
+- campaign — first seen 2026-08-26T21:22, reported by LiveMint, Dawn (Pakistan), Al Jazeera (South Asia)
+- march — first seen 2026-09-06T02:56, reported by Al Jazeera (South Asia), Dawn (Pakistan)
+- rally — first seen 2026-09-08T14:42, reported by NDTV
+- petition — first seen 2026-09-11T16:43, reported by LiveMint
+- protest — first seen 2026-09-17T17:02, reported by Al Jazeera (South Asia), Dawn (Pakistan)
+- marched — first seen 2026-09-19T10:56, reported by Al Jazeera (South Asia)
+- backlash — first seen 2026-09-19T20:13, reported by Al Jazeera (South Asia)
 
 | Outlet | Owner | Headline | Loaded terms |
 |---|---|---|---|
-| Hindustan Times | HT Media (Birla family) | Karthik Subbaraj is ignoring hate, boycott calls for Dorothy, says men are 'expressing guilt' for mistreating transgender people after watching film | — |
-| The News Minute | Spunklane Media (independent) | ‘Ilaiyaraaja gave Dorothy a soul’: Director Karthik Subbaraj opens up about his new hit | — |
+| Business Line (The Hindu) | Kasturi & Sons (The Hindu Group) | OPEC+ agrees in principle to keep oil output targets unchanged in November, delegate says | — |
+| Times of India | Bennett, Coleman & Co. (Times Group) | OPEC+ keeps November oil output targets steady as Iran war hits supply | militarized: war |
 
-## Shai Hope’s unbeaten 162 powers West Indies to five-wicket win over India
-Covered by 2 outlets · framing divergence 0.3
+## Jio Platforms IPO likely by Oct end at enterprise valuation of $143-146 billion
+Covered by 2 outlets · framing divergence 0.0
+
+**Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
+- `corroborated` 2026-10-04T06:17 — jio platforms ipo likely by _(Business Line (The Hindu), Times of India)_
+- `corroborated` 2026-10-04T06:17 — size of 3 8 billion _(Business Line (The Hindu), Times of India)_
+
+| Outlet | Owner | Headline | Loaded terms |
+|---|---|---|---|
+| Business Line (The Hindu) | Kasturi & Sons (The Hindu Group) | Jio Platforms IPO likely by Oct end at enterprise valuation of $143-146 billion | — |
+| Times of India | Bennett, Coleman & Co. (Times Group) | Jio Platforms IPO likely by October-end; $3.8 billion issue, $143-146 billion company valuation: Report | — |
+
+## Indian envoy to US meets US Senator Angela Alsobrooks
+Covered by 2 outlets · framing divergence 0.0
 
 **Consequences (as reported — what started, not who arranged it):**
 - protest — first seen 2026-07-22T14:59, reported by Al Jazeera (South Asia), The Hindu, Scroll.in, BBC (India desk), Telangana Today, Hindustan Times, News18, Dawn (Pakistan), Business Line (The Hindu), LiveMint
@@ -503,49 +465,107 @@ Covered by 2 outlets · framing divergence 0.3
 
 | Outlet | Owner | Headline | Loaded terms |
 |---|---|---|---|
-| NDTV | Adani Group (AMG Media Networks) | Gambhir Reflects On India's 2-1 Win, Then A Special Message For West Indies | minimizing: just |
-| Telangana Today | Telangana Publications | Shai Hope’s unbeaten 162 powers West Indies to five-wicket win over India | — |
+| Business Line (The Hindu) | Kasturi & Sons (The Hindu Group) | Indian envoy to US meets US Senator Angela Alsobrooks | — |
+| News18 | Network18 / Reliance Industries | India 'Hardly Had A Choice': Indian Envoy On Sheltering Hasina While She Was 'Still Bangladesh PM' | — |
+| News18 | Network18 / Reliance Industries | 'No Specific Timeline': India Says Decision On Sheikh Hasina's Extradition To Bangladesh Still Under Legal Review | — |
 
-## India's 'cockroaches' want to fix schools
+## When will Virat Kohli and Rohit Sharma play their next ODI for India?
 Covered by 2 outlets · framing divergence 0.0
-- Reaction vocabulary present: campaign
 
 **Consequences (as reported — what started, not who arranged it):**
-- backlash — first seen 2026-08-23T10:00, reported by Hindustan Times, News18
-- demand — first seen 2026-08-24T02:58, reported by Hindustan Times
-- campaign — first seen 2026-10-03T13:37, reported by News18 · NEW this run
+- protest — first seen 2026-07-22T14:59, reported by Al Jazeera (South Asia), The Hindu, Scroll.in, BBC (India desk), Telangana Today, Hindustan Times, News18, Dawn (Pakistan), Business Line (The Hindu), LiveMint
+- campaign — first seen 2026-09-07T19:01, reported by News18, NDTV, Telangana Today, The Hindu, LiveMint, Scroll.in, Dawn (Pakistan), Hindustan Times
+- marched — first seen 2026-09-10T18:36, reported by NDTV
+- strike — first seen 2026-09-13T04:09, reported by Times of India, The Hindu, Business Line (The Hindu), LiveMint, News18, Telangana Today, Al Jazeera (South Asia), Hindustan Times, NDTV
+- march — first seen 2026-09-19T14:21, reported by Business Line (The Hindu), Scroll.in
+- protesting — first seen 2026-09-21T10:41, reported by Telangana Today, BBC (India desk)
+- gherao — first seen 2026-09-23T10:35, reported by Hindustan Times
+- backlash — first seen 2026-09-24T10:41, reported by LiveMint
+- demand — first seen 2026-09-24T15:05, reported by News18
+- dharna — first seen 2026-09-24T16:56, reported by News18
+- petitioning — first seen 2026-10-01T03:30, reported by Scroll.in
 
 | Outlet | Owner | Headline | Loaded terms |
 |---|---|---|---|
-| News18 | Network18 / Reliance Industries | 'If I Won't Raise Voice, Then Who Will?': AAP Suspends MLA After He Flagged Teacher Shortage In Punjab | — |
-| News18 | Network18 / Reliance Industries | Aam Aadmi Party MLA Suspended In Punjab: School Conditions Criticism Triggers Party Action \| News 18 | — |
-| News18 | Network18 / Reliance Industries | Priyanka Kakkar Leaves AAP for Congress, Cites Need for Unity Ahead of Punjab Elections \| News18 | — |
-| BBC (India desk) | BBC (UK public corporation) | India's 'cockroaches' want to fix schools | — |
-| News18 | Network18 / Reliance Industries | Priyanka Kakkar Joins Congress, Says She Could No Longer Defend ‘Indefensible’ AAP Actions | — |
+| Times of India | Bennett, Coleman & Co. (Times Group) | When will Virat Kohli and Rohit Sharma play their next ODI for India? | — |
+| Hindustan Times | HT Media (Birla family) | Sunil Gavaskar left ‘disappointed’ with Rohit Sharma after he misses ton in Mullanpur: ‘Have more centuries than your age’ | — |
 
-## BRS turns tables on Congress, seeks ED probe into Revanth family’s business interests
-Covered by 2 outlets · framing divergence 0.4
+## Horoscope Tomorrow, October 5, 2026: You may find clarity by looking beyond what you already know
+Covered by 2 outlets · framing divergence 0.0
 
 **Consequences (as reported — what started, not who arranged it):**
-- campaign — first seen 2026-08-25T05:58, reported by News18, Telangana Today, The Hindu, Hindustan Times, NDTV
-- boycotted — first seen 2026-08-25T07:43, reported by News18
-- demand — first seen 2026-08-29T09:45, reported by News18, Scroll.in, The Hindu, Times of India, The News Minute
-- rally — first seen 2026-08-30T09:28, reported by The Hindu, News18, Scroll.in, Telangana Today, Hindustan Times
-- protest — first seen 2026-08-30T08:04, reported by News18, Telangana Today
-- march — first seen 2026-09-01T13:28, reported by Scroll.in
-- dharna — first seen 2026-09-02T13:45, reported by Telangana Today
-- petition — first seen 2026-09-03T17:03, reported by News18, The Hindu, Scroll.in
-- backlash — first seen 2026-09-10T14:34, reported by News18, Business Line (The Hindu), Telangana Today
+- strike — first seen 2026-09-29T02:22, reported by Business Line (The Hindu)
+- campaign — first seen 2026-10-02T20:23, reported by Times of India
 
 | Outlet | Owner | Headline | Loaded terms |
 |---|---|---|---|
-| News18 | Network18 / Reliance Industries | 'Justice Not Only About Conviction': Telangana CM Revanth Reddy Orders Child Online Safety Framework | minimizing: only |
-| Telangana Today | Telangana Publications | Forum urges CM Revanth to shut belt shops in villages citing rising alcohol consumption | — |
-| Telangana Today | Telangana Publications | BRS turns tables on Congress, seeks ED probe into Revanth family’s business interests | minimizing: alleged |
+| Times of India | Bennett, Coleman & Co. (Times Group) | Spiritual Quote of the Day, October 4: Sun Opposite Saturn Brings a Lesson About Accepting the Limits You Cannot Rush | — |
+| Times of India | Bennett, Coleman & Co. (Times Group) | Career &amp; Money Predictions, 04 October 2026: Sun Opposite Saturn Brings a Career Reality Check—Deadlines, Authority and Responsibility Take Centre Stage | — |
+| Hindustan Times | HT Media (Birla family) | Horoscope Tomorrow, October 5, 2026: You may find clarity by looking beyond what you already know | — |
 
-## Trump ramps up pressure on US Republicans to end US clock switching
-Covered by 2 outlets · framing divergence 0.4
-- Reaction vocabulary present: rally
+## Drishyam 3 box office collection day 3 (updated live): Ajay Devgn film continues rampage, crosses  ₹150 crore to beat Awarapan 2, The RajaSaab lifetime
+Covered by 2 outlets · framing divergence 0.3
+
+**Consequences (as reported — what started, not who arranged it):**
+- campaign — first seen 2026-09-27T15:12, reported by Scroll.in
+
+| Outlet | Owner | Headline | Loaded terms |
+|---|---|---|---|
+| Times of India | Bennett, Coleman & Co. (Times Group) | 'Drishyam 3 The Conclusion' OTT release: Ajay Devgn, Tabu and Jaideep Ahlawat starrer's streaming platform revealed amid its Rs 150 crore domestic net milestone theatrical run in just three days | minimizing: just, claims |
+| Hindustan Times | HT Media (Birla family) | Drishyam 3 box office collection day 3 (updated live): Ajay Devgn film continues rampage, crosses  ₹150 crore to beat Awarapan 2, The RajaSaab lifetime | — |
+
+## Telangana struggles to secure its share of river waters
+Covered by 2 outlets · framing divergence 0.0
+
+**Consequences (as reported — what started, not who arranged it):**
+- protest — first seen 2026-08-25T13:56, reported by The Hindu, Times of India, Telangana Today
+- petition — first seen 2026-09-17T00:48, reported by NDTV
+- strike — first seen 2026-09-24T15:50, reported by Hindustan Times
+
+| Outlet | Owner | Headline | Loaded terms |
+|---|---|---|---|
+| Hindustan Times | HT Media (Birla family) | Lucknow: Gomti River Water Level Rises, Riverfront Areas Waterlogged | — |
+| Hindustan Times | HT Media (Birla family) | Kanpur: Ganga Water Level Rises to Warning Mark, Ghats Flooded | — |
+| Telangana Today | Telangana Publications | Telangana struggles to secure its share of river waters | — |
+
+## Irani Cup: Pant credits bowling adjustment for Rest of India’s 167-run win
+Covered by 2 outlets · framing divergence 0.0
+
+**Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
+- `corroborated` 2026-10-04T11:30 — jammu and kashmir by 167 runs _(Hindustan Times, Telangana Today)_
+
+**Consequences (as reported — what started, not who arranged it):**
+- protest — first seen 2026-07-22T14:59, reported by Al Jazeera (South Asia), The Hindu, Scroll.in, BBC (India desk), Telangana Today, Hindustan Times, News18, Dawn (Pakistan), Business Line (The Hindu), LiveMint
+- campaign — first seen 2026-09-07T19:01, reported by News18, NDTV, Telangana Today, The Hindu, LiveMint, Scroll.in, Dawn (Pakistan), Hindustan Times
+- marched — first seen 2026-09-10T18:36, reported by NDTV
+- strike — first seen 2026-09-13T04:09, reported by Times of India, The Hindu, Business Line (The Hindu), LiveMint, News18, Telangana Today, Al Jazeera (South Asia), Hindustan Times, NDTV
+- march — first seen 2026-09-19T14:21, reported by Business Line (The Hindu), Scroll.in
+- protesting — first seen 2026-09-21T10:41, reported by Telangana Today, BBC (India desk)
+- gherao — first seen 2026-09-23T10:35, reported by Hindustan Times
+- backlash — first seen 2026-09-24T10:41, reported by LiveMint
+- demand — first seen 2026-09-24T15:05, reported by News18
+- dharna — first seen 2026-09-24T16:56, reported by News18
+- petitioning — first seen 2026-10-01T03:30, reported by Scroll.in
+
+| Outlet | Owner | Headline | Loaded terms |
+|---|---|---|---|
+| Hindustan Times | HT Media (Birla family) | Mukesh Kumar, Akash Deep shine as Rest of India beat Jammu and Kashmir by 167 runs to lift Irani Cup | — |
+| Telangana Today | Telangana Publications | Irani Cup: Pant credits bowling adjustment for Rest of India’s 167-run win | — |
+
+## Japan protests after U.S. marine accused of murder
+Covered by 2 outlets · framing divergence 0.0
+- Reaction vocabulary present: protests
+
+**Consequences (as reported — what started, not who arranged it):**
+- protest — first seen 2026-10-04T11:30, reported by Hindustan Times · NEW this run
+
+| Outlet | Owner | Headline | Loaded terms |
+|---|---|---|---|
+| Hindustan Times | HT Media (Birla family) | Japan protests after U.S. marine accused of murder | — |
+| Scroll.in | Scroll Media (independent) | How the Gujarati books of RF Sethna fed India’s appetite for books about Japan in the early 1900s | — |
+
+## Trump $90 checks for seniors ahead of midterms: Who qualifies and which states get the most?
+Covered by 2 outlets · framing divergence 0.0
 
 **Consequences (as reported — what started, not who arranged it):**
 - boycotting — first seen 2026-08-25T06:39, reported by LiveMint
@@ -558,6 +578,138 @@ Covered by 2 outlets · framing divergence 0.4
 
 | Outlet | Owner | Headline | Loaded terms |
 |---|---|---|---|
-| Al Jazeera (South Asia) | Al Jazeera Media Network (Qatar state-funded) | Trump defiant about midterm chances as he rallies for Republicans in Ohio | sympathetic: defiant |
-| Al Jazeera (South Asia) | Al Jazeera Media Network (Qatar state-funded) | Trump ramps up pressure on US Republicans to end US clock switching | — |
+| Hindustan Times | HT Media (Birla family) | Trump $90 checks for seniors ahead of midterms: Who qualifies and which states get the most? | — |
+| LiveMint | HT Media (Birla family) | Trump's latest announcement: $90 Medicare payments for 20 mn seniors ahead of midterm polls; eligibility, exclusions | — |
+
+## SC takes suo motu cognisance of 135-yr-old Central Secretariat Library space crunch
+Covered by 2 outlets · framing divergence 0.0
+
+**Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
+- `reported` 2026-10-04T04:42 — central secretariat library _(Hindustan Times, LiveMint)_
+
+| Outlet | Owner | Headline | Loaded terms |
+|---|---|---|---|
+| Hindustan Times | HT Media (Birla family) | SC takes suo motu cognisance of 135-yr-old Central Secretariat Library space crunch | — |
+| LiveMint | HT Media (Birla family) | 8.5 lakh books, 135 years of history: Supreme Court to hear case on relocation of Central Secretariat Library on Monday | — |
+
+## Will Brazil’s Lula halt the right-wing wave sweeping Latin America?
+Covered by 2 outlets · framing divergence 0.15
+
+**Consequences (as reported — what started, not who arranged it):**
+- campaign — first seen 2026-09-29T16:30, reported by Scroll.in
+
+| Outlet | Owner | Headline | Loaded terms |
+|---|---|---|---|
+| LiveMint | HT Media (Birla family) | Brazil Elections 2026: Lula vs Bolsonaro — How a Left or Right win could shape ties with US, China \| Explained | — |
+| Al Jazeera (South Asia) | Al Jazeera Media Network (Qatar state-funded) | Brazil votes in deeply polarised election pitting Lula against Bolsonaro | — |
+| Al Jazeera (South Asia) | Al Jazeera Media Network (Qatar state-funded) | Will Brazil’s Lula halt the right-wing wave sweeping Latin America? | — |
+| Al Jazeera (South Asia) | Al Jazeera Media Network (Qatar state-funded) | Brazil elections live: Lula faces Bolsonaro in close presidential race | sympathetic: historic |
+
+## Tennessee prison chief who oversaw botched execution resigns: governor
+Covered by 2 outlets · framing divergence 0.0
+
+**Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
+- `corroborated` 2026-10-03T19:01 — tennessee prison chief _(Dawn (Pakistan), LiveMint)_
+
+| Outlet | Owner | Headline | Loaded terms |
+|---|---|---|---|
+| LiveMint | HT Media (Birla family) | Christa Pike: What happens to her next after botched execution? Will she be freed or serve life sentence? | — |
+| LiveMint | HT Media (Birla family) | Christa Pike's botched execution: Tennessee prison chief Frank Strada resigns, says ‘I continue to believe that...’ | — |
+| Dawn (Pakistan) | Pakistan Herald Publications (Haroon family) | Tennessee prison chief who oversaw botched execution resigns: governor | — |
+
+## Maduro Not Immune to Prosecution in Narco-Terror Case, US Says
+Covered by 2 outlets · framing divergence 0.0
+
+**Consequences (as reported — what started, not who arranged it):**
+- march — first seen 2026-09-09T05:09, reported by News18, Scroll.in
+- protest — first seen 2026-09-23T07:41, reported by Onmanorama (Kerala)
+
+| Outlet | Owner | Headline | Loaded terms |
+|---|---|---|---|
+| LiveMint | HT Media (Birla family) | Maduro Not Immune to Prosecution in Narco-Terror Case, US Says | — |
+| The News Minute | Spunklane Media (independent) | Kochi spa case: Kerala HC says women’s denial not enough to quash prosecution | — |
+
+## Shillong Teer Result Today, October 4, 2026: Check Winning Numbers
+Covered by 2 outlets · framing divergence 0.0
+
+**Consequences (as reported — what started, not who arranged it):**
+- strike — first seen 2026-09-29T02:22, reported by Business Line (The Hindu)
+- campaign — first seen 2026-10-02T20:23, reported by Times of India
+
+| Outlet | Owner | Headline | Loaded terms |
+|---|---|---|---|
+| News18 | Network18 / Reliance Industries | Shillong Teer Result Today, October 4, 2026: Check Winning Numbers | — |
+| News18 | Network18 / Reliance Industries | Kerala Lottery Result Today Live: Samrudhi SM-75 Winning Numbers For October 4, 2026; First Prize Rs 1 Crore | — |
+| Onmanorama (Kerala) | Malayala Manorama Group (Kandathil family) | Kerala lottery Samrudhi SM-75 result today 04/10/2026: ₹1 cr first prize for MH 980055 \| Check complete list | — |
+
+## ‘Nothing imminent’: US official on trade deal with India
+Covered by 2 outlets · framing divergence 0.3
+
+**Consequences (as reported — what started, not who arranged it):**
+- boycotting — first seen 2026-08-25T06:39, reported by LiveMint
+- demand — first seen 2026-08-30T19:35, reported by LiveMint
+- rally — first seen 2026-09-09T01:07, reported by The Hindu, Al Jazeera (South Asia)
+- march — first seen 2026-09-15T14:15, reported by LiveMint
+- campaign — first seen 2026-09-17T06:12, reported by Telangana Today
+- protest — first seen 2026-09-17T13:39, reported by Al Jazeera (South Asia), Scroll.in, LiveMint
+- boycott — first seen 2026-09-22T05:27, reported by Scroll.in
+
+| Outlet | Owner | Headline | Loaded terms |
+|---|---|---|---|
+| Scroll.in | Scroll Media (independent) | ‘Nothing imminent’: US official on trade deal with India | — |
 | Dawn (Pakistan) | Pakistan Herald Publications (Haroon family) | Trump shares Republican senator's phone number in feud over daylight saving bill | minimizing: supposed |
+
+## KL Rahul opens up on middle-order role after unbeaten 129 in 3rd ODI
+Covered by 2 outlets · framing divergence 0.0
+
+**Consequences (as reported — what started, not who arranged it):**
+- protest — first seen 2026-07-22T14:59, reported by Al Jazeera (South Asia), The Hindu, Scroll.in, BBC (India desk), Telangana Today, Hindustan Times, News18, Dawn (Pakistan), Business Line (The Hindu), LiveMint
+- campaign — first seen 2026-09-07T19:01, reported by News18, NDTV, Telangana Today, The Hindu, LiveMint, Scroll.in, Dawn (Pakistan), Hindustan Times
+- marched — first seen 2026-09-10T18:36, reported by NDTV
+- strike — first seen 2026-09-13T04:09, reported by Times of India, The Hindu, Business Line (The Hindu), LiveMint, News18, Telangana Today, Al Jazeera (South Asia), Hindustan Times, NDTV
+- march — first seen 2026-09-19T14:21, reported by Business Line (The Hindu), Scroll.in
+- protesting — first seen 2026-09-21T10:41, reported by Telangana Today, BBC (India desk)
+- gherao — first seen 2026-09-23T10:35, reported by Hindustan Times
+- backlash — first seen 2026-09-24T10:41, reported by LiveMint
+- demand — first seen 2026-09-24T15:05, reported by News18
+- dharna — first seen 2026-09-24T16:56, reported by News18
+- petitioning — first seen 2026-10-01T03:30, reported by Scroll.in
+
+| Outlet | Owner | Headline | Loaded terms |
+|---|---|---|---|
+| Telangana Today | Telangana Publications | KL Rahul opens up on middle-order role after unbeaten 129 in 3rd ODI | — |
+| Al Jazeera (South Asia) | Al Jazeera Media Network (Qatar state-funded) | West Indies beat India in record chase as Hope hits 162 in third ODI | — |
+
+## North Korea says test of intermediate-range strategic missile included use of AI
+Covered by 2 outlets · framing divergence 0.3
+
+**Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
+- `corroborated` 2026-10-03T12:13 — an intermediate-range strategic missile _(Dawn (Pakistan), Telangana Today)_
+
+**Consequences (as reported — what started, not who arranged it):**
+- demand — first seen 2026-09-30T08:02, reported by Al Jazeera (South Asia)
+
+| Outlet | Owner | Headline | Loaded terms |
+|---|---|---|---|
+| Telangana Today | Telangana Publications | North Korea’s Kim oversees hypersonic missile launch, calls for bolstering war deterrent | militarized: war |
+| Dawn (Pakistan) | Pakistan Herald Publications (Haroon family) | North Korea says test of intermediate-range strategic missile included use of AI | — |
+
+## India's 'cockroach' protesters are back - this time asking poll chief to resign
+Covered by 2 outlets · framing divergence 0.0
+- Reaction vocabulary present: protest, protests
+
+**Factual record** (corroboration-tiered — agreement is a weight, not verified truth):
+- `corroborated` 2026-10-02T04:25 — cockroach janta party _(BBC (India desk), Dawn (Pakistan))_
+
+**Consequences (as reported — what started, not who arranged it):**
+- campaign — first seen 2026-08-21T00:04, reported by The Hindu, Hindustan Times, Telangana Today, BBC (India desk), Scroll.in
+- protested — first seen 2026-09-02T15:02, reported by Hindustan Times
+- protest — first seen 2026-07-22T14:59, reported by BBC (India desk), Hindustan Times, News18, Scroll.in, Telangana Today, Times of India, Dawn (Pakistan), The Hindu
+- demand — first seen 2026-09-10T14:59, reported by Telangana Today
+- march — first seen 2026-09-12T22:37, reported by Al Jazeera (South Asia), News18
+- rally — first seen 2026-09-20T20:08, reported by Dawn (Pakistan)
+
+| Outlet | Owner | Headline | Loaded terms |
+|---|---|---|---|
+| BBC (India desk) | BBC (UK public corporation) | India's 'cockroach' protesters are back - this time asking poll chief to resign | — |
+| Dawn (Pakistan) | Pakistan Herald Publications (Haroon family) | Indian police detain several people in Gen Z-led protests against voter roll changes | — |
